@@ -446,3 +446,25 @@ review:
 fWuRomU06aCzjPc0hP_gackIF5aH7APJRWFcGDimPGipUj3ITD9-YMbmnwRQL787JuNtTfDrWgNpuySQFWT_CQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:40:26.821046+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: libpng-sys
+  version: 1.1.0
+  revision: 0f7a8b51b17aec63d832d528f7b54e64ccd16f1c
+  digest: A7eM7G8HrUw74GMXPeDuOhri3KgtESvnU5jaLiiwj44
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+comment: C code
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+2gCRxCQVU6Nk-GW331nf0tDP--kSlGtUtsB7SD7_Ln3GoskSfXDItpA6RxcU-l2RX5cYKX7lXiXRjHovuzAJDg
+-----END CREV PACKAGE REVIEW-----
+
