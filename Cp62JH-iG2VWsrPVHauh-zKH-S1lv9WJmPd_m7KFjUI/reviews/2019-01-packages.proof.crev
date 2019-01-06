@@ -508,3 +508,25 @@ review:
 gEBxfP1EAz7sLXbO__i6Qi7eAgwjMSmpD8IJUUa6m6loxZAi52Ge7umXKrLVNia4G0ga8ov3wvgEatBPOTHGDQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:41:30.707563+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: mozjpeg-sys
+  version: 0.9.0
+  revision: 7fb1fb3eb2f8361b4d8ee6de2c594f20d08982fe
+  digest: crsrXgx8byng-HBeXhxLIBKQRCPoJ2an3KsBeJgnI9E
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: Lots of C code
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+V9Fb3hftMRK3-k7nhVkhWbGLh5Y_KuOx8U8VKFUXUv-79fzHYJUODgJMSe2fCRxH97yNivftSLOfmjlhAmo7Bw
+-----END CREV PACKAGE REVIEW-----
+
