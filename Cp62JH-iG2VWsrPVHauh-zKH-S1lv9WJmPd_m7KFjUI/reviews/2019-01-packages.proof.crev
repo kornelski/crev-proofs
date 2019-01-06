@@ -221,3 +221,23 @@ review:
 P2CphQYQEIrDwdQB4Aa-0UwKEhYHAM3i_ztI8l0fh8O4qNDAqTvUckZ2anwIgy_QBL1PSDGHR3gy6YUlbZRaCw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:36:33.443052+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cocoa_image
+  version: 1.0.0
+  digest: mKc3ZDlhzo2FVLLowPgknKyNj7dXr7s9v1bemPduuhY
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+bmWk559YIVSIWDvj-9uEI2mgcfBjdoLIiCQ3sNfNF7L8TYExfF-o5M7ybJzcE111fUm5fl4wITg6kjPanYEPBg
+-----END CREV PACKAGE REVIEW-----
+
