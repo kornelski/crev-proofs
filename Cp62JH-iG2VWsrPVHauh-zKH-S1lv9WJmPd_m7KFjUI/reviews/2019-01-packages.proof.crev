@@ -426,3 +426,23 @@ comment: Depends on a ton of C code
 QHyHYZ52Vxp_6Ijc4nAERO3AcMNARWPYQSyeT63dyf6i9el4wPV_JKUbU_tqa6vEwY03bnapsAptRqlY3-ZYDA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:40:05.848311+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lcms2
+  version: 5.0.1
+  digest: bjQ1WZl21yJ5eXLXogsHO0XTb5iEKz3Fex4ISfCl3qE
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+fWuRomU06aCzjPc0hP_gackIF5aH7APJRWFcGDimPGipUj3ITD9-YMbmnwRQL787JuNtTfDrWgNpuySQFWT_CQ
+-----END CREV PACKAGE REVIEW-----
+
