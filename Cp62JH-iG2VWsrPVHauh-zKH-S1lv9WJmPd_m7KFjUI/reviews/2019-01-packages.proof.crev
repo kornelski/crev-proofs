@@ -468,3 +468,23 @@ comment: C code
 2gCRxCQVU6Nk-GW331nf0tDP--kSlGtUtsB7SD7_Ln3GoskSfXDItpA6RxcU-l2RX5cYKX7lXiXRjHovuzAJDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:40:51.408906+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: loop9
+  version: 0.1.1
+  digest: WuzsOFoliIj3Kjum4oknYbNcAeo8EKkObwAMoynsDHU
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+JFPDwWJyv1AA2FvFz9REWq6BhSrU2FFGxbWaDhYwldUGBiesiXNqikeiAbPg5eMyCUcLhT5_rOCrav_Fgw2vDw
+-----END CREV PACKAGE REVIEW-----
+
