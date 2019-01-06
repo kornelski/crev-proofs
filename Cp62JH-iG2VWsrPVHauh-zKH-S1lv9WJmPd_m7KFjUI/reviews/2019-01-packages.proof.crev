@@ -795,3 +795,23 @@ review:
 dly5HNFTJU89BJPnMPGBXe0XI_XJCTs0cArKdD6aF5wRD_dRXSYmUZ7Jzf-_18gwf9sJzxRX0tVb51UAuq3_DQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:48:46.273273+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: semver-parser
+  version: 0.9.0
+  digest: f-gb4IxNBtyBM4jK-B89xfge8Ep9PcMUrmWetcTC1qo
+review:
+  thoroughness: none
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+0RWA1iX1_-puq4i7msSMWgcIQJV1OKDuZ5kZFxdZC-ifPj2WehUUWG6tLXgIBNG0jzop-NSKct6cwYzGHvlvBg
+-----END CREV PACKAGE REVIEW-----
+
