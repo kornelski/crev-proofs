@@ -632,3 +632,23 @@ review:
 gvrPrsnj12FhKesc3WX8tzLdJAkuJZrssLSw6KzuI7Cz4CAOHhrTL6c6PSGZ3ihvIn1Tcd1ziKEo0bO8_GsBCA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:43:23.180462+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: undither
+  version: 1.0.1
+  digest: jVtVfVXcGzCtcChy_3bSyRO5X1k8-0L4yQiEaMFyhqQ
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+SQNOVwUiKkCG9srUKbcPWdsafxMZXz7Mr2toAvCxukK06W3fjP7mbYAm-6ngYU-ZVJJemPNmciL5hfMgpPmWAQ
+-----END CREV PACKAGE REVIEW-----
+
