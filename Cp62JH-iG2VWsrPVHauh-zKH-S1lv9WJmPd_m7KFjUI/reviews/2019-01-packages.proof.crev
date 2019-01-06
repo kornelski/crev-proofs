@@ -384,3 +384,24 @@ review:
 NsKGlGKnKeI3zRjNcjMZbFs1uY1EsQ_S4k5HpaQlwbeb13de8rJoY8MkmguaN631PWYYo88BGqu_clDY82SBBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:39:23.122242+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lazyonce
+  version: 0.3.0
+  revision: 543edb6b6283e50329efe5f799791643a9c836e7
+  digest: yzJDCPuAXHpXle_HLOVvCO6qyivfVy8TFzXD4Sz2zvQ
+review:
+  thoroughness: high
+  understanding: medium
+  rating: neutral
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+zDHvOEBjKf9Gmniul45MAKoH62lQUntHpAVIFYkncpdaMdzdW2p0udRd4XxAh0Fmir4O5UOcuyIRYLoeCRSgBg
+-----END CREV PACKAGE REVIEW-----
+
