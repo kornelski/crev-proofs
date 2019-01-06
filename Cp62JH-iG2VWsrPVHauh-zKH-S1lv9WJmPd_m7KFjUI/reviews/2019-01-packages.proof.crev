@@ -363,3 +363,24 @@ comment: "Use fs::read and fs::write instead"
 6Lb9QUhmik1c6F3grPQrxg5iVpm79ESvBf-4NKtbAlKm-qS5KD5KcMzqzZPCl3v5s76bEIlU0-xr7ypUIWDMBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:39:00.234880+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: imagequant-sys
+  version: 2.12.2
+  revision: 30e434c9c141520a901ab5ca1fa04679e799e97d
+  digest: geptVsbHDSev0aWYKzgJBaHwtydXCpB-3N0v6X-__RA
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+NsKGlGKnKeI3zRjNcjMZbFs1uY1EsQ_S4k5HpaQlwbeb13de8rJoY8MkmguaN631PWYYo88BGqu_clDY82SBBA
+-----END CREV PACKAGE REVIEW-----
+
