@@ -857,3 +857,23 @@ review:
 2AX5m0Dj_02lCisATjpju-Z79isM_Il_PsCxcrzFd3mZfJ6nuTEqs_Ec5OA-wGJRPM4C4hGi6jEKKGnGClwlDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:50:17.886378+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: nasm-rs
+  version: 0.1.3
+  digest: EQ8g6JKO3lgjZPwOroh3UEXXMohBLYBxo5o1cVhX4BE
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+V0KkGPM8k1RnE8STsUGKjtuoWjRtoK_a7HIA6OemqoLbNeHFOHuiVJM4vkn4MADys_cY6pyD2nXEyOhl1xiTDg
+-----END CREV PACKAGE REVIEW-----
+
