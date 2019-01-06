@@ -488,3 +488,23 @@ review:
 JFPDwWJyv1AA2FvFz9REWq6BhSrU2FFGxbWaDhYwldUGBiesiXNqikeiAbPg5eMyCUcLhT5_rOCrav_Fgw2vDw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:41:12.999956+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: mss_saliency
+  version: 1.0.3
+  digest: kjfdgRW8VXnhFoXasXXh7iZzj51iX-gHVP7DliKi4XQ
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+gEBxfP1EAz7sLXbO__i6Qi7eAgwjMSmpD8IJUUa6m6loxZAi52Ge7umXKrLVNia4G0ga8ov3wvgEatBPOTHGDQ
+-----END CREV PACKAGE REVIEW-----
+
