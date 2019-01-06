@@ -241,3 +241,24 @@ review:
 bmWk559YIVSIWDvj-9uEI2mgcfBjdoLIiCQ3sNfNF7L8TYExfF-o5M7ybJzcE111fUm5fl4wITg6kjPanYEPBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:36:55.833752+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: deunicode
+  version: 1.0.0
+  revision: 3af5a944f401b610c9965a1f49d21f1f709bd52a
+  digest: KjUlUdUqhJ6yvEMGAWmd-ngfKtxCsbFgi6nrJ7GH5Zc
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+wsDQzW-piXy4Y4T6EjISM9sJIti9iv4BddG_tZU68nTeNlnzVWqR-P9wyx7u_OIJ3KryH0SF3VZH7TTNLQziCQ
+-----END CREV PACKAGE REVIEW-----
+
