@@ -39,3 +39,24 @@ comment: my own
 tVoeoRyz55SBIvbN-X7W2O6ultN5zkoW-7iZ37QFP6mLVINhk1w8OIeFlz5nblTnAU4t72c3ccr_JyT96B8PCQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T14:17:08.945727+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rgb
+  version: 0.8.11
+  digest: WYYDycQ_gut8mK2mizZ5sahyZB6qo7VmWHSrqol4-rE
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: "it's mine!"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+SQ0W3yXvMhtwwj6kQdec1O9c0Zh16ntfejysWa8jjLhSy-yEUvXBks4GsRyzdz6QPTuJF-yuloHbKDXt0x_8Dg
+-----END CREV PACKAGE REVIEW-----
+
