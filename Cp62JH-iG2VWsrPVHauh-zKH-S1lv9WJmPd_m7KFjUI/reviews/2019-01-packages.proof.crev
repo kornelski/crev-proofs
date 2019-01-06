@@ -877,3 +877,23 @@ review:
 V0KkGPM8k1RnE8STsUGKjtuoWjRtoK_a7HIA6OemqoLbNeHFOHuiVJM4vkn4MADys_cY6pyD2nXEyOhl1xiTDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:50:46.026245+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: clap
+  version: 2.32.0
+  digest: 8J6y_U0VczQtf2EfIdAlYmXbYOzJ-2_9fQ6yxjwh2x0
+review:
+  thoroughness: none
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+GtL-3yysWcS3vFUH8fgGbF_MP3Dzcffzc-oZ5q6ZeouHB5fEUItc1YMyWs2tPI6SiD7isbyBxkE7P25mRudAAg
+-----END CREV PACKAGE REVIEW-----
+
