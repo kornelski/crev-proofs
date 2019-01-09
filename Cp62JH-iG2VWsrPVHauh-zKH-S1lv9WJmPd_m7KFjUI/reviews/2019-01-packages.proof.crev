@@ -918,3 +918,24 @@ review:
 mkfPEPJpfSjq2xHtlqZbwUOuoUk0zZ4Y3PjD4sL1y_bfO3Ei3rblPXEdf4SqmLr-agQxycAfvrt_KDgcHENEBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-09T00:11:57.525314+00:00"
+from:
+  id-type: crev
+  id: Cp62JH-iG2VWsrPVHauh-zKH-S1lv9WJmPd_m7KFjUI
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: kamadak-exif
+  version: 0.3.1
+  digest: BiPEHRcT8ZtfH4TBasd9BV-P-jwj_s8L1tHFqfePtaQ
+review:
+  thoroughness: none
+  understanding: low
+  rating: negative
+comment: fails to parse any big-endian markers
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+XXlHA-5-kDQpT7SJeOJpilvkrjxPi3MmIZoeLDcjzTi9bDPShqhQW-qBswT-Sgs8Y8HFVWh0imfWus0JDsJyDQ
+-----END CREV PACKAGE REVIEW-----
+
