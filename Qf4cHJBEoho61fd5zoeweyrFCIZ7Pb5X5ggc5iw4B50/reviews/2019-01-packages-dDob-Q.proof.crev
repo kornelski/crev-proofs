@@ -120,3 +120,23 @@ review:
 AR63TJfkrM_Dl4PIqsQu8fARvlDTk9xdnnmBGQvFEifQnOj3GsMG5EWDFd2iBP9z7NsmX2zmWx0wnVbooWkXBQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:33:06.071523+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: gifski
+  version: 0.8.6
+  digest: 0Zz5KIAd22H41LJvgypZUPAUnOo0_l3lQPQ0-EDwUBs
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+9AY5OtYvX-3jkj2RU-FdPRDGavoiXu_uDS9gJO1T2V_r-812kul0jUYUzoHTeazE7mcV5CjQTEt1pUwCSGoYAg
+-----END CREV PACKAGE REVIEW-----
+
