@@ -162,3 +162,24 @@ review:
 j6KnropCPDtthtQBzLA8Ay2CYGx6DzM-B4uzCB4EjPJIH-hJI7uLqPMWPlgJ98s8Qs4F5lhOUtwVZsG80MDdBQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-08T12:33:56.117767+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: native-tls
+  version: 0.2.3
+  revision: ec1f5d2b8a9a88460487ffb6042b27f553fd57fc
+  digest: nI8xpcEA6eykEJzdIdBRlDtzxvFbv2dEVBndgDp_7uY
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+0OWtp7tZPWsiScpwzC_ypeEhf64l0E7K3AWJt1YVT7d_viOzfP4EhHDGkwVGwxurofwb2oqNRGXv6EznGJM2AA
+-----END CREV PACKAGE REVIEW-----
+
