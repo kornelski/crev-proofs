@@ -1223,3 +1223,23 @@ review:
 tn-AxgqriomYAy7MsxLK0xeUdllUbGSf2vsZqZgTrec9OU1oLPKqEQKKauJ01AttE8ptf67xkAA-IzwsNw8JAQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:37:17.959986+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: dunce
+  version: 0.1.1
+  digest: NcsKpCHS3cHmEJxxaO5er2WF1jm8KUa06sPI1A7bLgw
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+dGtGv24FgleD3h8wPI_fm8LifgtSt46W2nwnGDBG8tZEIe4WDJHSi-MV3HTDdmdUjqVJLa7X22bsFFOxfNMsBw
+-----END CREV PACKAGE REVIEW-----
+
