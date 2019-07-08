@@ -1900,3 +1900,23 @@ comment: fails to parse any big-endian markers
 cW646lU97ykvziGCjR8BoD5Co_hofzFC-m1CY5KdayphprrzsAmO6vq0colZN9ZX8cJxSaQA8jd1YsFxg3K4Aw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-09T00:13:53.359001+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rexif
+  version: 0.3.5
+  digest: LRx7Akd1IbZqLEc92_DJbDMY80uPvRtX2VKERPG9k5g
+review:
+  thoroughness: none
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+38zRfA1APCmBH5g_jZ9OpNasXZyQeJfO2-6z4UzYGQXDO8-NlxsEzncP2AifWRe0LYgFl5sH5D3hWcJiORjeAw
+-----END CREV PACKAGE REVIEW-----
+
