@@ -712,3 +712,24 @@ review:
 RufF-yG37Mvoo1tIwP_q99WFlS3b57_-5lGQX39PT0wjmaWzUnaouXR3o4LFj4L0vwp6hCmkTzRV9dxH7XqvBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:46:43.154211+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ructe
+  version: 0.5.6
+  revision: 1ed2f0be11bb970142228210d9b6a81d426dcf07
+  digest: dE1iuDGUrm_9zopEUqa5KsA5LHvQUWp7d3VTMpH-ycw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Bi3kJe0Nw--S5_lGkRBq84OWv1up1pTMAUHa9lqz7_PMfXFP_wTXhJ1aAsmHqApLm8n6vKsHxs_hZzWHa5fAAA
+-----END CREV PACKAGE REVIEW-----
+
