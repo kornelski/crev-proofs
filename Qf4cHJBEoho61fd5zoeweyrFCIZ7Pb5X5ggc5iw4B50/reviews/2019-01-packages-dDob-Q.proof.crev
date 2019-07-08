@@ -733,3 +733,23 @@ review:
 Bi3kJe0Nw--S5_lGkRBq84OWv1up1pTMAUHa9lqz7_PMfXFP_wTXhJ1aAsmHqApLm8n6vKsHxs_hZzWHa5fAAA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:47:07.033776+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: syntect
+  version: 3.0.2
+  digest: R-w3w6xwoDRGM4tjxXrwpNT7nHqSkTYOnUlIRsVNA0k
+review:
+  thoroughness: none
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+lzEDSdHXL-iZt7mNXXKI0oDtJ3H7YKAtm6udNNTUdueBw8WRoxC-kbiY4S4sy2eXaxAOBu7fWwx0tcron664Dw
+-----END CREV PACKAGE REVIEW-----
+
