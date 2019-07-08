@@ -1511,3 +1511,24 @@ review:
 zfvVsi8kLDPPRY8-pTCPnVSwKaw4RIpVyO4TiHb1RamkBKIhGPic3BRz7LyaXyghU4cK3neFDa6WNzPI1rTiCw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:42:19.711856+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: parse_cfg
+  version: 2.0.0
+  revision: d86f0bef346efc08ea96e8c16c9f8ff180bf49d2
+  digest: yiuzQEoVs1A7-cSC0vFHyQuHDCZ9CKRgm9JiZnLGL0k
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+eCROEY9B6VF3Hr6t3-VR85UTlzQVDzwgJh-wP9zLa9F9RP135X1pKYWE-b5eVISeYHoOsBcQQ1zc_VdNeVSBCA
+-----END CREV PACKAGE REVIEW-----
+
