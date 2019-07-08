@@ -1491,3 +1491,23 @@ comment: Lots of C code
 9vPhSFvCy8EcC5TQGBK8HEUvw93Pb4L3O6b31IdpoWZhMxI3DBIenH9pbRVEQkDGV18bBYvyoM4ArhfvL6M2AA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:41:56.383449+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: openmp-sys
+  version: 0.1.6
+  digest: S46IQCiP54jfy_5rkWd7Wc1qCmQHpjJJevzuXZo97_M
+review:
+  thoroughness: high
+  understanding: high
+  rating: neutral
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+zfvVsi8kLDPPRY8-pTCPnVSwKaw4RIpVyO4TiHb1RamkBKIhGPic3BRz7LyaXyghU4cK3neFDa6WNzPI1rTiCw
+-----END CREV PACKAGE REVIEW-----
+
