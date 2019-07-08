@@ -322,3 +322,23 @@ review:
 C9LAgkeOYjBUZ-RgC6xoagbmVGUMxuahbHOQx7t5wT_5sOxurCBpOrGZJJuzQXy0TmUEP-oUeDGvnXAItruVBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:38:09.040632+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: exclude_from_backups
+  version: 0.2.1
+  digest: hRAbXaxNJwHW1ZuZRm9JdljyYwu8ETgsF3ExVxMkuHU
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+dEmN3HSXTNNUKHa22jzgbIazUMxvv0KyF5BGB4Pg8rIq2g0WsXYgrIlpfTvOmwRZfzT7mtScnk-N_sbGbIDzBA
+-----END CREV PACKAGE REVIEW-----
+
