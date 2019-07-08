@@ -80,3 +80,23 @@ review:
 73yc4AlwhEJ2oxvKxht7LJHhKgxM2z6PyYRsu-izJAtchqG6IdRPC1Q6s-EoifWhoQtOv-A9PUmP9AtsBmpTBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:32:04.541232+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lodepng
+  version: 2.4.2
+  digest: vIie1NyYikyNlv9foA2aEoVj-p_4Yawz0sFv_CTvH_c
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+zkIofAvVN9JDwdPzzRnl866vHNbpFJOq_mMwTKSiKpi-rqKb9NrCDUh88NX1DZZ2FC80o0eN0082mBkz_BSLCA
+-----END CREV PACKAGE REVIEW-----
+
