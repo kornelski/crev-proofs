@@ -201,3 +201,23 @@ review:
 CYMIdszHJ6jW3_uEvippHDoM8V5iWtCeJmwpERKmKcHq-eq0JceLvzupsgrbcjU6wN_34dH7I5_99bfVcXxdAw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:36:18.607883+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo-xcode
+  version: 1.1.1
+  digest: SPLDcpSamtHjHPG9wLN7Qk-UNj8ottkVc906KLzUk_E
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+6zuQCJJvfE2IqdRxMQ6QHBNYiGVsT5XhqY2q4KYulaj_lXgQvyK4WIWEFsf02Ws8pHYgZ0DJwJvBwopIX6VqDQ
+-----END CREV PACKAGE REVIEW-----
+
