@@ -40,3 +40,23 @@ review:
 cDhD9Lk2xFBhxNzbV2rWmoU81HPZVzvL5UdiBgt2SWIO5WCvIrhvIb3IjVGqt4AjXuibngD_0MLbocl6rmgeBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-08T12:08:47.874552+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: xattr
+  version: 0.2.2
+  digest: "-tBgARzc0yBCbWeRjrG4W8-ahIGN3pmP_xxulsYgDQg"
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+BKuZRTkRBU6A3zk-pdo7w_tlMzfl2gcX7EQXmv5HFU1Vn_JF2fcC6XXbXuYLtQPAQ4-FS5ntXHhhBHZHUYciBA
+-----END CREV PACKAGE REVIEW-----
+
