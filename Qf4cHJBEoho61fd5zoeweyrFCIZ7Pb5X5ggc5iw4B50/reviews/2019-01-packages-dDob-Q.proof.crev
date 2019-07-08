@@ -1263,3 +1263,23 @@ review:
 Ffqp-_i72cc181yR0NqiMIXXYH2Do5Re_-MyuEta0vHOrVtD2C-iKEEYzGpUd2lBrejppBmvs5e6SWiFc4arDw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:37:53.269135+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: evalchroma
+  version: 0.1.1
+  digest: ruMGkHOwZ37HK7Xt_c1Z1D68UPJgvLCL41Sr0H8xUWA
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+C9LAgkeOYjBUZ-RgC6xoagbmVGUMxuahbHOQx7t5wT_5sOxurCBpOrGZJJuzQXy0TmUEP-oUeDGvnXAItruVBg
+-----END CREV PACKAGE REVIEW-----
+
