@@ -1101,3 +1101,23 @@ review:
 9AY5OtYvX-3jkj2RU-FdPRDGavoiXu_uDS9gJO1T2V_r-812kul0jUYUzoHTeazE7mcV5CjQTEt1pUwCSGoYAg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:33:34.098708+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: imagequant
+  version: 2.11.9
+  digest: EC6zCtGlprTuKjBwKJ8Fui9dew9BFtO4xG4RgIpNHfs
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+DlTzeyqjEz7Q5EbPDrByOrmEpAdmYAZaQFYmNYtrCJlXH40SHhyQvMHHapuF1RgCctX9YGAy5QEOVcPXLUmABA
+-----END CREV PACKAGE REVIEW-----
+
