@@ -142,3 +142,23 @@ review:
 fvr8JA7WWU1AmuEHyyqS819FKnyA5LSRFBIS8hiVkujLFC108AutMBAoh1krRxNkXaz9Y86X3rwy2JsCBmQzBQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-08T12:29:25.996334+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cloudflare-zlib-sys
+  version: 0.2.0
+  digest: uAL50CfEdI2ZmpcnOUnMvJMmP9dYaSai3hr8ddZ2qfU
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+j6KnropCPDtthtQBzLA8Ay2CYGx6DzM-B4uzCB4EjPJIH-hJI7uLqPMWPlgJ98s8Qs4F5lhOUtwVZsG80MDdBQ
+-----END CREV PACKAGE REVIEW-----
+
