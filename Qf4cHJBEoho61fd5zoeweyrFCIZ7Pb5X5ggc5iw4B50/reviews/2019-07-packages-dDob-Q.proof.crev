@@ -203,3 +203,24 @@ review:
 zfrq3XCHbWtVJVl13HKHN0SPyH6SXMgmz7MflnJc70b_3XwqlLoVe4x29ywmQ1s2yeRgK_huLk_NA58ICZHACg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-08T12:38:25.632526+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crc32fast
+  version: 1.2.0
+  revision: 6cc30a5a4643f6a5b1b3339d8a8c23f7dd902fc2
+  digest: p93Tudgu3zdvl6gItBspaBWjoitOAj0n3OwOvElpMbU
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+hpx1uQLMf0kNBymLLZnrOxn24QLb30InLUcm6bKXmXtPPTOOu_K_La-fU-I8ujupniHTmVmKhzFt7voDwvktBA
+-----END CREV PACKAGE REVIEW-----
+
