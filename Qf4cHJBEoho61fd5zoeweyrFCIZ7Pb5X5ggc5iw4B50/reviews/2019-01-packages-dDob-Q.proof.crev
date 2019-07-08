@@ -1141,3 +1141,24 @@ review:
 oMPUlPBcwzunPSnOc8fUEByLCyaPnwuCcNk0TG0T9quy3KtC5UvgykzxPtVk0RkbXZwYoGAsfD0P2n-JioNwDw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:35:50.636740+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo_toml
+  version: 0.6.3
+  revision: 89cb07f3d03eb8d52ea04c7f157340bd8c1429e1
+  digest: X-KSdHaJ1dMHvBLr_SqcQ6ft17KNIOwBcHNgQwfA1xk
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+CYMIdszHJ6jW3_uEvippHDoM8V5iWtCeJmwpERKmKcHq-eq0JceLvzupsgrbcjU6wN_34dH7I5_99bfVcXxdAw
+-----END CREV PACKAGE REVIEW-----
+
