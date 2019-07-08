@@ -774,3 +774,24 @@ review:
 SBvim8GvUZH3uaH-DeMBOqEWXjmHmmtMjpvOmZQ4ncFRoickQXznUFVPZsHjBXqpE3x9xyIS1zkTZVw2iJElAA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:48:28.482957+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tantivy
+  version: 0.8.0
+  revision: b8241c560321b3ec6b0d6e0a59cba7658caa8200
+  digest: gp6zzXwd0dYTiFz2_CAGtI7Oi7LXglxuerbbjWL9irw
+review:
+  thoroughness: none
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+joyLjuJ5EK8bIavaHl_sQPz3n7LVWsaBGe--6i-RxM_0jweD9Er7u4_3sBRuyTthhsbLZeqdc53_KRbSF31OAQ
+-----END CREV PACKAGE REVIEW-----
+
