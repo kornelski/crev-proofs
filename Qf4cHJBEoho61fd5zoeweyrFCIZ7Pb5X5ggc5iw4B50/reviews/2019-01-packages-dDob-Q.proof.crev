@@ -1021,3 +1021,23 @@ comment: "it's mine!"
 TRcrLVCIN_TiLLXYGD_D60sslNlk3I355ujeMkt8ZUzxyi7r-UAQE5UqGpulPgb2IgL_mHqeqWoHROhfJBurAw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:31:20.695803+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: imgref
+  version: 1.3.5
+  digest: _0qUuge9teRxInJplTPWOEv6QGw6eFayNYsvWBMQr_Q
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+73yc4AlwhEJ2oxvKxht7LJHhKgxM2z6PyYRsu-izJAtchqG6IdRPC1Q6s-EoifWhoQtOv-A9PUmP9AtsBmpTBw
+-----END CREV PACKAGE REVIEW-----
+
