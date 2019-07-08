@@ -1061,3 +1061,23 @@ review:
 zkIofAvVN9JDwdPzzRnl866vHNbpFJOq_mMwTKSiKpi-rqKb9NrCDUh88NX1DZZ2FC80o0eN0082mBkz_BSLCA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:32:50.721687+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: gif-dispose
+  version: 2.1.1
+  digest: 1yuC_XJY1AbACqw0CC8V6vYAxfLcVTPHyk_0-4ezjBY
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+AR63TJfkrM_Dl4PIqsQu8fARvlDTk9xdnnmBGQvFEifQnOj3GsMG5EWDFd2iBP9z7NsmX2zmWx0wnVbooWkXBQ
+-----END CREV PACKAGE REVIEW-----
+
