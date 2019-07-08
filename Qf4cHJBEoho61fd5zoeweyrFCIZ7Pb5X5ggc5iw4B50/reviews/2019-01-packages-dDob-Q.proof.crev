@@ -815,3 +815,24 @@ review:
 LLOqK0sgZs4XJ7PP_XRBtQnlHhN1kxcW1RcLXrTwwf9rLQzeFRCHZlpzfrsd8oY_fltgYRO5m2l56LzHdFCfAw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:49:13.751755+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: phf
+  version: 0.7.24
+  revision: 1287414b1302d2d717c5f4be81accf4c12ccad48
+  digest: Ppfgkg9hgF1dMjfk2_gMCZe3evAgl238jjW0G4FwWT8
+review:
+  thoroughness: none
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+1GAlVyrnkHQ8a0tLX6Qkn7ES17vP5cwwqlDie2VXBp7U55v3neR4zsbuiwWOqRKceHGNGXG7l_RvjNSNfecQBw
+-----END CREV PACKAGE REVIEW-----
+
