@@ -121,3 +121,24 @@ review:
 DrFYOWu3jWtrY2o94Jk37DLc0P544s1KmiWkKFTpCBX22L8-JLzeOkTmUn0zRt2KNtS5FXSUtKTaMlXlHX4lDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-08T12:28:54.881649+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: unicase
+  version: 2.4.0
+  revision: 8a93c809b061615bfa1021e9ab3bd115b8f3b1cc
+  digest: dNT1N2rHS_anRDhL0nkcCtgj0MmYaYXza5yVSXPOzPY
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+fvr8JA7WWU1AmuEHyyqS819FKnyA5LSRFBIS8hiVkujLFC108AutMBAoh1krRxNkXaz9Y86X3rwy2JsCBmQzBQ
+-----END CREV PACKAGE REVIEW-----
+
