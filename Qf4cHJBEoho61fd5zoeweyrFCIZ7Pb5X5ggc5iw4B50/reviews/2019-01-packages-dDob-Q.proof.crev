@@ -1797,3 +1797,24 @@ review:
 1GAlVyrnkHQ8a0tLX6Qkn7ES17vP5cwwqlDie2VXBp7U55v3neR4zsbuiwWOqRKceHGNGXG7l_RvjNSNfecQBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-01-06T15:49:31.668095+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sha2
+  version: 0.8.0
+  revision: 42eb3ef05981f09ded31826d4199650221d639fb
+  digest: V7RyPNVucgskeJBUWK9kMlWx_859rVKOPz2ADHw4sTc
+review:
+  thoroughness: none
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+BTQydhA8yqXXCY3oxRnK75ohNaTt_JOZorG9DoKgALIBY6bEmUuXSw1Krxx9-0vh1w0fG34vdR6pReZmkplEAw
+-----END CREV PACKAGE REVIEW-----
+
