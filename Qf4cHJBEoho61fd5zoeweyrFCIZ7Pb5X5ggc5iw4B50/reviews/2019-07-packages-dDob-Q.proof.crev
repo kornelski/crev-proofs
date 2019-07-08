@@ -19,3 +19,24 @@ review:
 R4GQoyuDWOSSSVptXvwKCkvIbXUjTB_Mst8hAPUlU_jtSjRoFtsBrREcARasEa31rLBm_3OnrhZE4upqW6XTBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-08T12:06:12.812611+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: census
+  version: 0.2.0
+  revision: 357d91a967b0b5097d4581a89a4689da739e625b
+  digest: 9YK2NayvKAWHJ24scbh35S7fupvRaINjH4GZs48QniI
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+cDhD9Lk2xFBhxNzbV2rWmoU81HPZVzvL5UdiBgt2SWIO5WCvIrhvIb3IjVGqt4AjXuibngD_0MLbocl6rmgeBA
+-----END CREV PACKAGE REVIEW-----
+
