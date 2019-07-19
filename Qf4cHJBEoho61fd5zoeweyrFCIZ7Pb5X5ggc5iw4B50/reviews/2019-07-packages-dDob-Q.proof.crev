@@ -265,3 +265,25 @@ review:
 3W705kXg985yPq_Td-DASAW51-CtpJ71gvW3akiVKKflQmeGPD6atn86p2eUh3Dpj0b8zadjh5Fd4T9ZyvGWBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-20T00:44:53.963604+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: encoding_rs
+  version: 0.8.17
+  revision: 05c65ea427c435ebba7043760572e6d3adc8c7a1
+  digest: 5srUzSY0Sugpz_1gJjlUHvGjxHVDcZ0U7p76yBGsPik
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: "Oooof, that was big"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+UfnfJEEGXsHmbCxOduvjhHHF-EmJq92zsV0VnmWIrdnq9kKeVzGe-CGv436EXCovzcvrPYVQDpSF1usP_j40Bw
+-----END CREV PACKAGE REVIEW-----
+
