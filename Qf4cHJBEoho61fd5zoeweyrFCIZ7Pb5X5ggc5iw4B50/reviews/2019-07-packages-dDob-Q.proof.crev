@@ -287,3 +287,24 @@ comment: "Oooof, that was big"
 UfnfJEEGXsHmbCxOduvjhHHF-EmJq92zsV0VnmWIrdnq9kKeVzGe-CGv436EXCovzcvrPYVQDpSF1usP_j40Bw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-20T01:09:49.148985+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: scoped-pool
+  version: 1.0.0
+  digest: 7yCZBCskq8ksIy_a6OceYhGoYyhVEME1yEOUg9Z11GU
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: Outdated dependencies
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+xzl4XNVXWDQQAVBSs7ZJD_DfoYz7fUwF-ruR1qIUSjcLU1O8IXZWa0XkH0Hg2s7kaZPVmq7w-c3Hs93veL_fDg
+-----END CREV PACKAGE REVIEW-----
+
