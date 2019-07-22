@@ -349,3 +349,23 @@ review:
 Bl0qjhfya1XDdJOjbCkzTkWf_GL7tUnkxiRVdD5hVNt5luVEYb2aCzlM7muktq9U0LCZ4dwGSj_cQU6faouGAQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-22T17:01:23.941374+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: percent-encoding
+  version: 1.0.1
+  digest: pER7pV5bxlmSfhbortJ3hqjs-pgMCQF3CAZOnWeBKsU
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+ruROTQTthgRzLOMBqhrd62kjiInd4kfq5r--u_W7Z4y61MGO7BZ_7kR2hxug7sJXwaYAC1cU_JQDBm4_gCp0AA
+-----END CREV PACKAGE REVIEW-----
+
