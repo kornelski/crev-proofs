@@ -369,3 +369,24 @@ review:
 ruROTQTthgRzLOMBqhrd62kjiInd4kfq5r--u_W7Z4y61MGO7BZ_7kR2hxug7sJXwaYAC1cU_JQDBm4_gCp0AA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-22T17:08:29.252942+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: arrayvec
+  version: 0.4.11
+  revision: 97925027920f7a284774f76a48c3126297d2fd13
+  digest: KpEAh6TMg7CZJEN4AtElrISdVHCISCfvU4-w4eEeoFg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+fMKrzDef92IH7DiLLVBSP41PZimbo56OhVWvIfKiBIlgFObZ91UGTG_DlFcsQyX_Exn-fl0vrkwK4PKYJc9IBQ
+-----END CREV PACKAGE REVIEW-----
+
