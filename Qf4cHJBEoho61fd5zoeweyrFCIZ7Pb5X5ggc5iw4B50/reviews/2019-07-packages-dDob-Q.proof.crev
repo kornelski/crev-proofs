@@ -308,3 +308,24 @@ comment: Outdated dependencies
 xzl4XNVXWDQQAVBSs7ZJD_DfoYz7fUwF-ruR1qIUSjcLU1O8IXZWa0XkH0Hg2s7kaZPVmq7w-c3Hs93veL_fDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-22T12:07:00.920652+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ryu
+  version: 1.0.0
+  revision: a0e85ea2eafbc23989ecfac1139b098d26155aee
+  digest: JYz9J4AmEORzYE9Vscz0_mxZXOqFePccLpxNbbW9C3Q
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+ZUfCc1IEAuMfK_oJVRfRb-FUYS9qzsRL-tBnxSF02SIR74rdx8eSOudxIu2JSXrhd1sjRZH4SbBCyKcChbTTBQ
+-----END CREV PACKAGE REVIEW-----
+
