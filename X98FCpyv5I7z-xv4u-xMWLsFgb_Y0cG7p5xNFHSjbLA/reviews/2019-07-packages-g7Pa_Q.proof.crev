@@ -100,3 +100,24 @@ review:
 8GxmIWRC5z4xVwlKMVJPO2vkvlU08qwkCOcUZ-FD8ZtI6ASxTzsOty4YTjIMmix0BHGq83Rm0CphA88A7rfvBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-22T19:34:53.491446+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: mockito
+  version: 0.19.0
+  revision: 65f895d7b88aa0e7d9156cea77b4200fe24b6dd0
+  digest: soWna72cmSc_qSbdSE7sCdb75rVRkWFnTNHToHthM38
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+SwSW91lV1_iEImkU8ADbnHvr4KPUo8pCaF7hE_YGoDIzcdAcxDG1JdtynHBP7avzReVUmYCMhoBa38GYpMgoDg
+-----END CREV PACKAGE REVIEW-----
+
