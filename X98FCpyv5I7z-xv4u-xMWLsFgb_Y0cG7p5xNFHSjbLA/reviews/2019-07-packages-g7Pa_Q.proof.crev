@@ -18,3 +18,22 @@ review:
 -----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
 6oyCASt4ql_C5q6JKGNqCOEMFcPn9DcMBbmjI4drFW55CUbHm8DDMuCzj-lWaUey5Nrp_Z5itOK8a_94dO1cDg
 -----END CREV PACKAGE REVIEW-----
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-22T18:15:30.965146+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tokio-current-thread
+  version: 0.1.6
+  digest: _1OCDfay6YKm_ZxPCWpP8M8rUW5psP6c6SmFqbHEz-U
+review:
+  thoroughness: low
+  understanding: none
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+D-XmBw1hwcf7y49zvoBhXqDwMr8IHat1I0YFyETjEUSzZ_bt1RIHg-Vk6ZCWqR8rgadck5s1UUQt7q6wlZFrCA
+-----END CREV PACKAGE REVIEW-----
