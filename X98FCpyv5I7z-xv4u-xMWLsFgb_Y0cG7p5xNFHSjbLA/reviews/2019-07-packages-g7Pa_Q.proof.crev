@@ -163,3 +163,23 @@ review:
 n--soNSr2l_DWXlyZHjtJL14pHJ_vydJfKVdOv2VNq-qUNjeaviuh2iV6Kb8NVCB31Ov9uhR4Bjo2WMtyHAvDQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-23T17:43:27.463670+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: encoding-index-tradchinese
+  version: 1.20141219.5
+  digest: npuRDeeWx-TbrVeXpRoSBuwZJDZC9LcYAzVSHzr0L5Q
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Igh_9sM-Sp9AUjYLTj18PLGVA5jZ3h4jGfHi-uJou-7AMFRZmdNzOtrHA_56B7fJEzX0JSyLJ00uGD3Af_H0Dg
+-----END CREV PACKAGE REVIEW-----
+
