@@ -121,3 +121,24 @@ review:
 SwSW91lV1_iEImkU8ADbnHvr4KPUo8pCaF7hE_YGoDIzcdAcxDG1JdtynHBP7avzReVUmYCMhoBa38GYpMgoDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-23T13:49:55.556639+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lcms2
+  version: 5.1.4
+  revision: 683ee517b02ade8c8f83c230771431436f81ffe0
+  digest: DqpbotXq2tjcbmDuYU8VoN47DifVC97deVFD5ysT2Pk
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Qpscaz3mF8oVsaMccOWt71OB4trAdp9VR9YFHF99JNVZJrIgelH3EFMFytcmpQrmSU6hStFVjms5hDzwrcGiAQ
+-----END CREV PACKAGE REVIEW-----
+
