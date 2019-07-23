@@ -183,3 +183,24 @@ review:
 Igh_9sM-Sp9AUjYLTj18PLGVA5jZ3h4jGfHi-uJou-7AMFRZmdNzOtrHA_56B7fJEzX0JSyLJ00uGD3Af_H0Dg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-23T17:50:54.726163+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: v_escape
+  version: 0.7.2
+  revision: 1ca116d96b5af0e993d7509bf362428f82362c27
+  digest: ZBQsBv42nF8rHb1t6uJbKOn1Setz__5kWZ-7hkzSCl8
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+svlb0e8PeQdpyrL32PiLKbWjuT5iiB8Hb1LslAH4N8xRsQqoYQypUHKfcuF9qMAzDl1CVw3MCnE9jkBJHAFAAQ
+-----END CREV PACKAGE REVIEW-----
+
