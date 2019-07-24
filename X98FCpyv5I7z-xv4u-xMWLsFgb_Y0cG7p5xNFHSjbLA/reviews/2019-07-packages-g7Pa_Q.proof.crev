@@ -308,3 +308,23 @@ review:
 fPBC8ZaY6HIoghfF4dQaQB1kfXtlVNfqLfvG9Ca5WvdeCoIytgdjmwcI3kv_JZ1tL0kd150U0BIFp9FbK7bMCg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-24T12:31:13.981050+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: mime_guess
+  version: 2.0.0-alpha.6
+  digest: aErBQPACxfcONDbZV9ahSwgJDb1jZldDokqsnPvg-LQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+MZs1y8beo8fBn9G3W5VVrqJuNw4VqwDd2SlhCWhXAiJKWTspVwJgftU6eKuRGVqcfwqLnIxEZv5twzjwgVb-Cw
+-----END CREV PACKAGE REVIEW-----
+
