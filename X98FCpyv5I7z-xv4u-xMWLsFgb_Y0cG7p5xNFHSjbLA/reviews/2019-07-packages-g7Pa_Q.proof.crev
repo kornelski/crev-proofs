@@ -246,3 +246,24 @@ review:
 HL1ge9z_zxujKSoj4camVu39Sdo-BdZkypMEXX-u8yde4q2s-Ze51HrKpYW8gGAE0-BnhFKTA2eCaJ_iuPC6Bg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-24T12:21:23.419523+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rusqlite
+  version: 0.19.0
+  revision: a52eeb2565fda8257e57f7c19718e078de6edfbe
+  digest: pv6BU1k1PEFSH9XH-bqz1acSp25cNUy_snbr-e9i27A
+review:
+  thoroughness: none
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+gvWgf2JRVEwg1I-2EGgjRyfE2Gs50799So_c6yj-ACEDqB7ByCdNkXibDMLj1IukJmXq12uhUDD2Z0S3NWuNAA
+-----END CREV PACKAGE REVIEW-----
+
