@@ -267,3 +267,23 @@ review:
 gvWgf2JRVEwg1I-2EGgjRyfE2Gs50799So_c6yj-ACEDqB7ByCdNkXibDMLj1IukJmXq12uhUDD2Z0S3NWuNAA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-24T12:24:20.061620+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: core-foundation-sys
+  version: 0.6.2
+  digest: NfO5yTiHs1Iel2Tia2AxP9CI0R5NDBf0zzdhyRXuV24
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+cehs8mzAgyj3x9ChzZtGsRwInjFuCw7JC6GDBv_aFpFVYZepD6cQCF061NBqFSddYv6-rEdzNCO9S8ByWm_tAw
+-----END CREV PACKAGE REVIEW-----
+
