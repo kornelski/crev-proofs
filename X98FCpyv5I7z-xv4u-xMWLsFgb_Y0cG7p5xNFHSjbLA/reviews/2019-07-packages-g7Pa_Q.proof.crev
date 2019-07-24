@@ -328,3 +328,24 @@ review:
 MZs1y8beo8fBn9G3W5VVrqJuNw4VqwDd2SlhCWhXAiJKWTspVwJgftU6eKuRGVqcfwqLnIxEZv5twzjwgVb-Cw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-25T00:08:38.249435+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: openssl-sys
+  version: 0.9.48
+  revision: 45c83e277264a291cc0b9f8e3419430f8ddf9ea3
+  digest: IHHY6LK2bTK7HbKe0SAkAgJThPaC-i8PBrVweuseMiM
+review:
+  thoroughness: none
+  understanding: low
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Fr3szBJhJh67nrbA2pcm8jkDE7yMKDmy7QlQqWh0J4Y9sLf3_HpIhUDSDLktydrtDN1IW_em3_rbFe2Q9jXNBA
+-----END CREV PACKAGE REVIEW-----
+
