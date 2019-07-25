@@ -450,3 +450,23 @@ review:
 yVU25kugnH9AwYHOU7xpNB_6fkebnIVPXXgmQpeLz2_bss2J1u6qdgmT1_c5FBcyZHLaKwvuDchc6LRjWlJfAA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-25T10:34:22.249097+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cloudabi
+  version: 0.0.3
+  digest: X_yTwd_N3uFBg6Jtv7v49navfm_RmX21tgLdumhmZtA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+AZBny-tI0ZjOeuZlN3OX2pbvBo0chWvXAvXkEEh8M9NSp5KQl3AhQwAEEadl2tnqLV4wQWbfvlO0Bq9yn-eKDA
+-----END CREV PACKAGE REVIEW-----
+
