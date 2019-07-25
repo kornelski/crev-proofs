@@ -490,3 +490,24 @@ review:
 fzE20vNd-_MR1sf7PndMnCTuDHUeBaTNWiGwr8KmtV82E5jI1iTHw8oToyL6B74lbOd_XxcFijgKTGSizEkvBA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-25T10:45:21.489677+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: miniz_oxide_c_api
+  version: 0.2.3
+  revision: a34e8cba918583f247701267a4feb7e03f050c42
+  digest: zdBvA61nMCgccudY-rAYMiPIIaUvwCuGZnvPQnZ0dUI
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+44CBrNG5RjIpDBMGgUL_NE5cW6Cq8540OkSIfhm-Gp05oa4ONC1Aac9nk3UHFAsttq13D-mhKRmjKGd3_H-WBw
+-----END CREV PACKAGE REVIEW-----
+
