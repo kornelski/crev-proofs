@@ -1,0 +1,23 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-09T17:26:13.082127+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: microbench
+  version: 0.5.0
+  revision: f731b4a5bbbd706cc4d905a5745008745d4399f9
+  digest: pF34jRToGTxi0OnhR4ZNiNPZcODwro3ItB5aa9VYfxg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+wmrVBNOP6wvAZDuxKrTt0cyKcCf2m69UhSTfUu2z_SjKmBrJR_gKBa4A4gT-vSaOr4ZFinvvXJmr1dViJRrICg
+-----END CREV PACKAGE REVIEW-----
+
