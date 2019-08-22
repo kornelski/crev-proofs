@@ -381,3 +381,26 @@ comment: |
 n3ic_EBXr6CIjwrwt5mlaF_oF2MVZct-0utzPdSwoR7rizsEAb_yiqqPPzUfJZKUPrqXUotQBpd8Ilyp-VKeBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-22T13:24:40.273273+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lazycell
+  version: 1.2.1
+  revision: db9289a32df4ba3b1de8c383b68b342be4a8a1ba
+  digest: OTFhRO_g4ERePDGYGCIuqm7mzhlOMunZ-rgnKgG8BP4
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+SxF7DNcLe-oehtNyeTWXhB-eKb7FWpr3RfcuKSchF15kl5ccMQXwRzia1hK9j6VQggrqK2NCAppVgksa92J_Bw
+-----END CREV PACKAGE REVIEW-----
+
