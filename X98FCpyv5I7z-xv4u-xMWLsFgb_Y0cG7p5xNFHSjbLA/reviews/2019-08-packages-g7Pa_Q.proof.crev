@@ -112,3 +112,26 @@ comment: |
 tcMe83BFnrv-DFg6A5wMju7sPcBlGqYOZFuFdWiwl0Vo3HCr6r9ZIKpNNjXG0DV3-eKeOqXS4rKI4dsPTsFmCg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-22T12:51:14.612314+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: chrono
+  version: 0.4.7
+  revision: d8c68f6bd095e3db295d63439f2527f2b74de956
+  digest: maJWkfT_-dTmy9X9Tgp7qcRuhuwr7rlRD4OBmlEbYGM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+jdTHcGhH3s72Ajnw0LtixU6Xw_5DN5GiS9RvHpo9B4eTRaOiBatfBHhofxnJ4mr50uNviUxYIBB5kVL5gKZzAA
+-----END CREV PACKAGE REVIEW-----
+
