@@ -1,5 +1,6 @@
 alexcrichton
 bluss
+bodil
 briansmith
 brson
 BurntSushi
@@ -15,6 +16,7 @@ fitzgen
 gankro
 Geal
 geal
+github:rust-lang:libs
 gnzlbg
 guillaumegomez
 huonw
@@ -40,7 +42,6 @@ steveklabnik
 stjepang
 tomaka
 withoutboats
-github:rust-lang:libs
 github:rust-lang-nursery:log-owners
 github:rust-random:maintainers
 github:rust-lang-nursery:libs
