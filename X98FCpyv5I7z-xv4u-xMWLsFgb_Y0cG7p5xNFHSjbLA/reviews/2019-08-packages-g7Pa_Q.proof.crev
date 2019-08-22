@@ -292,3 +292,26 @@ comment: |
 uZ8WFYYfYqU08oDsCwnl0uBggVNOq_a7OKPToEw-0LO1_DHPvimIJk5WqifsoFwX9KV_Q6Lh8ya9PhRHA7tPBQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-22T13:15:59.542035+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: humantime
+  version: 1.2.0
+  revision: 040e5d0aecb450f55ea00b839bb1310bfd286645
+  digest: 6mDHJeqFK94bUr-w0M6ffh1TrNmLfrXpoCe3M4NyQ5A
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+gt7v6SxoqjMxlL0AlQ52UOQ-Zgz2WaFcCJp18GxcmhI6CtVDB3hJzB_P5WFyo2bzlrXeN66Q2k-B8uDHZy_iAw
+-----END CREV PACKAGE REVIEW-----
+
