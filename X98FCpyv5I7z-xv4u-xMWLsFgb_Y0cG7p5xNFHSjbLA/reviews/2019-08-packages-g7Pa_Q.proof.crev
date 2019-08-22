@@ -66,3 +66,26 @@ comment: |
 ZlKH7hK8zrOSlwDQ_H--mtO6C-2unnmUfvnAOFqzs0NryKyiiaWshfOlmEyZBrKiW3gVA6y3BpSPjjizgI1xAA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-22T12:43:47.339896+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: atty
+  version: 0.2.13
+  revision: 0e6ef0422750c8d24f3e34695758684f48b7a27e
+  digest: W36qEbMrthMZf6ZfK6t7oCXPyKvmTY5BLJtD0gs54ow
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+jXYXj86RBjuMHf1vzJcTbhWsd7OQeQv1keQ09A4sf3u2yDen1dn4OdEY0UPb_3sFLhuVAxiMEs6E_i25EfeWAg
+-----END CREV PACKAGE REVIEW-----
+
