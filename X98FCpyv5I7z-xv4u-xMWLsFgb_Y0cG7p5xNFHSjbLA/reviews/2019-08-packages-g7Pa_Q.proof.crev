@@ -181,3 +181,25 @@ comment: |
 ENNXBDMqxxSy2Z19ZYfJyMdxqwqLB2_-_eLGaDRd2FtWXk5fdl4pxlj4kMwHoFBs3fuw-9SVOz0C4_2OepPgDA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-22T12:57:59.302704+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: difference
+  version: 2.0.0
+  digest: ArYnuulewo1YL35zlwIcpULzXClAv3gZf-_lumkYT5M
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+q3UBP1SO8R6D3pWXUUaJnqWhAagJ0809ECBo9EqNwtZ-XxpXZMYjbES4T_09G9wLWRBH65u4KeQ_0a7i89fvDA
+-----END CREV PACKAGE REVIEW-----
+
