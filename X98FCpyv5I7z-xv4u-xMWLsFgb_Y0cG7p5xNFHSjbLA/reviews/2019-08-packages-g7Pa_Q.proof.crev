@@ -404,3 +404,26 @@ comment: |
 SxF7DNcLe-oehtNyeTWXhB-eKb7FWpr3RfcuKSchF15kl5ccMQXwRzia1hK9j6VQggrqK2NCAppVgksa92J_Bw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-22T13:30:51.915766+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lock_api
+  version: 0.3.1
+  revision: 1dbf100fbcc9a2722ac12cc10c153e2eb807a0ce
+  digest: cYmDDbd0MhqGqFnj0zQw0zjzOgzVW-et_naxmW6Esnk
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+9RJbvb7BYw9X0NssW3ce64AMC59jMvRlieIbxKIgCcnrWvoB2djGWy37UHctIrktjm5AIDQc6GXPyvecET4zDw
+-----END CREV PACKAGE REVIEW-----
+
