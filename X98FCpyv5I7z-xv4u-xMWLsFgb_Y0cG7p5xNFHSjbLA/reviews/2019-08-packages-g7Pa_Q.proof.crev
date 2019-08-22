@@ -158,3 +158,26 @@ comment: |
 KVU2f5xRrFwyssp-o0enJXeXtEiKc3Q1W4nfdNdg2kcSwWQHVsfBI6xJaRxpuHQbCL3GLhazhltT-k712ebfCw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-22T12:56:27.877635+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cookie_store
+  version: 0.7.0
+  revision: f6bb77af94088f9cda0988aaae200aec9a9e6a50
+  digest: ECGawro0kv_bxsR8Ujx49QsAQRfhtdkawzWmO2UfGRw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+ENNXBDMqxxSy2Z19ZYfJyMdxqwqLB2_-_eLGaDRd2FtWXk5fdl4pxlj4kMwHoFBs3fuw-9SVOz0C4_2OepPgDA
+-----END CREV PACKAGE REVIEW-----
+
