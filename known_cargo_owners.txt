@@ -44,3 +44,4 @@ github:rust-lang:libs
 github:rust-lang-nursery:log-owners
 github:rust-random:maintainers
 github:rust-lang-nursery:libs
+github:servo:cargo-publish
