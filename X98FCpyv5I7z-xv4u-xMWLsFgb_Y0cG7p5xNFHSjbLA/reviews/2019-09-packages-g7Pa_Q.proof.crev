@@ -21,3 +21,25 @@ comment: |
 yV_AvDWouq6_E6CpBhgq-t3UH4NWl2X3glqY5DDbdgBfzStJiZVHOx3U0_A24G8x_4btzFCKvOV0xkOB-A12DQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-09-13T18:54:43.857423+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: winutil
+  version: 0.1.1
+  digest: 1n9EjZ18B7vVpNYnJhIuBwlmU7xkrY2NmrtxuXDbjMc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+6i-lTexI86Lh_puVlq64p0SGXAlf62wmG2WxxfbA-O1sxH-u1GdktYclXPcPa1e_v0S1B-0_KhLkaYUUGTqfCQ
+-----END CREV PACKAGE REVIEW-----
+
