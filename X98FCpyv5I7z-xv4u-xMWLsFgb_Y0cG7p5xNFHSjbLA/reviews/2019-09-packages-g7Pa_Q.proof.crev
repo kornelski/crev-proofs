@@ -43,3 +43,26 @@ comment: |
 6i-lTexI86Lh_puVlq64p0SGXAlf62wmG2WxxfbA-O1sxH-u1GdktYclXPcPa1e_v0S1B-0_KhLkaYUUGTqfCQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-09-13T18:56:40.246490+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: assert-json-diff
+  version: 1.0.0
+  revision: a95f8787a65be11e141dac7532d41dc5faf27101
+  digest: 7VielwihUekM0IP_XH4HT77dGHkTpfTCRJZ8D68L4uw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+wKfhQYVw3uud8Rpi7RpNuxUTYl-u9lxbyXEeqEwGMatIPzpOOnhusJUsULu0wS81n3WZXTm_kTEyIO38vjsqCQ
+-----END CREV PACKAGE REVIEW-----
+
