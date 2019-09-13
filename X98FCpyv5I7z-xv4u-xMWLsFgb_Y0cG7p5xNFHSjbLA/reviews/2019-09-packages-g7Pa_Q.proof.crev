@@ -66,3 +66,25 @@ comment: |
 wKfhQYVw3uud8Rpi7RpNuxUTYl-u9lxbyXEeqEwGMatIPzpOOnhusJUsULu0wS81n3WZXTm_kTEyIO38vjsqCQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-09-13T19:00:01.097747+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tokio-codec
+  version: 0.1.1
+  digest: 0Cl--3atv3OuQXmfapcAfaasbExDXqxMFyEgQ777nm4
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+eVKRIWXxF8ruzP4WZ7Lh_Gk0EPrO8EFHo9ZHeGqkzYYH3X_lBrR0ucLxkLgjYBolrMAFIBCegP3LmP6pha38Bw
+-----END CREV PACKAGE REVIEW-----
+
