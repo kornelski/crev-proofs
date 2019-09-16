@@ -88,3 +88,26 @@ comment: |
 eVKRIWXxF8ruzP4WZ7Lh_Gk0EPrO8EFHo9ZHeGqkzYYH3X_lBrR0ucLxkLgjYBolrMAFIBCegP3LmP6pha38Bw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-09-16T01:53:27.858777+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: bincode
+  version: 1.1.4
+  revision: c39bffb0b61b3b02b9db055067df849d0ddb80f5
+  digest: hFDjJp-lLqN_SIvD2h6AHJZOpdULL4vIFgNEAD3_BV8
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+JQQx6bKZ4BoW7rtiB5eVms02iUKFnao27NrmvfO1x70sl3BsnjJO-UTNZxVCpqwywUj3A18T2akYr6NbPOnOAw
+-----END CREV PACKAGE REVIEW-----
+
