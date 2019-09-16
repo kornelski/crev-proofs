@@ -111,3 +111,26 @@ comment: |
 JQQx6bKZ4BoW7rtiB5eVms02iUKFnao27NrmvfO1x70sl3BsnjJO-UTNZxVCpqwywUj3A18T2akYr6NbPOnOAw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-09-16T23:59:43.452447+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tokio-timer
+  version: 0.2.11
+  revision: 475dabe96d98d56e641e2ce0dd2ed23031e8523f
+  digest: N9wPGoRvdtadcrKKnvg4mf2XgE1s5AtQj8k8_oM1NKE
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Nhs1aAkHgvZt2we9yrH7dx-Pq72LYPzTTnOGJwvJw1AffBaU3nx6s0j7T13Mt7ofO-ZGVezIHRJbAO6d_aiUDQ
+-----END CREV PACKAGE REVIEW-----
+
