@@ -158,3 +158,26 @@ comment: |
 AGuxfLsMxxqf9QF6BpodA90pZGJeMP9S2-8s8cXIeqs9x1uzZp0fW9KPOI0Tj-6yW1q0xTQulv2H_r8CF7CWAw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-11T14:46:56.480990+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: adler32
+  version: 1.0.4
+  revision: b235700967618065f89f188a0000d67d08451705
+  digest: dVQxGEaHcfAqvwThsn36nLQiSqOR_qvZYTf0tgMX98s
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+gRBbWpOIIdwYTkEoI722v_8_n_zLPztpjRoRkMILTRi1C_t0ZNvtkmsSpcMB6VYnUF81IujN2wk7h1HijYxtAQ
+-----END CREV PACKAGE REVIEW-----
+
