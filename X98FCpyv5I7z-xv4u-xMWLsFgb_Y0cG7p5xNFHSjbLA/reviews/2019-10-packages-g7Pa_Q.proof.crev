@@ -112,3 +112,26 @@ comment: |
 5W8F8wMUhZTo0YuyCqAOMLJ-iC74UuK4J52m2x32etDTym5YuBAmZTdqeqEdqCLjJCajWWP7yzlEuDpL264dCw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-11T14:29:00.266380+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: daemonize
+  version: 0.4.1
+  revision: b59073bf3e51870a6a8bb44f954faa1b38b20d2d
+  digest: 70IHOILPUDeXAD8NAXzHrcI373d7G3-Ip8fXOvKzThw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+fnEZzcXl3ygq1vLGI7HzEdtZuVRxY3BPL6_9Q3RgyxsVZdJq0Hx61gqgcfi7d_nwpUsyMyGy9h23cMJsLLCmAQ
+-----END CREV PACKAGE REVIEW-----
+
