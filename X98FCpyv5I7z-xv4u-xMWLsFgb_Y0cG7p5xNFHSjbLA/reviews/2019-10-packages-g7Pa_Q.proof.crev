@@ -135,3 +135,26 @@ comment: |
 fnEZzcXl3ygq1vLGI7HzEdtZuVRxY3BPL6_9Q3RgyxsVZdJq0Hx61gqgcfi7d_nwpUsyMyGy9h23cMJsLLCmAQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-11T14:44:37.405315+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: highway
+  version: 0.2.0
+  revision: 9fe1f4477bbfa3d9ac5058a1be69a642138ab75f
+  digest: kqvAfh3oh4Q4TuxdQAcj4ud_Vqtl_1Z1_7DarggkDPo
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+AGuxfLsMxxqf9QF6BpodA90pZGJeMP9S2-8s8cXIeqs9x1uzZp0fW9KPOI0Tj-6yW1q0xTQulv2H_r8CF7CWAw
+-----END CREV PACKAGE REVIEW-----
+
