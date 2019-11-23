@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-23T14:34:39.571327+00:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: linked-hash-map
+  version: 0.5.2
+  revision: 7a981e1ef3ed8282f9d7c24ee371901ccef6be15
+  digest: 5neoxm02483t7iH1qVq60Q2A-AC4m6qH-t97bEQt5iI
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |-
+  lots of raw pointer manipulation and use of mem::uninitialized()
+----- SIGN CREV PROOF -----
+QabwC65kPAmN4rOgPTDVzfCpigBC7n8MIxND0MNYQAmKwEQWImu8FG86jNG__6rFYNbYWGmzQ6bTCzy7Qz5ODQ
+----- END CREV PROOF -----
+
