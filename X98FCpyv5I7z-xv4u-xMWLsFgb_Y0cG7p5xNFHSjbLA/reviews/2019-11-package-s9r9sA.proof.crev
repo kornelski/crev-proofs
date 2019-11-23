@@ -44,3 +44,25 @@ review:
 Jsxyy5YBFJFLWLhdhYfYLqnnSEnnXvYX8dCKOEfmouYWwQtjtUCbmpHxLUUOPFscZa6ZFCsCCvTaSJTRChfyDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-23T14:41:31.842149+00:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tokio-signal
+  version: 0.2.7
+  revision: b117fc1d65e72fa25eb0a921f77e5e2e0a8a49bb
+  digest: 9EsnUVKFBGT94mKuMlt6Ze_CfbrGjnUiwKmvrQ3mx2A
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+4h0tTV31gu7BtXnB59vc-3A6fJvFYgjNZ9ws_Co-AT7JktyCq7YFW1eNrDD7LopiOFN6sJmF9AnJSJ6pybuWAQ
+----- END CREV PROOF -----
+
