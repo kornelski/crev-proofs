@@ -1,0 +1,21 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-12-05T17:53:23.123483+00:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: css-color-parser
+  version: 0.1.2
+  digest: Ra6bNULJkY8Vwa3LvvBAcmlO6_HfHNi94VhMY8DSJGg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+nXyAswqW-oWh8qoOu89T8JC8E3JwnmfqRLePkKFuouZtJ7a77JlK6DJfPW9HETgu-UqXTxjDgj9xoTTC2A0bAQ
+----- END CREV PROOF -----
+
