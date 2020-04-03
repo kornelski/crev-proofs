@@ -201,3 +201,27 @@ comment: |-
 FjsE13pb4bKZRa3n6Fa-k8jGVw8t8iPg38k9Dw6gCakyBia5It5m6pzj_7T9ZS3bljrMkKkwF5YRR3Vl6vLPAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T14:26:29.413333+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: css-color-parser
+  version: 0.1.2
+  digest: Ra6bNULJkY8Vwa3LvvBAcmlO6_HfHNi94VhMY8DSJGg
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://lib.rs/css-color-parser2"
+    name: css-color-parser2
+comment: |-
+  unmaintained
+----- SIGN CREV PROOF -----
+Izp2unFAfiBVN7HfZ9GVNYY8SaOzaiWT0CA5yrPt6YA5wE9NlYBsh_Udg9czRGGmkJJX4xd3Os2o_84SOXQsDg
+----- END CREV PROOF -----
+
