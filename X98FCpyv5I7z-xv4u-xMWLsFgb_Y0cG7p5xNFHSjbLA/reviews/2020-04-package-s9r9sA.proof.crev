@@ -247,3 +247,30 @@ review:
 idkxAH3-xN3fgzD4U-xFcjGa3omek6VW8jJtLO_80WQim-WmW7-v2c2bE2V26VH6zlhH9BHgMNSDYRuYcToNBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T14:28:38.311908+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: time
+  version: 0.1.42
+  revision: a5483d86f835cae91d759f0f28eb86492e3b7fee
+  digest: D6qdX8mWEMfsFQadmeX4psxS0kxlbQ3dVA4fuL2ZiLE
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://lib.rs/chrono"
+    name: chrono
+  - source: "https://lib.rs/time"
+    name: time
+comment: |-
+  Upgrade to 0.2!
+----- SIGN CREV PROOF -----
+e5qS3-b-HtwG7LJ13gfOAgO0fZdBr5-SaBrk5N2fdbh5_tUvTp8mUubqFuDvfIn_H0IrKDCPkiUUqNpkOw7lDw
+----- END CREV PROOF -----
+
