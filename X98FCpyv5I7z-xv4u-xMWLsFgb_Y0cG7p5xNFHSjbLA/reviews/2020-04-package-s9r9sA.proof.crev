@@ -225,3 +225,25 @@ comment: |-
 Izp2unFAfiBVN7HfZ9GVNYY8SaOzaiWT0CA5yrPt6YA5wE9NlYBsh_Udg9czRGGmkJJX4xd3Os2o_84SOXQsDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T14:27:34.896499+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cap
+  version: 0.1.0
+  revision: 8f6bb31e9cd713e26ffcaf13664a289069cb1ce2
+  digest: 2m-_onVmqN_rkIVXF1SM1Zce6SXXUKmZVHTm--eyiME
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+idkxAH3-xN3fgzD4U-xFcjGa3omek6VW8jJtLO_80WQim-WmW7-v2c2bE2V26VH6zlhH9BHgMNSDYRuYcToNBQ
+----- END CREV PROOF -----
+
