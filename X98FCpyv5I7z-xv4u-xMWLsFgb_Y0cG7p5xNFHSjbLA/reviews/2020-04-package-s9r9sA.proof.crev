@@ -98,3 +98,31 @@ comment: |-
 iHJFnvhteeyyNrEIyRrhpB6jydAR4s4NKRCboYpPTO8WeZePodpMnSt9pBf1VeUGno4XM00MtO-8UvIhMXgeBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T14:23:00.556033+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: c3_clang_extensions
+  version: 0.3.7
+  digest: 5tYwiPhKuWnufU3hfSF754PKnXjsf_HUjQ7ULubO7ds
+review:
+  thoroughness: high
+  understanding: high
+  rating: negative
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://c2rust.com"
+    name: c2rust
+comment: |-
+  Dead
+----- SIGN CREV PROOF -----
+rqzyaVa7wUIAmojXmrlESANPGDsxEY3drGNazBZyaskOm1Tev6iP8G6xI710YS8PhmSlS2tJV4_LEooZExlsCQ
+----- END CREV PROOF -----
+
