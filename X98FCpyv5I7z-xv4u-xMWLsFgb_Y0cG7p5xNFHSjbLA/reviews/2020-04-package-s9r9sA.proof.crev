@@ -126,3 +126,31 @@ comment: |-
 rqzyaVa7wUIAmojXmrlESANPGDsxEY3drGNazBZyaskOm1Tev6iP8G6xI710YS8PhmSlS2tJV4_LEooZExlsCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T14:23:34.602543+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: file
+  version: 1.1.2
+  digest: lVm74zsCfL44N_rP__mKVdf0gxU2kyvk0ShfguJJycE
+review:
+  thoroughness: high
+  understanding: high
+  rating: neutral
+flags:
+  unmaintained: true
+alternatives:
+  - source: stdlib
+    name: stdlib
+comment: |-
+  Obsolete
+----- SIGN CREV PROOF -----
+QvxFii9od2jbZpT1B5JpzhItMlh1YpgzOh00sdbB1mDf1jc1nI0Hfx713kWrKclRERQaSDQkiohzV5oHhNOWDw
+----- END CREV PROOF -----
+
