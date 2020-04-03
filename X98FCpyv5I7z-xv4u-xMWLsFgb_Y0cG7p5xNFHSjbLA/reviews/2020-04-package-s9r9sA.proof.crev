@@ -295,3 +295,25 @@ review:
 TQ0-Uji1XHTK7yHxLVYIC1NCLrB6MsVTSh7u-m7XI7MLrREyu35Bbq4ha2Y4onlaPiyayEs6lxG_U1GRbdl8AA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T14:37:12.494520+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hyperlocal
+  version: 0.7.0
+  revision: 0a577af4f05a8fb78ec38c2907bc356be76e1ad5
+  digest: pcqfcaFWJXeCK1obkhlBXR0A3KFAmZuCc6RYe6GElh8
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+ZU1m-sGC_oCyPW4pfp9XPPSEpnQjKhL7-yCj2S8D6CVppcnOouY5txxNDAbP5HdT3B3Pkhfog83T1YJ6uUXTBg
+----- END CREV PROOF -----
+
