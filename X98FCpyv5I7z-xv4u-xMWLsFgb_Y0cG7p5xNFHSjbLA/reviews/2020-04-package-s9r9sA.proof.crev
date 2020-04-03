@@ -177,3 +177,27 @@ flags:
 DZ9AhWvFbaiqKo8RXex2ygqCHjJ-NxY54G1EgdBrUh-aBqOeBWZGYaFPL-YPhPHcW9-S5g2JTiS7n8a2lqu4Cg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T14:25:43.958437+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: app_dirs
+  version: 1.2.1
+  digest: mWo2YhBk4cw2sAuMAtQQukncheMihw0EDklVz6nqQGs
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://lib.rs/app_dirs2"
+    name: app_dirs2
+comment: |-
+  Unmaintained
+----- SIGN CREV PROOF -----
+FjsE13pb4bKZRa3n6Fa-k8jGVw8t8iPg38k9Dw6gCakyBia5It5m6pzj_7T9ZS3bljrMkKkwF5YRR3Vl6vLPAg
+----- END CREV PROOF -----
+
