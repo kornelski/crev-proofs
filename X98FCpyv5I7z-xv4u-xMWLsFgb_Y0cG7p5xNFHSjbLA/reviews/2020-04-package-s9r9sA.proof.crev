@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T13:23:05.152593+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: quick-error
+  version: 1.2.3
+  revision: 176beb5ddb966c4116ec50ec9da6d2263b06e670
+  digest: rlAqSWFjWeBKkPxKNOOwwt7CXXLMiH3QgGa9_OFS_PM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+jv3Cqq23wDBXQxHUvDdQNU1hkbJNs9pQXXeaYKVd5XiRsLG58GG1cIsTLgfzXzeQI-04cXyThmeRJYZ5d-I2DQ
+----- END CREV PROOF -----
+
