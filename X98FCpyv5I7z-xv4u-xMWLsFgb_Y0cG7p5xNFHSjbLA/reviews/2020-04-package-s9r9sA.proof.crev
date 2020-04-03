@@ -42,3 +42,31 @@ review:
 7Gixwtcfx9DULg9zA9mfF1DcHATLT5H5dFYSKC1j07_T0GYT1BFxOZ5o8-mtjFaDnM_pP0BEptiVs6CW7vQbAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-03T14:21:18.475677+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: citrus
+  version: 0.8.0
+  digest: 709d9nuM7-r3chg4u6rcpYY06sRwfnU_5pzIoM-1gBU
+review:
+  thoroughness: high
+  understanding: high
+  rating: neutral
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://c2rust.com"
+    name: c2rust
+comment: |-
+  it's fine, but c2rust does it better
+----- SIGN CREV PROOF -----
+gmykRbmRvVxry7zSyZB5Itmb2ZAmaoC53XLo4lA-PLdWRhHzPfiPc7tBVJYbt6MkLLsUjbLNVKWpjSvZaJIMCA
+----- END CREV PROOF -----
+
