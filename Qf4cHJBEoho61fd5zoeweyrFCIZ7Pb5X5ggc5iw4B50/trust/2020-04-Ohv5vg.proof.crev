@@ -90,3 +90,21 @@ comment: |-
 HcAmsGbasnWYzPBPIwNxUquUkWneFvYnnWwKf77gKK6gD46yfEepo-ZIyqdaSOWHg5ibjow2whRAap3SUUT4Bw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-04-07T09:19:41.259015+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+ids:
+  - id-type: crev
+    id: zonk
+trust: medium
+comment: |-
+  no
+----- SIGN CREV PROOF -----
+ktv69k7aqNsx291GYrGWpPx2kWlkJQ9bYyWHPwRXMCOuAX6b5URSuXSdF8ruzp4eMyYPcpOI5oB6c9QNcqDBDA
+----- END CREV PROOF -----
+
