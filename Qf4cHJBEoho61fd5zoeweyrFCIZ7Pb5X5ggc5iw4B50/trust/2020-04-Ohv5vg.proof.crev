@@ -20,97 +20,6 @@ comment: |-
 ----- BEGIN CREV PROOF -----
 kind: trust
 version: -1
-date: "2020-04-06T22:26:26.362958+01:00"
-from:
-  id-type: crev
-  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
-  url: "https://github.com/kornelski/crev-proofs"
-ids:
-  - id-type: crev
-    id: foo
-trust: medium
-comment: |-
-  bork
------ SIGN CREV PROOF -----
-iiO98z45ZmSGJp5XejVUdtw02XzEs1BK0oPv4gYlWb6UrPjxv3Qck0_nvCWoEJMbjKEYbpsfCljbjiy5HhkICg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: trust
-version: -1
-date: "2020-04-06T22:28:19.295298+01:00"
-from:
-  id-type: crev
-  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
-  url: "https://github.com/kornelski/crev-proofs"
-ids:
-  - id-type: crev
-    id: cSqk9Xp90KiGqjOnXI-iwiFaGb7NC7VhcxUdRuBW9cw
-trust: medium
-comment: |-
-  booo
------ SIGN CREV PROOF -----
-0gDYsdFI1E8YSbvZYELHJaJOyujIQpyy_nJU1U35nIFkhMRFurUz6GkdFBuMWvGtPPwUsNn8lD6hdFNj3FbwCg
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: trust
-version: -1
-date: "2020-04-06T22:28:47.524594+01:00"
-from:
-  id-type: crev
-  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
-  url: "https://github.com/kornelski/crev-proofs"
-ids:
-  - id-type: crev
-    id: qxL5iIEv913oBYUgUHHVRQP8FHVzdEIoQm8IKd1Ewtc
-trust: medium
-comment: |-
-  testing meh
------ SIGN CREV PROOF -----
-PO8JBwiAkMAO1FMvAO3FijOFNBjdVWBKiW5IyZD56izDyUdmpEKrvHeCQqxt6pIi47e5GGyV6OVVxTyLOwV1AQ
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: trust
-version: -1
-date: "2020-04-06T22:37:42.462606+01:00"
-from:
-  id-type: crev
-  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
-  url: "https://github.com/kornelski/crev-proofs"
-ids:
-  - id-type: crev
-    id: qxL5iIEv913oBYUgUHHVRQP8FHVzdEIoQm8IKd1Ewtc
-    url: "https://github.com/Michael-F-Bryan/crev-proofs"
-trust: medium
-comment: |-
-  yo
------ SIGN CREV PROOF -----
-HcAmsGbasnWYzPBPIwNxUquUkWneFvYnnWwKf77gKK6gD46yfEepo-ZIyqdaSOWHg5ibjow2whRAap3SUUT4Bw
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: trust
-version: -1
-date: "2020-04-07T09:19:41.259015+01:00"
-from:
-  id-type: crev
-  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
-  url: "https://github.com/kornelski/crev-proofs"
-ids:
-  - id-type: crev
-    id: zonk
-trust: medium
-comment: |-
-  no
------ SIGN CREV PROOF -----
-ktv69k7aqNsx291GYrGWpPx2kWlkJQ9bYyWHPwRXMCOuAX6b5URSuXSdF8ruzp4eMyYPcpOI5oB6c9QNcqDBDA
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: trust
-version: -1
 date: "2020-04-10T02:31:19.652970+01:00"
 from:
   id-type: crev
@@ -177,5 +86,22 @@ ids:
 trust: high
 ----- SIGN CREV PROOF -----
 Ss2AFUyNNVSZLljGh2TfYB3vLpKFRDgTnQtCkTCLJUn6p6PEUyV_PsD85DYsf6ygKQv8v9e8q5_8aGaTHishBA
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-04-13T00:11:02.307848+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+ids:
+  - id-type: crev
+    id: 6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY
+    url: "https://github.com/MaulingMonkey/crev-proofs"
+trust: low
+----- SIGN CREV PROOF -----
+EDQRBK8sbqQsMuPNnxfEdcjZFOQ7G9scUqdL1wUx0YuzMbyESrQDGtFo8RQkhOzTOOJfMRUXn3pgiAdpBUkQDA
 ----- END CREV PROOF -----
 
