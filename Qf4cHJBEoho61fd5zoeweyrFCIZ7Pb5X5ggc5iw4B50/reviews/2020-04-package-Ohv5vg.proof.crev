@@ -247,3 +247,24 @@ review:
 e6fT_6PX_362HLrr2vdL1p722BVUpjEZrOPF8eSorCElSL55LlDWVdwZR28JIcMFFu4vFf2-od_kXvG1gcgwBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:49:17.898390+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: gh-emoji
+  version: 1.0.3
+  digest: MpYchTHF7R41fjWzH7HwX7x-6ii-pLe3INuC3i6LP9k
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+Xb8kaPv_5jouDnybTLD9Kd_kN2P7nx6muNXQe9hb9HuvIj-I5bhvzqSPGjC08AdAE8NNXbVjegVtRLahguxyCA
+----- END CREV PROOF -----
+
