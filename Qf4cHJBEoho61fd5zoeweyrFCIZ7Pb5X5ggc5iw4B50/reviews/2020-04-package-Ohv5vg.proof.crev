@@ -319,3 +319,25 @@ comment: |-
 fmrw7iY3R-ezP-aOd4p5Xu4JZfXV291pagkSRWJcI_7nUj6w1V4Plgay8msziQHOQLQXGZjD7WQ4w7QUE8EMDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:51:16.701670+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: security-framework
+  version: 1.0.0-alpha.1
+  revision: 4e0e4585150f683eb05550d51b3b20d31089aa0f
+  digest: UXEL4Ci21NPnuc4dngAxPMlO64ys_O-fPzFTIbTjKNo
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+IG8GGComTD0XDtIyRjZnHKVzmpdv5o9688rhahLru0dsLxpJCX6dt5GY8X4hh8l2X-dgnASxkzJlfR-fF2KMAg
+----- END CREV PROOF -----
+
