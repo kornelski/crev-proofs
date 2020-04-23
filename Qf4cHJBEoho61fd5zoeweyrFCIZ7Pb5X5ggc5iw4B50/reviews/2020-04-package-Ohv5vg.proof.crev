@@ -290,3 +290,32 @@ review:
 ZxIicZ8kHGX-TSbA7kgiEzbgIXV6RxZVs46_EnifIwOgJua6KNA9LVP-O6TnTPyvciJOqtXqWsTVD_nsKz_MCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:50:13.277490+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lazyonce
+  version: 1.0.0
+  revision: 022be18cd09b3e149b6995eb34af9ac1ebc611ae
+  digest: 5Z56bDBu9jRK1ygTwo_LH432Yt83kjCQkvct_SWi5lc
+review:
+  thoroughness: high
+  understanding: high
+  rating: neutral
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: once_cell
+comment: |-
+  Obsolete
+----- SIGN CREV PROOF -----
+fmrw7iY3R-ezP-aOd4p5Xu4JZfXV291pagkSRWJcI_7nUj6w1V4Plgay8msziQHOQLQXGZjD7WQ4w7QUE8EMDg
+----- END CREV PROOF -----
+
