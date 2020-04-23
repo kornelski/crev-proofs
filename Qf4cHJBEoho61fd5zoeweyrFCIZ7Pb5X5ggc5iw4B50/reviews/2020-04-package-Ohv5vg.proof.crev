@@ -94,3 +94,25 @@ review:
 KbUa9gTAo68D7VlyADNHIdxjntsOTF0IO-QfrhuavvuLAh6noegtRbxpiKyx_ZQdwBjhtvOz1aIJ_O8yZ1b5Cw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:36:44.112704+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: undither
+  version: 1.0.2
+  revision: 706f3249de4e3d6a778f72ffaf8b88b51e24fe04
+  digest: P2vVuQNTrMuqLBCV7Xdy2HgjH4uw4Mwlx0t9x2qETd0
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+zzawYDgpOO61ZjRUDxD3ormzcJ9EmCIyWFHihm6sSNGFGsN-iC9uTXDFlnYKrJKEQBscttyF6sLiCOMex1CgAw
+----- END CREV PROOF -----
+
