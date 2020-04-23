@@ -50,3 +50,25 @@ comment: |-
 Mgi0tIEHZF8JVk63a1h-pbiigjGjYc6-WWU_hOZgPQXQOVIPEJFsNysSjuR-dYQtBdGj_q9tZZ41YTYsE-ueAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:36:04.481595+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: imgref
+  version: 1.4.3
+  revision: b662f3383e87b40ff857fc7711c45c361d6c5f7e
+  digest: GmSx0620V66L7fbKNvTv-ggnQXDgeO0dPoyeMs8wHGc
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+uVvB23f_0CbKGomSrFXaVnwDAmLM3BkVpm84ySuAAjZFN4TIoxQb-i5pGn47BwELroJHAqcVxVPlZTRlqhP3Bg
+----- END CREV PROOF -----
+
