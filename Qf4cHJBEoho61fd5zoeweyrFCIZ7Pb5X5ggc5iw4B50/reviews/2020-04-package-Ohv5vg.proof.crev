@@ -225,3 +225,25 @@ review:
 UsRVuyM-D5xN6yqtGYVH-enl5pCAEe9OnsWGWrGw9v1HiKIhpYEHJ2MjM59XrAwrp9RG5wawE1nq1rcDQuQqCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:48:31.980303+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: deunicode
+  version: 1.1.1
+  revision: 0f68e7e3234d264a8ccbded9a59ec659b55abad0
+  digest: jDKf0ucSYHfherSdr7gW2RdPgorc9NpWVJYkwEABblI
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+e6fT_6PX_362HLrr2vdL1p722BVUpjEZrOPF8eSorCElSL55LlDWVdwZR28JIcMFFu4vFf2-od_kXvG1gcgwBQ
+----- END CREV PROOF -----
+
