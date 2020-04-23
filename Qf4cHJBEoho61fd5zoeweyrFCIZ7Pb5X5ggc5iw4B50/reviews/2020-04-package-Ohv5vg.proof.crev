@@ -116,3 +116,25 @@ review:
 zzawYDgpOO61ZjRUDxD3ormzcJ9EmCIyWFHihm6sSNGFGsN-iC9uTXDFlnYKrJKEQBscttyF6sLiCOMex1CgAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:37:36.866155+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo-deb
+  version: 1.24.0
+  revision: b49351f6770aa7aeb053dd1d4a02d6b086caad2a
+  digest: l6LR01F1vwmr5Gw9ZHk8SJb1ZqVDHyXro7hAjTWacr0
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+aSNT1_75zLJyKRQx7-YzMJRv0_8SgKjydZ6BLLvQblhUnIy0augQXPwg3ZUuaKYZY54_SUikPgieDZloS_RTCw
+----- END CREV PROOF -----
+
