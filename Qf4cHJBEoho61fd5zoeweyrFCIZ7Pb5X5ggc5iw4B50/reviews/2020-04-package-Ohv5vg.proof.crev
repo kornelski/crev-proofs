@@ -26,3 +26,27 @@ comment: |-
 zvFK5dbKnTEVJoNggACsPxqfF3EeHc9cIB5GcDjspJK9gq0ysOylMQ_gA6Z0FoRABnf_N-13VmC9H1JEXCGvDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:35:22.744315+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: vpsearch
+  version: 2.0.0
+  revision: 301e07a037450dd4a67d25c377c1f163e7e0bbdc
+  digest: UL-UGK52sTZuXVKsDoNgVuDC_ubDzEgrSlZijbaFjKM
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  It's robust and well-optimized
+----- SIGN CREV PROOF -----
+Mgi0tIEHZF8JVk63a1h-pbiigjGjYc6-WWU_hOZgPQXQOVIPEJFsNysSjuR-dYQtBdGj_q9tZZ41YTYsE-ueAw
+----- END CREV PROOF -----
+
