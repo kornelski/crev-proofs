@@ -203,3 +203,25 @@ review:
 xk9RraHDHIJvuDcOH4dqyolfh4apXMtwI3j8INNyDE_WyErMS8XvvhjefM_gQtgo7VHJBLnKuKepFawcYZniCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-04-23T19:39:23.343569+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: resize
+  version: 0.4.0
+  revision: e834c872eb421a6387302c8b35e20cdc1c40ba55
+  digest: "-iXphviKxk2wmCEXnDRJ2EMFM71MLeO4wFeXE2RubPs"
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+UsRVuyM-D5xN6yqtGYVH-enl5pCAEe9OnsWGWrGw9v1HiKIhpYEHJ2MjM59XrAwrp9RG5wawE1nq1rcDQuQqCg
+----- END CREV PROOF -----
+
