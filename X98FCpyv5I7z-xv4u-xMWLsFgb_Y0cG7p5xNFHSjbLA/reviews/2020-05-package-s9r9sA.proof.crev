@@ -24,3 +24,25 @@ comment: |-
 6q5cHgf7ybSr6IpRNTxa-nhgIXCPHlF_62S4F0Mnp56py2ycK4FK_3shf7Its8jjo0QZMZDPFG0Ffbs4kWRMCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-01T19:02:11.107309+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: assert_cmd
+  version: 1.0.1
+  revision: 9ad1c3e6f4cd92e8e9bdcb42ab7e69fa35cbee13
+  digest: Vt4b9rFTTPAjP7UNWUMoPqYKUwZMtjw1aOjwP4nNvRA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+3R2-jgXo2CWXRJ0ViyUo2fBWGkC5724Nsg0AGxC64q9NfF7uH_xPdPg7tgkf1kaKjQ-r7AafAtKXxfW-xqhFCw
+----- END CREV PROOF -----
+
