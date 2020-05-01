@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-01T18:39:20.157809+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: gantelet
+  version: 0.3.1-alpha.3
+  revision: 7bb1fdcd193b89150eaf27d49291c7712bcd6436
+  digest: BVJKtI88gvvX2YZzYcOizXBs_-Ves8xXBnlDoDRaPRg
+review:
+  thoroughness: low
+  understanding: low
+  rating: negative
+flags:
+  unmaintained: true
+comment: |-
+  Completely unfinished, doesn't do anything
+----- SIGN CREV PROOF -----
+6q5cHgf7ybSr6IpRNTxa-nhgIXCPHlF_62S4F0Mnp56py2ycK4FK_3shf7Its8jjo0QZMZDPFG0Ffbs4kWRMCw
+----- END CREV PROOF -----
+
