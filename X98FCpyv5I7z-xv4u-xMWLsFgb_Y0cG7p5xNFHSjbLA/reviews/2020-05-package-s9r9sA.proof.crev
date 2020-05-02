@@ -90,3 +90,25 @@ review:
 MkctXEwCUyvs2CQ3v59CHH5AnoW_GOrijhWSH0gWhaOMMu0-MGoi7oT9QPEIG-zbWlrIUdmyXibltA1G20qOCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-02T16:55:48.214151+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: prometheus
+  version: 0.8.0
+  revision: 2cab356714ae89ac200ad93503c1118bd7ce6c66
+  digest: CLbV_u6uuupaUMthGNooUT3eVsn99hmLC9DlEItKz0o
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+IUugHA71D4hD5oYxIQpp2YJVL3wv5Zu-xQHCCyevyPZNIHDiR006OixuYRu9N0aACfhkIjFZCG-wzl5GgymhAg
+----- END CREV PROOF -----
+
