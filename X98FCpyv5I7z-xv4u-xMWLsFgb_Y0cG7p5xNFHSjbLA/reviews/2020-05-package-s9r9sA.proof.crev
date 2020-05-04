@@ -112,3 +112,27 @@ review:
 IUugHA71D4hD5oYxIQpp2YJVL3wv5Zu-xQHCCyevyPZNIHDiR006OixuYRu9N0aACfhkIjFZCG-wzl5GgymhAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-04T13:32:11.223609+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: mp4parse
+  version: 0.11.4
+  revision: 8c0db4aa068faa877ee0e9402ae251304509bcaf
+  digest: GTSWYqBvDbp42X_YoznzrIoT8dqv_2aAmS7k4grpsk0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+comment: |-
+  Fallible feature is unsound. The rest looks ok.
+----- SIGN CREV PROOF -----
+phPr-Iwu9lbpYWLTj2mEyiiCQUmcy-HNSRR2yACapL4c93jmsv72UyMHNoI9UVZsxPDYgoFJkqIF1aRf0KuHDw
+----- END CREV PROOF -----
+
