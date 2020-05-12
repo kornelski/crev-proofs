@@ -20,3 +20,22 @@ review:
 ZnzTxG3yyYyZlVCeqi6xC8LLLxiDzZ-sRAFAP6Sqe0Kgl4r802zXw5PT46vaxylw1sxSnahZgVNAKXCVDkfcCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-12T21:37:45.607478+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rustc-serialize
+  version: 0.3.24
+  digest: ZjjeAcVhgr1V0GCJ8IgxNzFvZ03sZ8CPUC3IyXjZ1Io
+flags:
+  unmaintained: true
+----- SIGN CREV PROOF -----
+IES9IjL1epg6O8fzAhxLmn1SMCHOzilYGI4-t614U_OASo9EjG88o3QlxAYTinsPuQvLRxX5eIta2KxlWkotAQ
+----- END CREV PROOF -----
+
