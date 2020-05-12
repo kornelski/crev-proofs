@@ -63,3 +63,27 @@ comment: |-
 e4hRh-TjuZDVG0gZxzs6Fbp6R2SllWXlIzc0ag41uSJI2wBDFt0RHsN1ihgLXk7guRRhwOdPCepBA3M0k2HsCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-13T00:24:14.833885+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: plutonium
+  version: 0.2.2
+  revision: 43b6bbac8b51542eed2a3a95b5ebb984f2c18c59
+  digest: I6PIUwJ_pQijFPI1hmfK56r76Of2zDuxVIEdf7hb1gs
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+comment: |-
+  Don't use it in production.
+----- SIGN CREV PROOF -----
+WJpyk2qQkqqfkD4dD8F4uqVVLQrtIOfmd1uDDGGmTItzA1oxoJVoRyx8G3o5UjTAaciX5Qme-BtZZ3ABpN3lAg
+----- END CREV PROOF -----
+
