@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-12T20:49:32.607541+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: exclude_from_backups
+  version: 1.0.1
+  revision: 4c36489d49ca477088647bd84ce8d964ac518455
+  digest: DhXr90KgaHc0sKmrfort0YWKQHsWO4sAustvd0yqRjM
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+ZnzTxG3yyYyZlVCeqi6xC8LLLxiDzZ-sRAFAP6Sqe0Kgl4r802zXw5PT46vaxylw1sxSnahZgVNAKXCVDkfcCg
+----- END CREV PROOF -----
+
