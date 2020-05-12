@@ -39,3 +39,27 @@ flags:
 IES9IjL1epg6O8fzAhxLmn1SMCHOzilYGI4-t614U_OASo9EjG88o3QlxAYTinsPuQvLRxX5eIta2KxlWkotAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-13T00:19:51.160351+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: fake-static
+  version: 0.1.0
+  revision: 8f3ea2c13f189d8e89ecd2ffa9cb056d37575dc9
+  digest: vs7ySBLQUyZ527UlHgQ1MFObxhxzLGY10oAunZTzQZE
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+comment: |-
+  This exploits a bug in the compiler. Don't even think of using it.
+----- SIGN CREV PROOF -----
+e4hRh-TjuZDVG0gZxzs6Fbp6R2SllWXlIzc0ag41uSJI2wBDFt0RHsN1ihgLXk7guRRhwOdPCepBA3M0k2HsCA
+----- END CREV PROOF -----
+
