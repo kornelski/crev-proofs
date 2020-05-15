@@ -87,3 +87,27 @@ comment: |-
 WJpyk2qQkqqfkD4dD8F4uqVVLQrtIOfmd1uDDGGmTItzA1oxoJVoRyx8G3o5UjTAaciX5Qme-BtZZ3ABpN3lAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-15T20:48:56.153687+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tempdir
+  version: 0.3.7
+  digest: HCBmm8gIxllQsbpNbOJnpW_nmJck53FC2H65raSV4CU
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: tempfile
+comment: |-
+  You should use [`tempfile`](//lib.rs/tempfile) instead (it makes temp dirs, too)
+----- SIGN CREV PROOF -----
+zwmc-SL5ASdMCkw7SrNKgsqjiA3e8Q09gb3pcSaB4CpK61qxbpCGgMjWXhVdlmpQgZxHc1DTCGInp0DBzjsDAQ
+----- END CREV PROOF -----
+
