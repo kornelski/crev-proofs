@@ -111,3 +111,28 @@ comment: |-
 zwmc-SL5ASdMCkw7SrNKgsqjiA3e8Q09gb3pcSaB4CpK61qxbpCGgMjWXhVdlmpQgZxHc1DTCGInp0DBzjsDAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-15T20:55:35.896515+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: kamadak-exif
+  version: 0.5.1
+  revision: 9fb7f8ab0153e7a334b8337597641cacb2fad21d
+  digest: e9-s4JnUVYHecugkVsI8jxNLuZOzpVh2mmWIF2mItIg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+alternatives:
+  - source: "https://crates.io"
+    name: rexif
+----- SIGN CREV PROOF -----
+FZ0Usy8vgC3Ios-LPzrx_SgE7FUAj7BEQNgzJ-TsL4UWqSLjKAvwIcrm8YBvxLnT54-5uJgwyVsdDa8GvqN4CA
+----- END CREV PROOF -----
+
