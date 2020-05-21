@@ -160,3 +160,27 @@ comment: |-
 _VRWodnENLKiI33-QCYvhw3uNdYzZpxqEJOD89CCr4y3D0eBxCLRdWwd7fvau0xfIU1iOy3MNFzKSCjZZPeqAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-21T17:50:01.384191+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: fxhash
+  version: 0.2.1
+  digest: 2s-JNWLBjCOCF0I0BQ-I6QtcPwFnYpSc6rQrBOlRIS4
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: ahash
+comment: |-
+  It works fine, but the project is totally unmaintained.
+----- SIGN CREV PROOF -----
+ufT-nCnf7JnhCqZeKbxzlE67izFz2PFg5nmBWam4YPFajZHA8RetG8LibXZa9ilaw9EBnY3uGJzgzitY1ww9Cg
+----- END CREV PROOF -----
+
