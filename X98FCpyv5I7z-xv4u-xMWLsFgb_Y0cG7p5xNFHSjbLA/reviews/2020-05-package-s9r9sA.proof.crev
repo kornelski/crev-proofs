@@ -184,3 +184,26 @@ comment: |-
 ufT-nCnf7JnhCqZeKbxzlE67izFz2PFg5nmBWam4YPFajZHA8RetG8LibXZa9ilaw9EBnY3uGJzgzitY1ww9Cg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-29T14:18:22.724316+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: fs_extra
+  version: 1.1.0
+  digest: mSuj4KevnKTWk0RTcvRdU7S4993PRQ4LtznTl1gVGzA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+comment: |-
+  May mangle UNC paths
+----- SIGN CREV PROOF -----
+VUOs3Cfac7XdYAu64bmLKnFzfagLOt3XfkqoeB8Fm5BIbpC65QKfh1Wz-PbdJes7_qL39SaX3H-hRheuhvS2DA
+----- END CREV PROOF -----
+
