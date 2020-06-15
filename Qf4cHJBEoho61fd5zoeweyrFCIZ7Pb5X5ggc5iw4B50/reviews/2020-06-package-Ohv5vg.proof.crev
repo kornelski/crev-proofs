@@ -48,3 +48,28 @@ comment: |-
 zMmpzI_KvJecgC0m1_Yb54SaX0jPrYSxBC11UZw-RDJdHwEm506KFE49jbTs97btO6GqWJJQ-P2CfqXPSeDNCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-06-15T17:56:25.128373+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: bytemuck
+  version: 1.2.0
+  revision: 2725633356818ea7cb1a1336fde2aa62eb061315
+  digest: qjooj34EkpoFC7eHqmdN86rjoApOE2b0_4A29_82NwE
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+alternatives:
+  - source: "https://crates.io"
+    name: plain
+----- SIGN CREV PROOF -----
+4cLZXq2E0KpES6-QZ-QqEqYgUvabdaKNjjFfwAOI-EvuozgEJM0QVvQkMDMmObYLJmK096juiFScNmB0rNqTBw
+----- END CREV PROOF -----
+
