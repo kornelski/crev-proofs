@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-06-15T14:17:48.154558+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rustls
+  version: 0.16.0
+  revision: 17ee52c5d10394fdd7eede80c43b3e14a0aa1975
+  digest: TBqkb9WRxEiELaTbW5YNwrNi40WBleozxmAlNUCDD3I
+review:
+  thoroughness: none
+  understanding: none
+  rating: strong
+comment: |-
+  Positive external audit: https://github.com/ctz/rustls/blob/master/audit/TLS-01-report.pdf
+----- SIGN CREV PROOF -----
+w_KQEeOX2aTX45yjMSX1MNw61Zc7ZWMHruFRYMo1hGy9a8pVwvuavFI2oquiw-qCkQAUUimNOkv7G9akMcrOCA
+----- END CREV PROOF -----
+
