@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-07-08T02:11:32.962388+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rgb
+  version: 0.8.20
+  revision: 3c7036221ba7d96d2b904fbee6fb87d8bec1aadf
+  digest: dKSuSnHlI9Pjpi3StG4Y-a93eudxQu7f0uKbYiWdm0s
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Fixed soundness of as_bytes
+----- SIGN CREV PROOF -----
+tRtT5NRZY8ps_-e8QK_3lu__Kpy0VXb1vNQ3Bz3Zd8_oDg2QsBIky42T52hiT1JW__HmK00GyyGz2E0et_73AA
+----- END CREV PROOF -----
+
