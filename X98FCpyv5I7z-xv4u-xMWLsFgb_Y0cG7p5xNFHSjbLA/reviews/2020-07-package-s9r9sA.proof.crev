@@ -68,3 +68,25 @@ review:
 S9DOWxT5rYs5_s5zLjIKxnXa9E7FqB04tjdXx_PYct0UWxpE2oCEpGNEVhEX2wkzFPB50iSawntbilGnsx01Ag
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-07-14T00:22:58.973998+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: predicates
+  version: 1.0.4
+  revision: f87ef124a4878ef370a0a9899b9bda2dedfcffea
+  digest: DpMiRBHaaaM-fS4pML9ErwAqOidHnwBOxtxvcf4HTjM
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+9Fc3YFnXyyIT_YW6XnvkLbM6D-jLrE3xVxJyzKIhWjCUvGt4gcO-ThMQp6ugA_OO_TJmGmLWEH8u0wfM2GVmAQ
+----- END CREV PROOF -----
+
