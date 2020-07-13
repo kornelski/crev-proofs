@@ -46,3 +46,25 @@ comment: |-
 O2k8wmhg8IywnJuvwvqRQlmXPxpxf5XYoMuY2wmKjqrZksV89yrLysoWlW98jGiy4JYwUzNYxdSYPEpkgUvmCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-07-14T00:18:31.432296+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: adler
+  version: 0.2.3
+  revision: 052fb30a8663a976f5eac9c912c653910c064c4e
+  digest: kwfLnD4JXPRMgyabiDwX92HUa8DlNADBVHSl7fVl5ds
+review:
+  thoroughness: low
+  understanding: medium
+  rating: strong
+----- SIGN CREV PROOF -----
+S9DOWxT5rYs5_s5zLjIKxnXa9E7FqB04tjdXx_PYct0UWxpE2oCEpGNEVhEX2wkzFPB50iSawntbilGnsx01Ag
+----- END CREV PROOF -----
+
