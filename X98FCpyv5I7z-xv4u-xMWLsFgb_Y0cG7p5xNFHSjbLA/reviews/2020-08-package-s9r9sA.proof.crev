@@ -20,3 +20,25 @@ review:
 gXQsmfW4tkmOpeOFkaz2JfaCqG4QOnu3Toju1PFd6fry9aUtaFYKHRz2NpScbGA9ZLNLoPFO7mrgeuK4p58tDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-08-18T12:28:48.515281+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hashbrown
+  version: 0.8.2
+  revision: 18ea4fe99a9509b916a246bb0adbedcc47d80e01
+  digest: Md88_K3j1TSwXO3H6J-i0A3fDnqzD_YK3SQ_IXYjeDU
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+BKLtjoENWQxhVtfWdmd4kP8cJeoKdWEMplee3S0IS39SIT64OTRYpafC8Ww1vxLKqoOPJkaAbNGgAkUkUN05CA
+----- END CREV PROOF -----
+
