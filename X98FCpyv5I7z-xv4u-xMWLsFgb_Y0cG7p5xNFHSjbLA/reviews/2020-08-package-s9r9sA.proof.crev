@@ -90,3 +90,24 @@ issues:
 4Mg-8-xZJq3ZRItjBc13CTIhNopfKtu9cx5g5HrmyL4-zYbe4kguVBwGQA5WEcv8FEPDCJ5WeNNUPjdwdH8NBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-08-18T12:52:26.446124+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: pin-project-internal
+  version: 0.4.23
+  digest: NgqVWweEv8lddjRH0RsBVx4y0v0IhlsW4BuFjaPRZek
+review:
+  thoroughness: low
+  understanding: none
+  rating: neutral
+----- SIGN CREV PROOF -----
+04lrvmRKLoqv2d8-QdoAB38nV4wbuL-oG21nNenPD9HzLXY3ALSpkAAxFiJmA_MmLY-pIFxhteAmD6D_kjWHBA
+----- END CREV PROOF -----
+
