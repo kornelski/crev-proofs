@@ -111,3 +111,25 @@ review:
 04lrvmRKLoqv2d8-QdoAB38nV4wbuL-oG21nNenPD9HzLXY3ALSpkAAxFiJmA_MmLY-pIFxhteAmD6D_kjWHBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-08-18T12:54:59.314429+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: proc-macro-error
+  version: 1.0.4
+  revision: e231741c47af1beda78d53aee29500cccb8266cd
+  digest: Vr1Aaw15ntGde958SLaNwzg3iofC7HInV5EofdGm620
+review:
+  thoroughness: low
+  understanding: none
+  rating: neutral
+----- SIGN CREV PROOF -----
+fMtM4SHrE02V48EXLiKFVDvuGZmI3_YBDXbgzhx2Y4T1-cXD8EaoDPtLXSKqSmIK0khw4IEwtyhcx1jdtZ-fBQ
+----- END CREV PROOF -----
+
