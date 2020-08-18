@@ -64,3 +64,29 @@ review:
 Xd3pAERxXoMfW7YPplh6Yt2cjbkB90g761uqUF3ksqvJrQotztjcWk6_flGmrP6_JIizJlTRCt7Cxug0zZjjDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-08-18T12:44:49.952092+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: vergen
+  version: 3.1.0
+  revision: 8d522db8c8e16e26c0fc9ea8e6b0247cbf5cca84
+  digest: uyRjyF7fQy6BtqddXgqhdOYMLPawL_Qn0-53GLKrFEQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+issues:
+  - id: "https://github.com/rustyhorde/vergen/issues/26"
+    severity: low
+    comment: ""
+----- SIGN CREV PROOF -----
+4Mg-8-xZJq3ZRItjBc13CTIhNopfKtu9cx5g5HrmyL4-zYbe4kguVBwGQA5WEcv8FEPDCJ5WeNNUPjdwdH8NBA
+----- END CREV PROOF -----
+
