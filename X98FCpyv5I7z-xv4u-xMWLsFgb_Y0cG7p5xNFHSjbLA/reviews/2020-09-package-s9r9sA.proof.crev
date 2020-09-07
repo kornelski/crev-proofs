@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-07T18:55:19.381930+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: y4m
+  version: 0.5.3
+  revision: 19b1a0b577860f4c0819f19b0cd79df2c1e84a4d
+  digest: jnN_Bk00hUyyx4sZPRl_HnQW7DXPeep_6WltngptQ_s
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+c_ThOOQAR-beiuQ951__A1m0dfkaawORiSgeblhWr7uWQ82NuesgZW0OsXk2Snl5445v6BxLCPj8fWCT_N7iCQ
+----- END CREV PROOF -----
+
