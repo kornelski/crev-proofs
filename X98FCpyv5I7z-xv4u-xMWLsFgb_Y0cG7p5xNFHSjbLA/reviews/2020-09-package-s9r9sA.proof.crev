@@ -20,3 +20,27 @@ review:
 c_ThOOQAR-beiuQ951__A1m0dfkaawORiSgeblhWr7uWQ82NuesgZW0OsXk2Snl5445v6BxLCPj8fWCT_N7iCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-07T21:16:40.120972+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: encode_unicode
+  version: 0.3.6
+  revision: 47f8483a1b2ab022a93f06deb0ca954171c920ec
+  digest: tKI-8dQ0C5TAOtOtsR6BqnGgHdHX6pY6nZEEFO7zhmA
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |-
+  Contains unsafe transmutes that seem unnecessary
+----- SIGN CREV PROOF -----
+WnqUJ-GID8BUU9qVRdPDaYL0iKseIr7qXWZUdNvVNEU8L5dO5bDAkbbHfL1GAzHGyoELtRHqVIflNJR4b_JuDw
+----- END CREV PROOF -----
+
