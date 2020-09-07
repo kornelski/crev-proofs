@@ -44,3 +44,27 @@ comment: |-
 WnqUJ-GID8BUU9qVRdPDaYL0iKseIr7qXWZUdNvVNEU8L5dO5bDAkbbHfL1GAzHGyoELtRHqVIflNJR4b_JuDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-07T21:18:01.266799+01:00"
+from:
+  id-type: crev
+  id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ivf
+  version: 0.1.0
+  revision: 93b7dd66d6f8f03ee21f0017f5860259a0474d45
+  digest: 2-K2jo33F3ipoFrnrdzV68L_NEAhRzbswkv2A3rXtI4
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  For AV1 only, but who'd want any other codec, right?
+----- SIGN CREV PROOF -----
+gylUUpqkv4XsFz_CKwWdBND7qOLy8xTAuysfVw2-uy-t4MoVkmtC4krjHpRy28NOVHtaO4ZVjfubOxZaDWpfAg
+----- END CREV PROOF -----
+
