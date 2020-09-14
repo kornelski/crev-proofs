@@ -64,3 +64,25 @@ review:
 PNWNSdP1Yc9zqbT6DJd5vQWHt_2XQNUFgt2TGcb1T2-lJCQ-1EWqrwcSIvrkVtM4jEBrqTcvuAPWLsU-gjAMBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-14T17:50:18.717783+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: interpolate_name
+  version: 0.2.3
+  revision: 774c35a9a9e87d519c27081384a1f4371daeaf30
+  digest: p0wsgtk1vMkZdsYjsMSHM5SpTGPhqN-NMeT_RvZIJDw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+TW3NxC_UIPRYEABamJLGIgyk6Wm6n_TnL0HyjSXG0ngzk5qkF8RkBeDkbt9nAZQVCA-dtZ9sWAGAuujKsAQqBQ
+----- END CREV PROOF -----
+
