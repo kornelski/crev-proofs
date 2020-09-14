@@ -1,0 +1,44 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-14T16:10:54.480313+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: scan_fmt
+  version: 0.2.5
+  revision: 2690aebf54dc2d493661023dfb61859808fb507e
+  digest: Kk5PtN9Q3gnFVBTdlwOLAL2eeZZ7QfMGiMoyK8SVZwc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+e0BwzFylut8CUo496gwogjNVPM8d5sVnI1qzgsNUERVu40L2W_kmvIjLWr_kM-_XHWjOb1onSomavYMM-3-WAg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-14T16:25:22.814313+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: scan_fmt
+  version: 0.2.5
+  revision: 2690aebf54dc2d493661023dfb61859808fb507e
+  digest: Kk5PtN9Q3gnFVBTdlwOLAL2eeZZ7QfMGiMoyK8SVZwc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+AbreqIsPF-mrv1c0PZCVsPkGpP0D5q9oI_lTRFqbBK_oi0w3HJOSYjRXzYA2w2RZ3rhSJmpQBpkpRZ_ECZ_NBg
+----- END CREV PROOF -----
+
