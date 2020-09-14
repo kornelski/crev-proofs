@@ -34,3 +34,20 @@ comment: |-
 sRnHLjLGlhtpdALcY-poCyOP9-GojyVH5TpABIGoziPimVunXWbEzMheWf2vBYuowDowWe2YG_PQz0QUcU-rAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-09-14T17:03:10.961766+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+ids:
+  - id-type: crev
+    id: VylyTuk8CMGqIxgHixWaqfiUn3xZyzOA1wFrQ0sR1As
+    url: "https://github.com/BurntSushi/crev-proofs"
+trust: medium
+----- SIGN CREV PROOF -----
+zMzeJamYrnXxcToitrUgUns-g9yHpqJumBTOXynSilMV6bADuRntqZ7DvbVQnAG72vgn_68I5HmzPzPay8NKBQ
+----- END CREV PROOF -----
+
