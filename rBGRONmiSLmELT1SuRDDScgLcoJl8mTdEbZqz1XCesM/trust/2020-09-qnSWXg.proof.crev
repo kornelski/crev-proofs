@@ -119,3 +119,22 @@ trust: high
 RmFVsDulSzk283EfMkJcjenR1q3_RI9EjPBDIuzxiDHNvBB-pEQveIrin46QnE3yjKh23WaBBtTDdPhqEQxQDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-09-14T17:10:06.554016+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+ids:
+  - id-type: crev
+    id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+    url: "https://github.com/kornelski/crev-proofs"
+trust: high
+comment: |-
+  Key rotation, ughg
+----- SIGN CREV PROOF -----
+2pt4Jwgu_txRvXCj8ymP-yda-pW16KDzWVxWeCErUttRNAA59jmm9aEfCdvasG6w5w4LvhQkK_y0-h_8HeniDw
+----- END CREV PROOF -----
+
