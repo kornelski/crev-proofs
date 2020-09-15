@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-15T19:39:47.844343+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: downcast
+  version: 0.10.0
+  revision: 14f80f52bee067df9f978d08d9734184adc30584
+  digest: Ua-RLUfXiPUv07un51q907cfO8oqCQlgdkro02j4Hyc
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |-
+  It's playing with fire by making assumptions about in-memory representation of trait objects
+----- SIGN CREV PROOF -----
+xvUqI8-kJ4YcC2tQpqv-clI1tp_H6aVJJ7ynglD3JU9BmUyIJRYFJQDprkh-FSmVSx4mLdoNzJJcovM6U9wsDQ
+----- END CREV PROOF -----
+
