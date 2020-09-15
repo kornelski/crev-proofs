@@ -22,3 +22,24 @@ comment: |-
 xvUqI8-kJ4YcC2tQpqv-clI1tp_H6aVJJ7ynglD3JU9BmUyIJRYFJQDprkh-FSmVSx4mLdoNzJJcovM6U9wsDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-15T19:43:50.429869+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: predicates-core
+  version: 1.0.0
+  digest: RYB3VhlDqy5XJPoMR6AUlCrqrg8DgJn9NosF5Dpbtvg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+O8_i5MkS86XVRQoFrKAVOTOFEyJuYCdLejsRK6kMyW21jcBSMBrcRuC2JZH4Puv6F6RkKBM10gjPtvkb7HNcCg
+----- END CREV PROOF -----
+
