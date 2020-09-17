@@ -86,3 +86,27 @@ review:
 TW3NxC_UIPRYEABamJLGIgyk6Wm6n_TnL0HyjSXG0ngzk5qkF8RkBeDkbt9nAZQVCA-dtZ9sWAGAuujKsAQqBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-09-18T00:34:45.492768+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: noop_proc_macro
+  version: 0.2.1
+  revision: 48d9c739dd7daeacf63a2b8be084ba94ceaac2dd
+  digest: 1hbT8CsSpm6cXfx1_cCSf2OP0pm9xN9odztS-TTY7Dw
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Literally nothing to see here
+----- SIGN CREV PROOF -----
+3-6mqgcj2u7lOjoNAjL40SpR_hfjfunK7NlCvrI75Iw2tNJkUPYfGXS6qOgptZ-nFL43v2krutfiQ2p5nGvYCQ
+----- END CREV PROOF -----
+
