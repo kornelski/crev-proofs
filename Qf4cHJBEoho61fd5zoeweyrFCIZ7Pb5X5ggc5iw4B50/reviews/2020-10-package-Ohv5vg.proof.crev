@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-10-05T11:28:04.153976+01:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: fast-floats
+  version: 0.1.2
+  revision: fab7e2d0aaceccc580ab3d9dabc55c1fb7958914
+  digest: OHURVlpxn53U-LZ4nOctD2z0nd_mYqSJ8BOSqU8zSpY
+issues:
+  - id: "https://users.rust-lang.org/t/why-i-get-nan-values-when-multiply-by-0/49450/19"
+    severity: medium
+    comment: ""
+flags:
+  unmaintained: true
+comment: |-
+  Exposes `+` to safe code, which can create NaN, which can cause UB
+----- SIGN CREV PROOF -----
+lq6NzYbN_5Ya31mur72H5xXS9HeSaJ-BuqGnmXRn7I-Lu6xb8zKAo4m3vBMxxUtlzTCBm6BrUIhrR8IU8VXZCQ
+----- END CREV PROOF -----
+
