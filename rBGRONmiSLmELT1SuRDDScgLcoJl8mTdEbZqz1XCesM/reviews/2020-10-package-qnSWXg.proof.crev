@@ -1,0 +1,25 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-10-19T12:57:51.341515+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: smartstring
+  version: 0.2.5
+  revision: 968aa8b027f9126be9f474bec31e157c832c5666
+  digest: WNm9FJJPQ4asY1X5IhF0DH6U383tfiADi7Z_q1HukPQ
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+alternatives:
+  - source: "https://crates.io"
+    name: smol_str
+----- SIGN CREV PROOF -----
+2IOwKNDo0-9jYRVZ34kGEzlfZYaPVZyoHcXVyK_T0J7pfL1m3VEx0aYrhY9DuvQFa1rMIpm4qiEUQlACJlA3DQ
+----- END CREV PROOF -----
+
