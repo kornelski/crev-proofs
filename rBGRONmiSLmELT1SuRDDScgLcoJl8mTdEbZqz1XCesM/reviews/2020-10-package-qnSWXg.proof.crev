@@ -23,3 +23,32 @@ alternatives:
 2IOwKNDo0-9jYRVZ34kGEzlfZYaPVZyoHcXVyK_T0J7pfL1m3VEx0aYrhY9DuvQFa1rMIpm4qiEUQlACJlA3DQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-10-21T15:29:42.792078+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: try_from
+  version: 0.3.2
+  revision: 1606a9ae37788360dc422d9fc09c80920e318ddf
+  digest: L2rTyT9S79ftFJGl6DVGbi3gIzjS-ysL1-gPz5C1ju8
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: derive_more
+comment: |-
+  TryFrom is now in the standard library, and this library does *not* fall back to the standard trait.
+----- SIGN CREV PROOF -----
+IQCf77UGN_tPtCTztSgWqcKSQb-LJkipU8Mcb2N8ubjpQ8gvze9b8izipVD3tU4RMEp2PG4xInuweMV3qUkFBQ
+----- END CREV PROOF -----
+
