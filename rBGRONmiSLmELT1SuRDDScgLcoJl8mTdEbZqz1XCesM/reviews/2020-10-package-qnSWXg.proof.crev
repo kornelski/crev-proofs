@@ -52,3 +52,25 @@ comment: |-
 IQCf77UGN_tPtCTztSgWqcKSQb-LJkipU8Mcb2N8ubjpQ8gvze9b8izipVD3tU4RMEp2PG4xInuweMV3qUkFBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-10-21T23:14:05.358726+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: weezl
+  version: 0.1.1
+  revision: 96b979893f361334a0f801fb48c6d694e3e6b1c3
+  digest: ncLkZ5iH1I2nxStCUO89VzB778uiiLok5rtqMX_ddN8
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+5q_VgRFP20AD1II8h1Eny61TSpiqFtRw4jILQt_dkNqW3hWt9Ni8PcFHa9U_odp4gNWdSJC7jgxYWvC4ge_DCA
+----- END CREV PROOF -----
+
