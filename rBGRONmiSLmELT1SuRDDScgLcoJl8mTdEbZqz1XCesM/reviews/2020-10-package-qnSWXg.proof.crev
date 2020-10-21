@@ -74,3 +74,25 @@ review:
 5q_VgRFP20AD1II8h1Eny61TSpiqFtRw4jILQt_dkNqW3hWt9Ni8PcFHa9U_odp4gNWdSJC7jgxYWvC4ge_DCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-10-21T23:16:56.817287+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rustracing_jaeger
+  version: 0.5.0
+  revision: 2da14e93016e77718e4e61c2b6743b196712010d
+  digest: inuwd-uw2lz_VbNu8wNSgSTTFQYcvoRPOdgljsnvtSo
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+O5D5y1nhWnXXk8HN2AKRxYZ2deV9YluqUyG1drxspmplh7_XHf_78HvtCxvuV_GphLeYJfX2CmcCAmmLdm8SBg
+----- END CREV PROOF -----
+
