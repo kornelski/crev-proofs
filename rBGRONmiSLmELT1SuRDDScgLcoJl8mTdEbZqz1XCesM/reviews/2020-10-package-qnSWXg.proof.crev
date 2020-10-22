@@ -118,3 +118,28 @@ review:
 SJK3wN3nE2sRQ_QUd-SHxz1bH9bl9v58HILFlHE_5m-5xPBMi_M0T6cwegsh6DsJTlh_fTGvwzUyTWL_JX0RCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-10-22T15:29:57.647781+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ahash
+  version: 0.3.8
+  revision: 317347818a5120f3ff2a7f14d66aa9b88e10df59
+  digest: KKXrPv_SVtCpXk_t_01hCkDhKneYprRrwKRoDM7vwSk
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+alternatives:
+  - source: "https://crates.io"
+    name: fxhash
+----- SIGN CREV PROOF -----
+AuqvqmE1fqXQXkVn-2jBvmVs4puIHplJxbsrAgY2gRIQJNn5KLtbOuWZ7h8ydZcRf4r7AwTlSsItEWQbZITLBQ
+----- END CREV PROOF -----
+
