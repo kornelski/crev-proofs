@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-11-02T17:55:33.553448+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: const_fn
+  version: 0.4.2
+  revision: d306b29df53ab27a825e4213fc25f7e7aba493a6
+  digest: gLjJ23US6xlV9gFFDesf5TAus-0m9g9fjO-Qu7tsV4c
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |-
+  So much complexity for a bit of backwards-compat :(
+----- SIGN CREV PROOF -----
+kbEzTls9if-Fxo4vkFtvy2mEKSgK1sIGLiTmkYGAcXJMQe8O6c-WMUkuDJLHb0mWR-yfJIno0aTBgeFtqn-bBw
+----- END CREV PROOF -----
+
