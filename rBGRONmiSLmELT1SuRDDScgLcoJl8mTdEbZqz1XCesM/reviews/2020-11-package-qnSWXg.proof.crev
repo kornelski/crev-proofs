@@ -22,3 +22,27 @@ comment: |-
 kbEzTls9if-Fxo4vkFtvy2mEKSgK1sIGLiTmkYGAcXJMQe8O6c-WMUkuDJLHb0mWR-yfJIno0aTBgeFtqn-bBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-11-13T15:15:58.739575+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: simd_helpers
+  version: 0.1.0
+  revision: ca1a2f84aa386d758e98f8a609d990263932fb85
+  digest: wFdZZSIncWtOwY1QRqe647Kf8rGC8z4AFsMJDAXCPE0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  it just splits a string
+----- SIGN CREV PROOF -----
+Jh5jl7yN0Si8nA0GZXDHU4iWRp9jxfQhQzUNTq-M6rwASuiszARyvXpxzrHyzcWRs9R1OVV-P-jedMgEO1kaAQ
+----- END CREV PROOF -----
+
