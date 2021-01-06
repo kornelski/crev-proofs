@@ -42,3 +42,25 @@ review:
 AaxcCtxYF_Ye_YdDV7s8T-FX1FfZ1sWvyNNxonKZ3RxQ02jgS15pJHPhL6RlhaX63G8gHHEikOrR12TXwFApBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-01-06T13:39:29.617713+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: trackable_derive
+  version: 0.1.3
+  revision: 0b0698eb9a616537dacd329264202c9b9c7401e7
+  digest: DaLDP6Ni1FcNPPDvcYUDhw4rpbPkJuhBJaI_X0yDBGM
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+XUG8U_K-86eCWI8L69gW701pmavt3Z2MqOxedOrSTD44sc-65epT5JsJbqyF-zGW2F5qYIKs-js8QYgXZWr-DA
+----- END CREV PROOF -----
+
