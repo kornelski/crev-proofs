@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-01-06T13:16:04.870595+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: static_assertions
+  version: 1.1.0
+  revision: 18bc65a094d890fe1faa5d3ccb70f12b89eabf56
+  digest: bz7QH7NaZ1ELTmjRjFDdlkLx9GQeVLwNRPLXzQFI55Q
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+4i5kdiqL8qyeepoT2iGX5I4siQwC8G9GiUjgO8nXhlD82T7SPHmzJA7LYLguOpe_iELALD_qhk-Q2sqF2OsuCA
+----- END CREV PROOF -----
+
