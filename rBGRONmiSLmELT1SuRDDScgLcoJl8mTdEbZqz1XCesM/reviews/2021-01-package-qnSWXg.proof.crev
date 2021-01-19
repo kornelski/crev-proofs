@@ -86,3 +86,25 @@ review:
 l9UKUyy2B7_dwHEGw45h4_aXtxbwCvyPh4rmJFmaD1WEySxxoVnE5ZKZNyKjUtkodvbjC5WqXDVvspziTkhbDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-01-19T16:12:00.422767+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: fsio
+  version: 0.1.3
+  revision: 59ebcf26c0035db3daa975b5f260c9690ab2858d
+  digest: PC5Wd5JxAD45lZ8USUF5R0eOkphtIAn2CRqjcpRh4t0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+qWPoxAhlGEN0rXlqqFaDuDCx2kCIAQnfEW09VLZ6vCDo_9I-dRIBSG6xwyMbE3j0FXKYaNfukRs16spNyhcyBQ
+----- END CREV PROOF -----
+
