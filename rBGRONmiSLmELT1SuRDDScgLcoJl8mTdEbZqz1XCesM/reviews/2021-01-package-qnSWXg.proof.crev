@@ -108,3 +108,27 @@ review:
 qWPoxAhlGEN0rXlqqFaDuDCx2kCIAQnfEW09VLZ6vCDo_9I-dRIBSG6xwyMbE3j0FXKYaNfukRs16spNyhcyBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-01-19T16:16:16.200668+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: nias
+  version: 0.4.0
+  revision: 2dc0744eb96fc3fc22dc5f115843f965eb8e7698
+  digest: U2Iu-jWBJJkNbZAiJAcFikeAi3-OzK6Tumke0r4nkks
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+comment: |-
+  These are helper functions. They aren't actually closures, but plain function pointers.
+----- SIGN CREV PROOF -----
+QoqkD4zea9nFfCSkGyljCtU7tSKL2qMhgmqrFxxn-lZJ0v_Mh8_hU2t7Ucr4AkM9MWNUqvdTqxGkc3QJkapRBg
+----- END CREV PROOF -----
+
