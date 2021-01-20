@@ -154,3 +154,25 @@ review:
 lPdc4jWxJpa0QmiWrp3m9wF1V4UPdT89un9kLnL4-abLqqxRM1ONSeiTzZuLzWej4SpSkXuQ-Zecr6peyMVCAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-01-20T16:22:56.144461+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rust-argon2
+  version: 0.8.3
+  revision: 79b3176d831e891507e64cfb5405d1179e80519c
+  digest: Gryzkl2uxKh13UuwRPqjnYt_49QGEAG9TxzFvqVLksY
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+Tjf9f9jvvf_1Xl59nTFl8pv6Lkh-Sy2JgYh62mIV0R7x7cErcVRP3xs4YRPkWpFV5AKGmjkBdXHAIC_kCm_CBw
+----- END CREV PROOF -----
+
