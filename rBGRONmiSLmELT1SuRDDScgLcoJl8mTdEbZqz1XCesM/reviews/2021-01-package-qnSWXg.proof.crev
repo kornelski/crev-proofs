@@ -198,3 +198,25 @@ review:
 jwbiTXfzJlMIKjcSvdsoMQZDuEfRV2795GesU0fUsiHDLMwc0MT_DY2rnURen8AlMNRt_PNw6278hjEm4ksPBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-01-21T17:18:38.483289+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: redox_users
+  version: 0.3.5
+  revision: 00dd27f618809c65a15677e78f291ac462e82efa
+  digest: eX2p1bOo0oPc_NMEOU84jEcHVjDmi-R3rW3JizbfE6c
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+dHdCFNnZcfPTywRygiBCCkf4lLZ-ciOo_FAo3eFl9oboOZzVofqrwn3-9HatMUGwA0qr0Y-e2Ucd3kUpGpM3Ag
+----- END CREV PROOF -----
+
