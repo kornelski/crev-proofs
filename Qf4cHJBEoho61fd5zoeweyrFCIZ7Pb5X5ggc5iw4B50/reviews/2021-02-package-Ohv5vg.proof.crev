@@ -134,3 +134,24 @@ review:
 e-paEiWpUFi9Zk00dI4wYzOED9Y0HCvZ7j_6u98Zrj2Mu_hV1ByNgOuI3GRnmsVvSGOH7E_mWu6yWaffP_tHAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-02T23:14:15.525865+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: imagequant-sys
+  version: 3.0.3+sys2.14.0
+  digest: tVtKR9wTVhMqqx3Lmr7z_-n5mMJ4fDw1QISo31SQixE
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+UsM0lcggorZ8KBOHvmEgtiVSBWcPr2GMgFKLdd5P3ecuIOWGy7duEQ22J-YmEum1hscHcrMjpJH0lnZpeVHcAw
+----- END CREV PROOF -----
+
