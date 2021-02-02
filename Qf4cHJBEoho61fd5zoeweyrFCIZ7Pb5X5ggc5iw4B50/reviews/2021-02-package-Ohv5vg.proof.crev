@@ -180,3 +180,25 @@ alternatives:
 DMb6XEwQX7qP5_epM43EMylm7jssFELYREf4zDRG8_JlG2S1a5QGPIl5BVsSqGCoU0_vzTQnX0zRuB6Y1NVSCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-02T23:18:38.144995+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: pkg-config
+  version: 0.3.19
+  revision: 54325785816695df031cef3b26b6a9a203bbc01b
+  digest: aJHuC1xyVYMOuNn8k8Qf9U4hxFwnuEF575waBXAG7MA
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+52LFFm8IgBday3K8mY-6-4Y8JPSDRoId5TzxyMTnGPhOFHgrdB5JaL1_Wmgc8kM0LfjFg5Fdx-ZhN2HAF18xAQ
+----- END CREV PROOF -----
+
