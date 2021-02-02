@@ -46,3 +46,27 @@ comment: |-
 sC5PNUjSvLLexDe7M06eDl5-ULlGv6_waDmg4vx4IUtouVLo0iL5RZEcqufcV4IWJFYe8PGQ_SBSKl7NVmL1CQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-02T16:41:28.112402+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rust_hawktracer_sys
+  version: 0.4.2
+  revision: 43a3a598e2eaa78da6fec2d8610076066f11e2da
+  digest: Ae8S2Dxpa8fbVRdgVbOYlP97ZFio3ce3Odh8qfvTPVE
+review:
+  thoroughness: low
+  understanding: low
+  rating: negative
+comment: |-
+  Has public functions that take arbitrary raw pointers, but aren't marked as unsafe
+----- SIGN CREV PROOF -----
+XYT4uj0gzzJ1KFwvQ1TgoyvD6XT4tHRYRDmeVH4BDQ1-hR_5FtcbI7Y6W-6F--dZSf_S867VM-2zhFf4sCMlDQ
+----- END CREV PROOF -----
+
