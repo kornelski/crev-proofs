@@ -22,3 +22,27 @@ comment: |-
 yCa6kpxYXKx583NCNcSzPl7seKdpFlW6LEEHtfWsnanNCakVDDv7K_fskQgBmDL6YB1GyZ5zqY3ZyXDaCGldBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-02T16:36:46.363640+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rust_hawktracer_proc_macro
+  version: 0.4.1
+  revision: caf446fdbf0a3cb3d14de4d2c7397c2f7e9f6935
+  digest: SKEh9e7uyxHJKUFFtwoeINLOGPiDEsAM9JVr-uxN6sk
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: neutral
+comment: |-
+  It doesn't use robust parsing and doesn't validate inputs. It's probably fine anyway.
+----- SIGN CREV PROOF -----
+sC5PNUjSvLLexDe7M06eDl5-ULlGv6_waDmg4vx4IUtouVLo0iL5RZEcqufcV4IWJFYe8PGQ_SBSKl7NVmL1CQ
+----- END CREV PROOF -----
+
