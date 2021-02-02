@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-02T23:11:02.330455+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: lab
+  version: 0.8.2
+  revision: 4806ea795fe24063d1e930993bf00a4d07810211
+  digest: wzg_d1kStVGAjtH564nlueaOaGnDezhmVCse5Ar6zRI
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+issues:
+  - id: "https://github.com/TooManyBees/lab/issues/23"
+    severity: low
+    comment: ""
+----- SIGN CREV PROOF -----
+TvmoTmAQ8aMSN09Wtpm0WQbgd46LW9DqHh7vA98K_AQW0YO1695Bmf_q42uV2KCheW9pBj4Q9g9oACwk9_rdCw
+----- END CREV PROOF -----
+
