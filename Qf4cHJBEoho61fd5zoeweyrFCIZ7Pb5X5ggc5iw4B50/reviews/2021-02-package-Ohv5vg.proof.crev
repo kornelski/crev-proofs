@@ -202,3 +202,36 @@ review:
 52LFFm8IgBday3K8mY-6-4Y8JPSDRoId5TzxyMTnGPhOFHgrdB5JaL1_Wmgc8kM0LfjFg5Fdx-ZhN2HAF18xAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-05T01:33:00.472198+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: curve25519-dalek
+  version: 3.0.2
+  revision: 55e0db7cf625b54d67a503b485d19abd85738cf2
+  digest: Wvh_UHmYqb1gozMbxaJLbSv0dyEx5qEBFguijFNp0OQ
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+issues:
+  - id: "https://twitter.com/hdevalence/status/1356831666124197890"
+    severity: medium
+    comment: ""
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: curve25519-dalek-ng
+comment: |-
+  Unexplained kicking out of co-owners
+----- SIGN CREV PROOF -----
+_VQgbHpnJvgJ4fArYrgV71wyJTgbfSrZQPZXhWu4cL5oJBxs4GB_BWC3v7mL2POsqbqJJKT6MpdTQElgVPoXCg
+----- END CREV PROOF -----
+
