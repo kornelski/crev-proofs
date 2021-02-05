@@ -235,3 +235,36 @@ comment: |-
 _VQgbHpnJvgJ4fArYrgV71wyJTgbfSrZQPZXhWu4cL5oJBxs4GB_BWC3v7mL2POsqbqJJKT6MpdTQElgVPoXCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-05T01:37:21.287894+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: subtle
+  version: 2.4.0
+  revision: 7eac3784386daa136a69f8379d3def915fe29812
+  digest: XnO1N83LqYzagz-QjQzBOJzm3qvJ3m3Ki4hTzZEIen0
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+issues:
+  - id: "https://twitter.com/hdevalence/status/1356831666124197890"
+    severity: medium
+    comment: ""
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: subtle-ng
+comment: |-
+  warning: unexplained kicking out of co-maintainers
+----- SIGN CREV PROOF -----
+vsOxKWNCWF5DC85fVwmyrnPEhZQh1tHfoE9eAkJS_FxIqLHWRf2Ql0x-Kt_kaZQzed5vu5pgLpVACOtdMXzIBw
+----- END CREV PROOF -----
+
