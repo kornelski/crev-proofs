@@ -414,3 +414,27 @@ issues:
 JGtFOuAltNI-KPcBd5Mpl1iRRY0K4WBygcXJ3Bdi1IXtVkLnFVcAR4L2htUK-93J59mJ-VocjfJtAsgFdQFBCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-14T15:03:55.096182+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sized-chunks
+  version: 0.6.3
+  revision: 9f66983f058944da5f402202ac5708089051a237
+  digest: X3aO_YnklOL0xo1DyrT-JhSAoryHxLSZ2hdArBQdDXE
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Fixes reported soundness issues
+----- SIGN CREV PROOF -----
+bIoxH5k5DjBJC2dkG4M9cxyrombEKO10mIObX9-V8xOE2yjgJ2Gd2szN_rQST81pUj9T84VQLRf1y60iatUIAQ
+----- END CREV PROOF -----
+
