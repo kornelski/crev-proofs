@@ -388,3 +388,29 @@ review:
 cQMzdYq6a2-bbEb_QUas7_my38PnffUYKcQ2H4hdly_R2Q4DirfKlNTZTusO7ZIrrUqWeuB-zTh5jwuH2UbZCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-14T15:02:19.362942+00:00"
+from:
+  id-type: crev
+  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sized-chunks
+  version: 0.6.2
+  revision: ebd64cc8a4f417a0df8c3db177fdfe08da96b496
+  digest: FmbQCPBXMzoNOrXvA_yCuvSbWdxgKX3G1hfdlXKwjek
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+issues:
+  - id: "https://github.com/bodil/sized-chunks/issues/11"
+    severity: low
+    comment: ""
+----- SIGN CREV PROOF -----
+JGtFOuAltNI-KPcBd5Mpl1iRRY0K4WBygcXJ3Bdi1IXtVkLnFVcAR4L2htUK-93J59mJ-VocjfJtAsgFdQFBCg
+----- END CREV PROOF -----
+
