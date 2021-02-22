@@ -105,22 +105,3 @@ trust: low
 EDQRBK8sbqQsMuPNnxfEdcjZFOQ7G9scUqdL1wUx0YuzMbyESrQDGtFo8RQkhOzTOOJfMRUXn3pgiAdpBUkQDA
 ----- END CREV PROOF -----
 
------ BEGIN CREV PROOF -----
-kind: trust
-version: -1
-date: "2020-04-13T00:19:02.719898+01:00"
-from:
-  id-type: crev
-  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
-  url: "https://github.com/kornelski/crev-proofs"
-ids:
-  - id-type: crev
-    id: 6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY
-    url: "https://github.com/MaulingMonkey/crev-proofs"
-trust: distrust
-comment: |-
-  gives unncessarily negative reviews based on nitpicks
------ SIGN CREV PROOF -----
-l6I3T9XFKCYeQeofR0oTXAk6_w4-2JGdYvNXnsf4slGCRH1gWy9zvBMdQjWrV-XpaXZLWpZvwU2oyQ_Vuxa8Ag
------ END CREV PROOF -----
-
