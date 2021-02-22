@@ -41,3 +41,20 @@ trust: medium
 mbQ_k51Chvjyjxalj26vcjN7Rc0lJcO3Tsy9ov0AoriacpGl86DbvdxsjxrDB5IrQmCl3e6IiC0U4wf5s7iDAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2021-02-22T14:45:44.810238+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+ids:
+  - id-type: crev
+    id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+    url: "https://github.com/kornelski/crev-proofs"
+trust: medium
+----- SIGN CREV PROOF -----
+Qn0EurQ2VSDgATdjEuc0M-WhWD_Yogq0cI9NKNG6qbdc3RQkK4tVWLdaBTtWyTDD1WAVZSNS91sTWLlzFYFCDg
+----- END CREV PROOF -----
+
