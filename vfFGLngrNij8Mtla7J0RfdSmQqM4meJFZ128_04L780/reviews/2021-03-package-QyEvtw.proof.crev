@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-09T17:21:05.866621+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: security-framework-sys
+  version: 2.1.1
+  revision: ee8163652c26b4469cbbd618027c27cc8e5ac193
+  digest: lRZN1XdJfqNTAJDA7pDxvNQ7h_l4leZDsif123EC6t0
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+Z7jtszM1lVZjWuovbBntY1YJ-YJpvTtzgy2k9ooWC_dOTP7DEsdjV2IFnXralDH-cJNzpTNt6-I0udfLc36aAA
+----- END CREV PROOF -----
+
