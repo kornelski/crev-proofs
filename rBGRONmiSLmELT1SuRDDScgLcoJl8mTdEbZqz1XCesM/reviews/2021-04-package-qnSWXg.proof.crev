@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-19T16:18:50.759362+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: fallible_collections
+  version: 0.4.1
+  revision: d48f2ccc8b13d12d5ed6b0db60aa1d093298e79a
+  digest: fBL7mKR2akcEzdxTtKuDjLn4VXdvZWOZJq-KkOeKYTw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+j614naNCgo69ClsyvO1r0xJs2bhO5dsoty11SSVoPSSFDYOtTjjGfby4LvixnOJ44pk72J4EldmOUWNI_TT2Bg
+----- END CREV PROOF -----
+
