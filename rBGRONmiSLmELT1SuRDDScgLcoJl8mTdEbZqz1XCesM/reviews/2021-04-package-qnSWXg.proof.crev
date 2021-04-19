@@ -20,3 +20,25 @@ review:
 j614naNCgo69ClsyvO1r0xJs2bhO5dsoty11SSVoPSSFDYOtTjjGfby4LvixnOJ44pk72J4EldmOUWNI_TT2Bg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-19T16:24:18.549750+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: dirs-sys-next
+  version: 0.1.2
+  revision: a3b404648ab17c66dfe8321174c0d010d214f4fe
+  digest: wgK0Aqz9eq_6jMnhqBo0H7_VoACaQxAS4koi67-HReE
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+1GKqk1KDke902NM2BOg6aAUP-FwRJN0YIxdogIbktJSYoH9QkYrXtan6qoZcEb8hjVWGYCaHXbZFzgXG181cAg
+----- END CREV PROOF -----
+
