@@ -1,0 +1,17 @@
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2021-04-28T12:23:53.947755+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+ids:
+  - id-type: crev
+    id: WXnRqWDd_51hHKvpvu0vHGDKZnHChA0KubUNF1tPq1U
+    url: "https://github.com/BatmanAoD/crev-proofs"
+trust: high
+----- SIGN CREV PROOF -----
+bSDU44B9PKVOJAyTEm_kFIYaDDUM9zNjU3MZ-HwbUhKkiXdjMPehn9pUnwK5pwauJWDscSfgznTkFXVI7eDbAw
+----- END CREV PROOF -----
+
