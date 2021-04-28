@@ -441,30 +441,6 @@ bIoxH5k5DjBJC2dkG4M9cxyrombEKO10mIObX9-V8xOE2yjgJ2Gd2szN_rQST81pUj9T84VQLRf1y60i
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2021-02-14T16:36:32.505417+00:00"
-from:
-  id-type: crev
-  id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
-  url: "https://github.com/kornelski/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: num-format
-  version: 0.4.0
-  revision: 98c3c9f06eea7d3222faab6f79d4dcf88be02674
-  digest: 2zubSYu4HpB4Xh0JKNPPP7CapNhKJw0a0dUiSTmGahM
-review:
-  thoroughness: none
-  understanding: none
-  rating: negative
-flags:
-  unmaintained: true
------ SIGN CREV PROOF -----
-HbzpfKfOjNQadbH6wGz6DiPFPCYIfPKWjNYX20ONQYApOFzUgU6NYrf3Q3mgZ0g3lxCUd85VXRHsoz46p1eeDQ
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2021-02-14T16:39:32.850159+00:00"
 from:
   id-type: crev
