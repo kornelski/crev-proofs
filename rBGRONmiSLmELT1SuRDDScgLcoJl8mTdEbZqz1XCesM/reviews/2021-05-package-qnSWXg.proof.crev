@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-08T12:43:37.132338+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tonic
+  version: 0.4.3
+  revision: 7f1af645275c4ea5d5859c15a9f8069275410494
+  digest: tXzI9-nI9nsAn1i1edMHoEw9VKozqb32Pd-SemDXgS0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+yHGDfQTin69bGHvvxq34uFUUROY_MYb9TAHFcCjjR3dZyXwgE5sgVCCDNJn29wJ4luZH0hCn4_w4wzVQ-RyjAQ
+----- END CREV PROOF -----
+
