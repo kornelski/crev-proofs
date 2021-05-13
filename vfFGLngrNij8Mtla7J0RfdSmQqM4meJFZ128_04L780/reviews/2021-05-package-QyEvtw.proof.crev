@@ -1,0 +1,23 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-14T00:41:06.055013+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: takeable-option
+  version: 0.5.0
+  digest: if5MZKqfiucS9LGq-tHdqj9ovpRgQoJ4X3rp5wnfbKU
+review:
+  thoroughness: high
+  understanding: high
+  rating: neutral
+comment: |-
+  There's no unsafety, but the goal of the crate is weird — it adds a panicking `Deref`!
+----- SIGN CREV PROOF -----
+zELyA70gkJwgIBM_kox4jVjve4pL81eWnf7f1tQeM5LfCgo-qt1oqmdRSoiHt_o2Huuhr3pkrxgGe4v-0-ylDQ
+----- END CREV PROOF -----
+
