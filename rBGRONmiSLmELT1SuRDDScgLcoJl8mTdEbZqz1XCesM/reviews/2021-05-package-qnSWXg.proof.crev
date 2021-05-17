@@ -42,3 +42,25 @@ review:
 P7dj8r0w3ynVo-EVxTRvZGrkvJZuCxJeagqMfAaacWcKLpBLBDpDQQ-xgB_8v9jzAVWEpSMiWV_Mmg2R3okLCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-17T21:56:08.325516+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: pin-utils
+  version: 0.1.0
+  revision: cddb4e490757830eff709310b32376420d7f5e93
+  digest: StXvJhM6vBnQIXTuFgQFY_qCjTW38FD9HEoovwI9B6Q
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+5LtoYZjrrkNz1QmOTZAGu1m6z_6NelFDHIbI1c-UXY7bA82Qex9u75tz6Ih_gDPhDE5BAWYpheAuTp7B7v0KCA
+----- END CREV PROOF -----
+
