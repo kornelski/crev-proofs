@@ -88,3 +88,25 @@ comment: |-
 _xdDSJYXLFvWoU_-8ddhfffIrQacip2SVtrW0wfGfIFALkEnnoELc0lV02HTNWcFHjBJIgBbx2OTkidc2o8rCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-17T22:06:59.517616+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sct
+  version: 0.6.1
+  revision: 2636dc305fa0ea460b59b848787f0703e3624a26
+  digest: iYAn8DLbZnKPx7KgVD7ficRnJYDz6Qsq7Yvg30maXSE
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+KtR7JJP-olME0NMLl22SZ-BHWzQnzgXHfQEK8zVhDXLqdsDjtRvTgc82fn1NCZWwrflzOcEEah-dU50BMIb9CQ
+----- END CREV PROOF -----
+
