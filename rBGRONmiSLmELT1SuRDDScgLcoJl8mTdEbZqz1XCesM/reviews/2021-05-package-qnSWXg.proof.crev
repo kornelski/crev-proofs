@@ -64,3 +64,27 @@ review:
 5LtoYZjrrkNz1QmOTZAGu1m6z_6NelFDHIbI1c-UXY7bA82Qex9u75tz6Ih_gDPhDE5BAWYpheAuTp7B7v0KCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-17T22:03:42.479864+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: spin
+  version: 0.5.2
+  revision: 0e49d681fba809416d3ea17ad04cc6b50c402efc
+  digest: IQbTqxUdtYlK0cE85FVSLe7EWJu9bwLfJRme0dJS0z4
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  I don't see anything wrong with it, but atomics are notoriously tricky, so please keep in mind that my review is marked with understanding=low
+----- SIGN CREV PROOF -----
+_xdDSJYXLFvWoU_-8ddhfffIrQacip2SVtrW0wfGfIFALkEnnoELc0lV02HTNWcFHjBJIgBbx2OTkidc2o8rCg
+----- END CREV PROOF -----
+
