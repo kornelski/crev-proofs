@@ -72,3 +72,27 @@ comment: |-
 jgcwAH8mXIl33lmGwRqoMRpA-JGtVdvUlACNXFsHDntaZQjptqvkX-dgs9ZcAYnWulgQvxAG1jFI9wDjH9SxCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-18T22:14:53.943267+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: mo
+  version: 0.1.0
+  revision: dfb7ab384af3d9d27d4f1e56ac3ac1891713ebd1
+  digest: Z2XEWJy76-GxwDj-MTCAN6xxUE2Rxo27pu8s2q3nKX0
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+comment: |-
+  This is a fork made without a clear reason, along many other crates.
+----- SIGN CREV PROOF -----
+WxSgV_HyNf9eRR7tGBqKC0qxcfSFaHB21qPLzjR-fjDhQ4eaHJ2tc3_3ECTh6G7YjDOkkSM4UFjPjOf07PToCg
+----- END CREV PROOF -----
+
