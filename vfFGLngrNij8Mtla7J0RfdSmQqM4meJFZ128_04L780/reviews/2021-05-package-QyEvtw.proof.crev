@@ -21,3 +21,30 @@ comment: |-
 zELyA70gkJwgIBM_kox4jVjve4pL81eWnf7f1tQeM5LfCgo-qt1oqmdRSoiHt_o2Huuhr3pkrxgGe4v-0-ylDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-18T22:12:14.019622+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: finances
+  version: 0.0.0
+  revision: 485720f7beb98924904355d7575d441d02429549
+  digest: RTrW-ff_0Z8xo-N7fu60eIvyIuiyCg47NxOqh-iH9QU
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+alternatives:
+  - source: "https://crates.io"
+    name: socrates_rs
+comment: |-
+  This is a fork made without a clear reason, along many other crates.
+----- SIGN CREV PROOF -----
+Fp509fnnL1mbQHiI0TgS9HEjxik14x1XiJxRupaCnMo_Rphq0uQLf1lQ5yR2O7KYAKGROrIjGG7sJ58sacnTBw
+----- END CREV PROOF -----
+
