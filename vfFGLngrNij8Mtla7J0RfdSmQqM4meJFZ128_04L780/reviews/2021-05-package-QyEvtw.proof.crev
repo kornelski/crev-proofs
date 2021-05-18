@@ -240,3 +240,30 @@ comment: |-
 fTrgWhGumc0qs05qJrAMkfSkF3mZ5t0jtSSX65Gt38x4hSp-2hjzCllhAfdNPSCfQDwA_wzuje232ExZb9RPCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-18T22:17:11.883559+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: xi
+  version: 0.1.1
+  revision: 53c0d4a9a31db96dbcf4707f83aa1c62850bed88
+  digest: 8X8dAEP217joQhJ1w9B6047I4aZevxMKrPahU1d_AoU
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+alternatives:
+  - source: "https://crates.io"
+    name: xi-core-lib
+comment: |-
+  This is a fork made without a clear reason. Probably spam to squat 2-letter names.
+----- SIGN CREV PROOF -----
+LDn-XycjvIjlrsYYdM3hu7ybtCDqGWNKBH6wPln0ccPqhDGlAPXsyMQ9_6cUM-61xNyHc8GVzWY-GiQNHHMLDw
+----- END CREV PROOF -----
+
