@@ -387,3 +387,27 @@ comment: |-
 Mu7XkCrLaeU9QjswavfRoGNUzkOHZLktLuBfXlV_3KDdXxGkBsc9ciyuA6YjIeITDRMpt9yfHcCXf68YVt73Bg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-18T22:19:16.944663+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: jo
+  version: 0.1.0
+  revision: 151b281ffb674fc3b92e8e8e4b526b87a5c5139b
+  digest: LtYjm566lLxNlM_NnZOO_8UcGYJjeFoBBVkprdP60gc
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+comment: |-
+  This is a fork made without a clear reason. Probably spam to squat 2-letter names.
+----- SIGN CREV PROOF -----
+jOifIfjDD3UNCaXHcnRB4ijhOLUnEhdj-9lRqVD9iaB9au7ZdT7JR0HJw2mSBwqYj8BEavEpWgf0Bg8_20_lAA
+----- END CREV PROOF -----
+
