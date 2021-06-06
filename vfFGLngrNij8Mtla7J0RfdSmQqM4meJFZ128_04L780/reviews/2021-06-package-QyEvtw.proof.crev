@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-06-07T00:53:30.360257+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: avif-parse
+  version: 0.13.2
+  revision: d8eec9ae0430025e0d4d50a19eeacdd28bda89cf
+  digest: DKAKh2rE3lq-XIN0qEzK3GNTskPYzV0lyMZEjYBAowg
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+YUNLpsPqUDiCHsmfrxkyrBCSP0_wklFVKZv1kEdr1SHeuqQZK2dvKplAyxerlcYmoxHSRlMotdcODpX5js8XBw
+----- END CREV PROOF -----
+
