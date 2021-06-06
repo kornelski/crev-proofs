@@ -20,3 +20,27 @@ review:
 YUNLpsPqUDiCHsmfrxkyrBCSP0_wklFVKZv1kEdr1SHeuqQZK2dvKplAyxerlcYmoxHSRlMotdcODpX5js8XBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-06-07T00:55:29.433723+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: nasm-rs
+  version: 0.2.0
+  revision: 18f590893909af27ba9583e8a05cb2efe6b38297
+  digest: DbY35vTOddH2ImN7HqXcTLpw7wUq-WcdY4NRwdZftmg
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: |-
+  `ar` integration is weak. You should use the `cc` crate for archiving static libs. It's OK otherwise.
+----- SIGN CREV PROOF -----
+9_x39zdzNGfy8MdniuwXRgsmZ-N26e3OfGPQM0REsFwN33Q95KzENcys_KdVXs5P1GOpoZYj-vv0hNXaWVmNAQ
+----- END CREV PROOF -----
+
