@@ -70,3 +70,29 @@ comment: |-
 W0vOl7rffXwenKdy7j7K9SmrJwHwjLQ-qF00ygA5bm_ddxzzDOuiZVCnXtniqsnLwdIdqCGCYZqYx1WwQBOaCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-06-23T16:47:59.201594+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: friendly_safety_buddy
+  version: 0.1.0
+  digest: cJw1ToVwwmfTRtXIOB6dexMZurJNFVTDeuZkezu9ykE
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+alternatives:
+  - source: "https://crates.io"
+    name: "totally-safe-transmute "
+comment: |-
+  Wraps any code in an `unsafe` block in a sneaky way. It's proving a point, but it's not making things safe.
+----- SIGN CREV PROOF -----
+gDeIN4e-V8mfOr0gtBgJj8h7l7k4G09EFzxRIJ6X1tDR8KMyvm_fndHu46-qYnrDqImCBkOGIvKEy37oyDV6Dw
+----- END CREV PROOF -----
+
