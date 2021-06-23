@@ -96,3 +96,31 @@ comment: |-
 gDeIN4e-V8mfOr0gtBgJj8h7l7k4G09EFzxRIJ6X1tDR8KMyvm_fndHu46-qYnrDqImCBkOGIvKEy37oyDV6Dw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-06-23T16:51:07.089780+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: totally-safe-transmute
+  version: 0.0.3
+  revision: e49ca4ea514b8d996a01f04697ccdd5940300312
+  digest: t-lrQv5adNk-EL7dcYeT7IM7J8D-BlE1Geu8PfJMfH4
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+alternatives:
+  - source: "https://crates.io"
+    name: totally-speedy-transmute
+comment: |-
+  Linux only :(
+  j/k
+----- SIGN CREV PROOF -----
+Me3dOUV-xkqPLzJnwfE9Nj-4QCleM5hCbBiCgJNyIbPj3wxX_SmOeycx2pCFLm0VHWYAlDvvZc7uXmUzwm6DBg
+----- END CREV PROOF -----
+
