@@ -44,3 +44,29 @@ comment: |-
 9_x39zdzNGfy8MdniuwXRgsmZ-N26e3OfGPQM0REsFwN33Q95KzENcys_KdVXs5P1GOpoZYj-vv0hNXaWVmNAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-06-23T16:46:56.582083+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: totally-speedy-transmute
+  version: 1.69.420
+  digest: erI7gzbOSyuYexHAPXoLb-_vdg_rFS_PXxbz2vIKh0s
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+alternatives:
+  - source: "https://crates.io"
+    name: totally-safe-transmute
+comment: |-
+  Very funny, but don't use it in production.
+----- SIGN CREV PROOF -----
+W0vOl7rffXwenKdy7j7K9SmrJwHwjLQ-qF00ygA5bm_ddxzzDOuiZVCnXtniqsnLwdIdqCGCYZqYx1WwQBOaCA
+----- END CREV PROOF -----
+
