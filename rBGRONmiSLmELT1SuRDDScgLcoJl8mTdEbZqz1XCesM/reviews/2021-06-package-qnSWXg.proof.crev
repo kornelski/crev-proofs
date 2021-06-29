@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-06-29T15:13:11.871156+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hermit-abi
+  version: 0.1.12
+  revision: 442bffbd66ef893e39a9b55c0f0ff1d2e7826646
+  digest: NjiBoafVtz7SRKkud2h9LZ3CDu6edjwVVCsOxr5EHwE
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+ekTzlW6F2u2VFC6ULytlGtHgqpQxyTrlwfg9PILneIVD9S0kyJvsUkeQpLe1PfI-nGkjinI-f6kcwMLtwXOsCw
+----- END CREV PROOF -----
+
