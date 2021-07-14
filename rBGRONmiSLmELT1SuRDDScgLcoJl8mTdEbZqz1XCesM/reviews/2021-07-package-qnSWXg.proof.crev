@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-14T14:05:33.252424+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: geohash
+  version: 0.11.0
+  revision: 920a8d7254a64654f0606808174a9fc4c32ae19a
+  digest: wdgU3uN2dr120ErzqM2EMs6nW4ddUZ2cTHJVJhxMGCQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+KoggsoqttNxG1jbXvWBP7Nu29buPbOSzDzecoerjtGsobjkfSNGJ7zLTo41snBlfMdHE_Eb-k5i_Cl4twNrEDg
+----- END CREV PROOF -----
+
