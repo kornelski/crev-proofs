@@ -20,3 +20,25 @@ review:
 KoggsoqttNxG1jbXvWBP7Nu29buPbOSzDzecoerjtGsobjkfSNGJ7zLTo41snBlfMdHE_Eb-k5i_Cl4twNrEDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-14T14:09:21.837076+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: geo-types
+  version: 0.7.2
+  revision: bf07995eac6767dd45e186897798df8a98c2e38d
+  digest: Y0sDK1u6RM28yatP5SK7GZpujDYvb1cPk949WiynS0c
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+nbLAAyboBZclQ1rUE7btzadrbVZPXeAnmUgC_-a2etbwWm-m2zlEOnAshUJZNW7q1Jn6zCIDL8ZZHmIZjp_iDA
+----- END CREV PROOF -----
+
