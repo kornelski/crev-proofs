@@ -42,3 +42,25 @@ review:
 nbLAAyboBZclQ1rUE7btzadrbVZPXeAnmUgC_-a2etbwWm-m2zlEOnAshUJZNW7q1Jn6zCIDL8ZZHmIZjp_iDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-14T14:18:55.961024+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: humansize
+  version: 1.1.1
+  revision: 5730e631d2a0e8a34c500097b0a5d4dba5dee812
+  digest: Fxct1mjgnkjQuVroC9lyxGK3zbfPnrg6zQjOZ57SGok
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+KkWGtD3eiYegTR3DyOEaTGzgDDXv9b-a51YpWHDgF3YAH1cabvGp1HC8x2iz29jq48Fk_GUGx7Jm88AX_vOnCQ
+----- END CREV PROOF -----
+
