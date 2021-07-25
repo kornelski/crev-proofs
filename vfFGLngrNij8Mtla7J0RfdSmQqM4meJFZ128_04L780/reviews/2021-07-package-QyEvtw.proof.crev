@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-25T15:55:57.217698+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rangemap
+  version: 0.1.11
+  revision: 3211ab2fdad32d595c5faa61b3c896c33048f739
+  digest: jYEu2m1_1-sDDqbcnUOBxy_T_6dSDnLNtO8gdx6Hdw0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+XF76W3PRehbBneaPFa5KrnI-BxdjgZ0bosUVG8sOmBO-wWYe7JvFgkV9_jtbdoBVlVTJCFgryUjpnw0t5FJ3Aw
+----- END CREV PROOF -----
+
