@@ -20,3 +20,26 @@ review:
 XF76W3PRehbBneaPFa5KrnI-BxdjgZ0bosUVG8sOmBO-wWYe7JvFgkV9_jtbdoBVlVTJCFgryUjpnw0t5FJ3Aw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-28T00:54:28.717623+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: bsdiff
+  version: 0.1.3
+  digest: SewNCaacB26qsGgp16BGCFPTqbXVosGfQxV23lZFYqo
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+comment: |-
+  Diffing code looks like automatically converted C code, with none of Rust safety. Patching is fine — in Rust.
+----- SIGN CREV PROOF -----
+bkfSRd7Bu02Bc1BHXvXaXmpeNDGHhrj0XOyorbbN-uJ32qW1ti9eeixlSpoL8upDuBztoTZoXi34j7gMHLliBw
+----- END CREV PROOF -----
+
