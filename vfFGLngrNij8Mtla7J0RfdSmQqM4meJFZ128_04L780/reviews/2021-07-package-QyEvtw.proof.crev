@@ -43,3 +43,27 @@ comment: |-
 bkfSRd7Bu02Bc1BHXvXaXmpeNDGHhrj0XOyorbbN-uJ32qW1ti9eeixlSpoL8upDuBztoTZoXi34j7gMHLliBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-31T14:01:51.159548+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: curve25519-dalek-ng
+  version: 4.0.1
+  revision: c887faf0bcc4183148c98c97c9bb689eea88a43b
+  digest: goTvWn_4NJKwerqz3PabXOSKWZjii8wgmob1lKRtLWI
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  I've only looked for malware, and haven't checked the cryptography.
+----- SIGN CREV PROOF -----
+l4-BZvP1vftMbam4Zr1pSuyk9qafSF2QGAHPfN-438jhHb9iZsc4Mp_6gLiszS-zodzNyvE_b0krdbHM8-_fCA
+----- END CREV PROOF -----
+
