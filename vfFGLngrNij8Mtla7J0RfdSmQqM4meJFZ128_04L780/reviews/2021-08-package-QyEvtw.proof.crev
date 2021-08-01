@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-08-01T12:32:02.008999+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: bsdiff
+  version: 0.1.5
+  revision: da0077277d8714ea452a1eb8ea2c4989d0f9d8c2
+  digest: NB3tzAH8cGvXotpST51KGN1s0FDDOyrbsGQ8li2IjV4
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+comment: |-
+  Now 100% safe code
+----- SIGN CREV PROOF -----
+cCmuA3W5JKZ8Utgm_Xz1qj_ue3V54mzTL8_qPUbQ3I0Y1N4Zrf4PKGtGh1GkcwvC4GsPVSmgGC721EKfRQlnAQ
+----- END CREV PROOF -----
+
