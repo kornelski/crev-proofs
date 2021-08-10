@@ -1,0 +1,43 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-08-10T16:52:46.364616+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: version-compare
+  version: 0.0.11
+  revision: 1ed754cc9f9cea2c7a5aa5a7dd103dba5bb12183
+  digest: GG4Q-ZjUjHC9vTBT1SNZ9492pNJ-eScChNOQDtPJ2r0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+ztjGp-SG34F4Vq99Xt0Yr6uD2tEO2TY-u551DLzgRIl6OUuNFsGD0kg2Q1GCqoyFZPkh7D3xffEU7qsaq-EXBQ
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-08-10T16:59:44.676136+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sentry-core
+  version: 0.23.0
+  digest: wwmD8PTD9KB7xBpgfLLD41mGmOE0iEoAAivWO9UKHuc
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+UxLn3BC3EigUWPxN5_aZTkvDWe9x9kFq58PtBPue1zHU4QD2X_YY3gSkGQ4RcRLkxV0Tk2uHCzRgR5mrui0YBw
+----- END CREV PROOF -----
+

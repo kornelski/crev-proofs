@@ -64,3 +64,48 @@ review:
 KkWGtD3eiYegTR3DyOEaTGzgDDXv9b-a51YpWHDgF3YAH1cabvGp1HC8x2iz29jq48Fk_GUGx7Jm88AX_vOnCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-14T14:46:58.586556+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: vte
+  version: 0.3.3
+  digest: B-chjhvqwIfdb23iFs-O88AKgBJC55Dz2__P56Ck8vs
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |-
+  Uses `mem::uninitialized()` instead of `MaybeUninit` or `ArrayVec`.
+----- SIGN CREV PROOF -----
+Kyo8JRXiZRBdOSMPXKZRwRPkkMt-sCRmRadbx50qbII2Hj9bdUcCyzy5NxasAEclHntUEYcg8M60cdws4PPBDg
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-14T14:56:24.309605+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: bytecount
+  version: 0.6.2
+  revision: 8dcd43753cde591fc10dab6e54be3e2fc6e938ce
+  digest: rsECl8_JHS4BsMUuhLTFSpuWmSb4XmyKS_YMJfx3nA4
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+mGGmQyTsWGRq9y5OpVTxkDrI65KV6AtoHv4kCxkTeVQqSQonA5mz-lYqwG6u54CraJHtpYNqavJpKa09VuKgDQ
+----- END CREV PROOF -----
+
