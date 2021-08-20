@@ -85,3 +85,25 @@ review:
 djB5E7AFJDwA5DRISE4CwGyXz10onF7yiXfMabpyINB5kQzEf1rs-Vq0jWpwBKJMioNFGs2dZLtmE5wdDdC0CQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-08-20T17:51:38.595375+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: strum_macros
+  version: 0.21.1
+  revision: 5326d3229f081beee841e672ae66be3f1de84a33
+  digest: pJDL3uFW0ZgU6VOG3SJYIY5iDWtsamBl0GV72bmGHWY
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+uPXWSZZIep4-mGNMkCrKlsvBMtKuxfMFVVXOwBFNTkkJgFQTcebRqTxAZhstLaOhRIvSb_lxABWXUmUFMA9dBg
+----- END CREV PROOF -----
+
