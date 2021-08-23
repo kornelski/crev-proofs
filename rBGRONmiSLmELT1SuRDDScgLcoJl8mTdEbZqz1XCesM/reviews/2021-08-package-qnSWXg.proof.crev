@@ -129,3 +129,29 @@ review:
 TPhbnGGoRDmeNgXAbIeh5e69Bk483rZbhUkLPrLtXtNdGatlYcVqKbj-5Sb5CPe-Nr4NPo_ax1LWzy2cGzIdCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-08-23T19:12:09.045559+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: linked-hash-map
+  version: 0.5.4
+  revision: 0531e100ef052fd49b2f465abf96cd88aea84692
+  digest: 92Go4p0PMGso__NOo7nzQHyYFwQSrWZ74ycOiHtxavw
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+flags:
+  unmaintained: true
+comment: |-
+  There's _a lot_ of `unsafe` pointer-juggling here for managing linked lists.
+----- SIGN CREV PROOF -----
+AJIN4nS660UHW12WfnB_JRrQ7P4OkXAtm2d5LngAEl0vX3Gobxubcp_zqbh00vPz83H2MHia1RyQEHbCXVcBCw
+----- END CREV PROOF -----
+
