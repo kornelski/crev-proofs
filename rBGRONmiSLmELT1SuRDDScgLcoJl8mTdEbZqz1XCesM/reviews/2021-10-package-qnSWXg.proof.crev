@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-10-05T01:24:08.188793+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: peak_alloc
+  version: 0.1.0
+  revision: 52c1f3635bfa646fe5c41361ca1c35379a9c41ea
+  digest: DNu_4VfHoIVSHjRNhHPVJoF8TcVpvsKLD5NtCgZrHdY
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  It really is a thin wrapper around `System.alloc` (too bad it can't wrap other allocators)
+----- SIGN CREV PROOF -----
+14UiHqgy6ZGX0tYavoR4V1DqAHVJQrQUA6ABZ7jRcf9_56-LItw5Ff8SdTR7ChsORyyseQeogSdhBAiorZiKBQ
+----- END CREV PROOF -----
+
