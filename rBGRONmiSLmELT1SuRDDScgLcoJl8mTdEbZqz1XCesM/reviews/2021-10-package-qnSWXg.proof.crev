@@ -22,3 +22,27 @@ comment: |-
 14UiHqgy6ZGX0tYavoR4V1DqAHVJQrQUA6ABZ7jRcf9_56-LItw5Ff8SdTR7ChsORyyseQeogSdhBAiorZiKBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-10-29T13:58:20.123980+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ntapi
+  version: 0.3.6
+  revision: cbea31ea9d624169f01ae0997e6698baceb51867
+  digest: eeS2Iv_V7zHCXbCTeEXR07nv1kaFYXjd44q5zXActtw
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  The build script is benign. It does what it says on the tin. I haven't checked whether definitions match the ABI.
+----- SIGN CREV PROOF -----
+x2fCFnrm3FT3N3ZssBtRUkenClJRBlA5_-lv89buakhpBtsAh_0qSCAPhAZSYdheEwUbJ75tA2d_yNEDj78ZCg
+----- END CREV PROOF -----
+
