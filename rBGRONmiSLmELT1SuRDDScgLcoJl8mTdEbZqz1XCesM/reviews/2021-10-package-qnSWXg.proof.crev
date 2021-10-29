@@ -46,3 +46,27 @@ comment: |-
 x2fCFnrm3FT3N3ZssBtRUkenClJRBlA5_-lv89buakhpBtsAh_0qSCAPhAZSYdheEwUbJ75tA2d_yNEDj78ZCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-10-29T15:52:08.053101+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: blake3
+  version: 1.1.0
+  revision: 4d6dfc4eedbb2af893bf2327e044f3cf2efef594
+  digest: hdwT0S-bvECjEN2GkWZWGH96J3Q4Wq20ZU4qsWW-igI
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |-
+  Build script is benign. It depends on a bunch of C code, which I haven't checked (hence neutral rating)
+----- SIGN CREV PROOF -----
+TWPKZDc1jZN-_SV3ldPDDhQrruE3GcKnVfgJ2ylZ212W56xZ-yVzJPjxdmvLMws0GDHf7HA5dRtE3zuAeC6OCw
+----- END CREV PROOF -----
+
