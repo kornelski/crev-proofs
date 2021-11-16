@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-16T11:57:32.378992+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tokio-retry
+  version: 0.3.0
+  revision: 88eab611f8721e08ab8792b2acf2c0af8ccb645a
+  digest: Yv9pORp4JOR8QmME2Mw0gWpSSm4aybXABI6N0chtpwE
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  The API of the exponential backoff strategy is surprising, as it uses the same number for the base and the exponent.
+----- SIGN CREV PROOF -----
+AJ24ByjabPXfvROzNdbihLpPZK1loLgTeyIIxGAYmCGd4mGH7coyt9lPc0g5BgmSDoeHoYCZqKEKVv5zXr0YBQ
+----- END CREV PROOF -----
+
