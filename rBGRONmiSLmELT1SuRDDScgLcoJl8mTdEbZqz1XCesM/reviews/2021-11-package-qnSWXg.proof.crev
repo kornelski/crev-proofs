@@ -22,3 +22,25 @@ comment: |-
 AJ24ByjabPXfvROzNdbihLpPZK1loLgTeyIIxGAYmCGd4mGH7coyt9lPc0g5BgmSDoeHoYCZqKEKVv5zXr0YBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-18T16:49:16.706227+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: binary-ff1
+  version: 0.2.0
+  revision: 3f363f7783720b9b3545f73ddd441339b7b5b7d4
+  digest: 55KOekyUyA0D2yN4BlyTFyol9hIUIPXSPX3K7oG8Aiw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+xdzhkArDVkjgs9tzMkH1xAnOoSacywMyMuM7Uq3mZ_6hUNvWc4wY_He_v6WvSu8zbFk3v4MBWpx2z5ib4POIBQ
+----- END CREV PROOF -----
+
