@@ -66,3 +66,28 @@ review:
 In9ub9wyBM77Eh64IYgM5sW5JltTdPYvBg-G9v-GIUjlutFY7lRm3dQl5q4I55KHq9u7_Ax349UME-kGOjogAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-24T11:47:19.728627+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cfg-expr
+  version: 0.7.4
+  revision: 25290dba689ce3f3ab589926ba545875f048c130
+  digest: FLvzLA4wKgtyhkrFYCgyrMw0qiI75eTflPrCj4XOKuc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+alternatives:
+  - source: "https://crates.io"
+    name: parse_cfg
+----- SIGN CREV PROOF -----
+Y2VQvisIVVIOAWMZPxbS6FkdCyVP_QHNTadFEOG2E7-2Dnp2AALh2QWWsMK6FiiriplwB7W7Z2Wja3owzuYXAA
+----- END CREV PROOF -----
+
