@@ -134,3 +134,24 @@ review:
 DnZjf6po0y6eP2tqcsUFSmWQvBm2RWY78js1vkO-_k7XkllXGNSGzov3MGU9xllyFczPFFvnzQHX3TtEVPHbBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-24T18:30:11.088262+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sentry-contexts
+  version: 0.23.0
+  digest: 8N2j5c_21QBPRkoB82HQyHClu-lALKwONnbF56DTtig
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+Of4-viv_cXclU1pU34QV5rB1Mcaj1AfZdCZx2CUyyRH5hD9i-2ZozUYskD-gsbbQP0QiHrZf8mIZm3WpqFkUDg
+----- END CREV PROOF -----
+
