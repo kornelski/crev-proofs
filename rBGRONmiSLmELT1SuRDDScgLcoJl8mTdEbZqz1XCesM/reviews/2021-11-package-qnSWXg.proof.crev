@@ -44,3 +44,25 @@ review:
 xdzhkArDVkjgs9tzMkH1xAnOoSacywMyMuM7Uq3mZ_6hUNvWc4wY_He_v6WvSu8zbFk3v4MBWpx2z5ib4POIBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-24T10:45:19.200681+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: atomic_enum
+  version: 0.1.1
+  revision: 79ab54948d6a6b6cd2a6509ddb810d7763f43585
+  digest: UE1xdf5G8SMNolCEXSkzl9uKN38jXXmHWBG4WIE8wpo
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+In9ub9wyBM77Eh64IYgM5sW5JltTdPYvBg-G9v-GIUjlutFY7lRm3dQl5q4I55KHq9u7_Ax349UME-kGOjogAg
+----- END CREV PROOF -----
+
