@@ -155,3 +155,25 @@ review:
 Of4-viv_cXclU1pU34QV5rB1Mcaj1AfZdCZx2CUyyRH5hD9i-2ZozUYskD-gsbbQP0QiHrZf8mIZm3WpqFkUDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-11-24T19:15:48.644320+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rdkafka-sys
+  version: 4.1.0+1.7.0
+  revision: 5d5042c771168cf00598f894843637d45afc9502
+  digest: WvQFhUB6tOnHOADSWlC2VW2U6li9BChyl3wN2ohrwFs
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+vXUJ9O8x1QJ6Law_YqnOFLPImPhmwt3iCDcvq6pleNQUCkDYRHYs9p7yZIdM-G15pPah6U4F0ex9dHS24ddZBA
+----- END CREV PROOF -----
+
