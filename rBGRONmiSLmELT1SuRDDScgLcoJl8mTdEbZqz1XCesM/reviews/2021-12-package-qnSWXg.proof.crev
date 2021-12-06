@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-12-06T12:29:29.484210+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: atomic-polyfill
+  version: 0.1.5
+  revision: c4bd32966b9d2d146932f9b1b6e7033ae7478b25
+  digest: xfzR414SrdFVCY2g431r9INbxXOZ97QoQsTQ0VSWjjk
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+XOOokBav9whFYm3IgZnh8SjD9iYLp6yi90yPzJ3BudFJTeECp6k2-k-qfxJH-QP-85RiXfp2WdmYB-dwp81oBw
+----- END CREV PROOF -----
+
