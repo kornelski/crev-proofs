@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-12-23T15:12:54.821784+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: serial_test
+  version: 0.5.1
+  revision: 910aef4106ba891271f0f0d22ac356fc6cc1204f
+  digest: IVUOP-3B-COWOThhVwIcfFcZ_JVf5-H3sdIVjkg_3Dc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+8qJsI4NubY7HzOummC1MYrNEwI1G58b_euWykPN-4k0ez9ooEpZSo_nm0j2AweSiaeViSRrSndXjczFdaGA-Dg
+----- END CREV PROOF -----
+
