@@ -1,0 +1,17 @@
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2022-01-04T15:16:15.812297+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+ids:
+  - id-type: crev
+    id: c1DBeLoxyO5CDu6-eA5mU4wg4ZDlDqKm2eqo1mR8qeQ
+    url: "https://github.com/cyplo/crev-proofs"
+trust: low
+----- SIGN CREV PROOF -----
+Td0D9IxZCkUXEoy9O9-o1uFJx-RNqt-7XKeTtc22-ZbZFnn07GZmqeGZHlTlMGH5sl0j9GGktzJKL81hcS5HBg
+----- END CREV PROOF -----
+
