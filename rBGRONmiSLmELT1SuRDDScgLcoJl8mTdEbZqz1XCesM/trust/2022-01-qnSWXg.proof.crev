@@ -66,3 +66,23 @@ trust: high
 Juae8SWS0F19YoOnR1XTHf9CAQt5Offz4MrKVcJX7xKmmNin-zzusPUJwyoL5FZPzwgRm4U1ZnzwsmLQ-yuyDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2022-01-13T01:33:14.536726+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+ids:
+  - id-type: crev
+    id: tjxgceP0Tp8LrAEV_onFfMwoEKFqSMWWfN-1f-HnzIw
+    url: "https://github.com/Nemo157/crev-proofs"
+  - id-type: crev
+    id: 3RbuGjEXncb0DKkc48pm8X9eNlW1-Ze2r6qcv4RtLEI
+    url: "https://github.com/Nemo157/crev-proofs"
+trust: medium
+----- SIGN CREV PROOF -----
+byIIR8GQ0yf3kyhGAIB-wv7uyYdm3RU0xojksw80yaZCYrju9uBE0jN5bOEupUOT8vvm9gkyXcrSH0UNAgugBg
+----- END CREV PROOF -----
+
