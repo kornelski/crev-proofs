@@ -22,3 +22,24 @@ comment: |-
 OZiwfMcsKndl7JpIc1y9UQKDUj-1prN44VbGn-KAuRtnoxPXmBOYJHNXYapsBuBFVZvd56_0ZNYKKfzjbi97DQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-13T01:19:59.593112+00:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: allan-tools
+  version: 0.1.2
+  digest: 7hJ89SHL6Xj2mZBXZq4PEqIcZadmOweFMP-bNfwAnuE
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+h-nC5Uiw4rI1kWZY2eaY-3ScXqtfS-S9b3ArjLD5Lq2c5CM2CXeNkfMY8m7A0OVayj3GTXRoL3Qm_l3iyR7HAQ
+----- END CREV PROOF -----
+
