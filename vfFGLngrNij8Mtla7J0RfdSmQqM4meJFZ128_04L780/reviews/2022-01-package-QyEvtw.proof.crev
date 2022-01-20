@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-20T00:00:38.737181+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo-about
+  version: 0.4.4
+  revision: e195a6a59c5650e2454970918c8fdce164ddbd64
+  digest: SB9DeOIVGszwA9rtCClPn1E2O0liGJbYRrdFscdam1U
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+KJly1TGEgbu9CWX7-LbmVzkDK7cNNYNquwZDmBqRXkzaXaLWvgbou5k5CPr6KdbHjaLshTnXZnPYpCUGmWM4Dg
+----- END CREV PROOF -----
+
