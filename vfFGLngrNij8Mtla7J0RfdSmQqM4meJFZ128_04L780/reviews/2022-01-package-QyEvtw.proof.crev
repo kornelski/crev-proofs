@@ -20,3 +20,27 @@ review:
 KJly1TGEgbu9CWX7-LbmVzkDK7cNNYNquwZDmBqRXkzaXaLWvgbou5k5CPr6KdbHjaLshTnXZnPYpCUGmWM4Dg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-22T00:45:37.577547+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: you-can
+  version: 0.0.5
+  revision: 9a661a04e5dd98b6e0434b9b17cfae70961d0233
+  digest: TI1yQzeB7t-JqHbwfplxDWKJlhkh3ELQ5U_ar8W3rYk
+review:
+  thoroughness: low
+  understanding: low
+  rating: negative
+comment: |-
+  Do not use in production.
+----- SIGN CREV PROOF -----
+xsDr5LLeZTHT0-8WfuFWdb1ImiIxHujrpZrU5q9NsIEM-YmWm8cZExsflMt_x9mNR2Y-qt2nKwiBsC8U7kgpAA
+----- END CREV PROOF -----
+
