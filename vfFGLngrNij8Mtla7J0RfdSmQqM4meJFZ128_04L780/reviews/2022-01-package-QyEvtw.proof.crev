@@ -44,3 +44,27 @@ comment: |-
 xsDr5LLeZTHT0-8WfuFWdb1ImiIxHujrpZrU5q9NsIEM-YmWm8cZExsflMt_x9mNR2Y-qt2nKwiBsC8U7kgpAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-22T00:56:03.219153+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: unbounded
+  version: 0.0.5
+  revision: 9a661a04e5dd98b6e0434b9b17cfae70961d0233
+  digest: 2GSUsiAlATssAoSh--g6N5XBG8thT6JB0o6BzZBiiGo
+review:
+  thoroughness: low
+  understanding: low
+  rating: negative
+comment: |-
+  Unsound and unsafe
+----- SIGN CREV PROOF -----
+5RVbNesg1TGDYYSYq1jydv0uEuAJdwNWl22QrVADVU0_V8otSoZ0nG6CIYZaiH2qia9xcWzUduOYag62_wuxDA
+----- END CREV PROOF -----
+
