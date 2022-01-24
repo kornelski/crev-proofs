@@ -68,3 +68,25 @@ comment: |-
 5RVbNesg1TGDYYSYq1jydv0uEuAJdwNWl22QrVADVU0_V8otSoZ0nG6CIYZaiH2qia9xcWzUduOYag62_wuxDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-24T21:10:55.588830+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hyperloglogplus
+  version: 0.4.0
+  revision: 91ff06381a9f473d172b4774774af786efd14f42
+  digest: g0SCcQg27M-NHfob6mtNjnPi7N20RkPGaI3Pvk8AFR4
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+rqmDkdGbG7xj6-1yaKGT9U9WzmJGvL26EMNqzWIAWzf5MukpWz5a_s73hxzi8uhAlNKxG89Q5hWWqAvb4zzqCQ
+----- END CREV PROOF -----
+
