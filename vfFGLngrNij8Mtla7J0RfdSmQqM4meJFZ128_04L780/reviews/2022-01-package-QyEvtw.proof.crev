@@ -90,3 +90,31 @@ review:
 rqmDkdGbG7xj6-1yaKGT9U9WzmJGvL26EMNqzWIAWzf5MukpWz5a_s73hxzi8uhAlNKxG89Q5hWWqAvb4zzqCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-27T02:36:20.373671+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: owning_ref
+  version: 0.4.1
+  revision: 677c5bbe33210e65ababfd46eeb2b7aaab41f94d
+  digest: dTtOM3X9Az2QKaY7L8DyemcDBF8hwUKuzXjR0w0b73A
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+issues:
+  - id: "https://github.com/noamtashma/owning-ref-unsoundness"
+    severity: medium
+    comment: ""
+comment: |-
+  `OwningRefMut::{as_owner, as_owner_mut}` and `OwningRef::as_owner` are reportedly unsound.
+----- SIGN CREV PROOF -----
+R8G9xzypujTnVz6G8ObPx487sxAhRkY7KJkuOuw-hBnVP7x8JPlE0NYE9FR3j67tXbdB48QHuGVAgac7Ef2jAg
+----- END CREV PROOF -----
+
