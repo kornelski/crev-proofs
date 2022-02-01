@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-02-01T23:27:35.543723+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ustr
+  version: 0.8.1
+  revision: 1dc69a8945f48da0e0b64839c604e3c1f3e3a526
+  digest: zK8yHLdmTSt9TG4GzSG82UN0CUZvY916wseK4wcytXw
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  1-pointer size is unbeatable among small string libraries
+----- SIGN CREV PROOF -----
+WV8_3aEbvO7jwsShc2zqrh2M7ow13Gf7JG6OLDyL-zPfMT4iLej5LceHa6YuKoT6dd72wcJMVn3vZbNw4bGyBg
+----- END CREV PROOF -----
+
