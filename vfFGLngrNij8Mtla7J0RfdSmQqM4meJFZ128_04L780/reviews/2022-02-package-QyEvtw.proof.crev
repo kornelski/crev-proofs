@@ -22,3 +22,25 @@ comment: |-
 WV8_3aEbvO7jwsShc2zqrh2M7ow13Gf7JG6OLDyL-zPfMT4iLej5LceHa6YuKoT6dd72wcJMVn3vZbNw4bGyBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-02-15T13:28:15.815391+00:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ndk-context
+  version: 0.1.0
+  revision: 21e78afac1c11976462c331e122374ab24d9e78c
+  digest: 59lJXmkqk0_nONuoR7zVNoEkt1sTDxOVRdsbIhwdqoM
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+pRN7UT_oWnqJ16wDOUrUVxLiztRT0mGcNCy_i7i-glwylasOcLHBMpOlpi9B1HaKtN63EeQoksuOrbzOKKxOAw
+----- END CREV PROOF -----
+
