@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-05-26T23:27:27.778565+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rst_parser
+  version: 0.4.0
+  revision: 33e0418e0a23d0b592104d657cafa0978375cfa6
+  digest: _UfKMtMHpCJHofqMhpBCK2eHYeA01z4CDqSKdUyN8Cs
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+FXt5kT9rMcNoKD_SKm9SUq7bj0eA4f2BF5tBll9H8VcGGB_Nwr-eBZ4rgeSiy71OpVvzQKSvjA3Cj9LHeoThBw
+----- END CREV PROOF -----
+
