@@ -1,0 +1,27 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-06-06T04:02:14.803647+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: iter_tools
+  version: 0.1.3
+  revision: 3b8bc8eb00dfe1338503084773d3ac4d83bb1e6b
+  digest: Hh8bux3LEMAZsYB7y4fjX8PXU0kYy7xTq3bT0vIUp5U
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+alternatives:
+  - source: "https://crates.io"
+    name: itertools
+comment: |-
+  This is not *the* itertools crate, watch out for typos.
+----- SIGN CREV PROOF -----
+tgW_lTCaBZfGAOe3efB8VxjmR8GWDLqbEseByquHdvXl6ZJ-s9UahOXjbtWO6tHIaAh8UfyiVawWrVnCnn74Dw
+----- END CREV PROOF -----
+
