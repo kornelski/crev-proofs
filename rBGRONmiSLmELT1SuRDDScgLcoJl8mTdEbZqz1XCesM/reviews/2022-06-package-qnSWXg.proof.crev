@@ -1,0 +1,27 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-06-29T16:05:08.879630+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo-v
+  version: 1.0.1
+  revision: a375d9924e1ab7f5fe796acd19b9070663902a57
+  digest: X-sI-kE6B91z78XSRfFztTPSANEy5PCuB0TrKGplWR0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: neutral
+alternatives:
+  - source: "https://crates.io"
+    name: cargo-bump
+comment: |-
+  Very basic TOML parsing, like `sed s/^version/`
+----- SIGN CREV PROOF -----
+PggQqd1bOeFS-JmxRD78O-VvqxpHrgbmjcFd3DOSMZQqtPOfkKFOM297bE57eQYUJRq63SkT5krwuq0n7oQRDg
+----- END CREV PROOF -----
+
