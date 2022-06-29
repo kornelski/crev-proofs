@@ -52,3 +52,36 @@ comment: |-
 nflvoWg1rJwVtOjqxfdpkoWdxJ3bzA3oesvrUJ0rmvj9ExdFmqLybE1nqp0Tgf12X8bJ2DutZUtxBXy0CiP-BA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-06-29T16:07:37.585695+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo-bump
+  version: 1.1.0
+  revision: 1254ee8d564c039306b898a8c344ad42ecf16adf
+  digest: KpQOVsL42zwDWkrDqH11ITKpXcufHbGe8V58cQulMP0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: cargo-v
+  - source: "https://crates.io"
+    name: cargo-release
+  - source: "https://crates.io"
+    name: cargo-incversion
+comment: |-
+  Slow due to use of cargo-metadata, and doesn't work with workspaces for no good reason
+----- SIGN CREV PROOF -----
+QTeaCm8PdvF4YZWa6YzVih9I3VtoxyKv_AL0wr6LT3lhNDi5YMmxMCS3ikSpAGvOvtxKv1PfaIPDPBApQ6v9Dw
+----- END CREV PROOF -----
+
