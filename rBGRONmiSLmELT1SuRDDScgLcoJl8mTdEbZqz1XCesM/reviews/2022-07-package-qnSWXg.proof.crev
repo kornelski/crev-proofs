@@ -1,0 +1,29 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-07-05T23:52:41.177358+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: maimo
+  version: 0.0.3
+  revision: 6d1610a3eac0541f3c998552e44c16b412791eb8
+  digest: 25Eit8kF1qbeYWtlPk7_EVmzu56iZzgFGoj2miADSJc
+review:
+  thoroughness: medium
+  understanding: low
+  rating: negative
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: forage
+comment: |-
+  Warning: this is stolen code
+----- SIGN CREV PROOF -----
+NUe9VAUXIPfZYW0t6xmaicL84Rm43eDm5VDKdrmfmWMs7PF0t3iBw6kUI0nK4kAz-X2iLYS_wetwqYuf2DgxCg
+----- END CREV PROOF -----
+
