@@ -56,3 +56,32 @@ comment: |-
 yr5VVzlUPypagCplII8EmEVOubn34nVzgG9v3zYiHbyy8PtFEULMWXDN2D7BENQVMH1iCY-vxNt2YeIc_64lBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-07-05T23:53:47.487853+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wingcli
+  version: 0.1.1
+  revision: 830b5e27058da54b700e1a5e631e574671ecdc64
+  digest: lyH6vphBKjZqGWgBJUzWJ9qGaZ2VB5M9EsQspvoE-A8
+review:
+  thoroughness: medium
+  understanding: low
+  rating: negative
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: bbcli
+comment: |-
+  Warning: this is stolen code
+----- SIGN CREV PROOF -----
+XeCEf57FTPzGEmdVb1hSINuh35mabHpSHX2UEvB8vpSopzUAwX-cQIZN0FncLlm1-KH6cvx4CnIhVYuVG_P-Bg
+----- END CREV PROOF -----
+
