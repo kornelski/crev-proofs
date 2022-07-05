@@ -27,3 +27,32 @@ comment: |-
 NUe9VAUXIPfZYW0t6xmaicL84Rm43eDm5VDKdrmfmWMs7PF0t3iBw6kUI0nK4kAz-X2iLYS_wetwqYuf2DgxCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-07-05T23:53:06.648861+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: wasimage
+  version: 0.1.1
+  revision: 948f1f01304a2cc029f8fb7ed7077054b54482c5
+  digest: Jy-j6mKWZsbD9XkFma791gCFGbXwL53llnQE8riuVFQ
+review:
+  thoroughness: medium
+  understanding: low
+  rating: negative
+flags:
+  unmaintained: true
+alternatives:
+  - source: "https://crates.io"
+    name: wasmpng
+comment: |-
+  Warning: this is stolen code
+----- SIGN CREV PROOF -----
+yr5VVzlUPypagCplII8EmEVOubn34nVzgG9v3zYiHbyy8PtFEULMWXDN2D7BENQVMH1iCY-vxNt2YeIc_64lBg
+----- END CREV PROOF -----
+
