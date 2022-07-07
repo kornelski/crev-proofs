@@ -85,3 +85,30 @@ comment: |-
 XeCEf57FTPzGEmdVb1hSINuh35mabHpSHX2UEvB8vpSopzUAwX-cQIZN0FncLlm1-KH6cvx4CnIhVYuVG_P-Bg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-07-07T17:58:59.902962+01:00"
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: quick-xml
+  version: 0.23.0
+  revision: 73e38f93cdb3f7337ee5a8d32e9127484f48681c
+  digest: 7wr_zkoL2td1vKSkAN1svYXChOJr1VjZX-xMbaQVvLM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+alternatives:
+  - source: "https://crates.io"
+    name: xml-rs
+comment: |-
+  This crate uses a bytewise parser even for files in UTF-16 encoding. It can be tricked into parsing plain text as XML elements (e.g. UTF-16BE "䄼A†⼾" is parsed as `<A />` and fires an element event).
+----- SIGN CREV PROOF -----
+r--7a5MaLLNp1lG6hRsCBb9poqV2nllFoBTTY4CgJpiLWRtfldpE-ggw7uqYB8J4vQt8lxVhn0IqXW4PjV5bAQ
+----- END CREV PROOF -----
+
