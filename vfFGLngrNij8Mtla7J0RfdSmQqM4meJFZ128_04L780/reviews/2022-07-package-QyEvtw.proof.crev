@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-07-13T19:00:03.417651+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hyperloglog
+  version: 1.0.2
+  revision: 2ad9a1dc5dd699e2816cc6e7083dbeb5cd920e0d
+  digest: _g3zd_26ccvB_XkiOkIjKZhckMkIwlvPKL9ys6zn0gQ
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+473jWlJy9YawM7qZf6o7pmQMv49SCtjo2kpjcLwAsoZ8BJ3RkI6m15d85BUafgwCFIH1vZIu4VLw7AO6hHuHDg
+----- END CREV PROOF -----
+
