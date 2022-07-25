@@ -42,3 +42,25 @@ review:
 ZunVUMWglWG0QmIA-kyXBzloVG7NUCxwQ9tF5pwyp25_BOfvvtmrlFwwhFNRMvu4TwDX2AP3ZzWDge9VA9RpAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-07-25T09:15:14.980228+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: cargo-typesize
+  version: 0.1.0
+  revision: 74b5c8e55aa66978925b15a2a53c2059a4447569
+  digest: 2OuS5TJ3PACeETmuqpucjmX_TAjV6gJHeio4JgKfmPU
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+vYfLwI5bNJxYYhE6OB2Y7mNTUeGLkRNnr40vLy2H1D7_Ivn3Ge5U1CUDGXl6diOmO4AQXz-hJCJJgeDJwzg_BA
+----- END CREV PROOF -----
+
