@@ -64,3 +64,28 @@ review:
 vYfLwI5bNJxYYhE6OB2Y7mNTUeGLkRNnr40vLy2H1D7_Ivn3Ge5U1CUDGXl6diOmO4AQXz-hJCJJgeDJwzg_BA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-07-28T00:23:01.125404+01:00"
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: "https://github.com/kornelski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: svg-hush
+  version: 0.9.0
+  revision: 2fb91408d7e2174c771b5cb8fa0e6d252cff488b
+  digest: u7veS2vT_sbnuCQ7PP_Jp-3HqKShdrKHG8ekw79fMdE
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+alternatives:
+  - source: "https://www.npmjs.com"
+    name: dompurify
+----- SIGN CREV PROOF -----
+rqYrcEWuZQayn7Fis2dyJIgKKlw_L48UamywSVviu3OhIAC0MIB7cCNzdNkiVBJG6kuZh6igbIs2myUModvGAw
+----- END CREV PROOF -----
+
