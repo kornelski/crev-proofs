@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-08-19T18:34:37.509049+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: os_str_bytes
+  version: 6.3.0
+  revision: 5f3091810da7778e613a83f18288a11d4b8dca03
+  digest: hvekwrMvmSb0AIscVeR6vU5-dWT4u-_bhMvG6IsEpRM
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+cP06Cpk8aSPkv5bQNmpidf-ipBRPGxoZ92NVZbx9tSj8BJ-2HvHlyJuQNQIbRUzLYXwE46Qh-4wjDJNBd7aDAQ
+----- END CREV PROOF -----
+
