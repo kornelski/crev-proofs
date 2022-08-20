@@ -1,0 +1,27 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-08-20T15:02:25.692418+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: typed-index-collections
+  version: 3.0.3
+  revision: 8735cdf7d993c1599cf6ad67997444e82741b6a5
+  digest: dFl4R49i0s20LjJjL6r0rujCIsQ5zSBLsWJGfgxuRp4
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+alternatives:
+- source: https://crates.io
+  name: indexed_vec
+comment: |-
+  It might need `#[repr(transparent)]` in a couple of places, but it's generally fine
+----- SIGN CREV PROOF -----
+6M5FsckLqXWejYXXkGmCLP72r_vzox6d6e9n6QcULdLgf9sFSIO4jTW8lfFUONcCfsW3q0LWRXUFVXg5Sd57Dw
+----- END CREV PROOF -----
+
