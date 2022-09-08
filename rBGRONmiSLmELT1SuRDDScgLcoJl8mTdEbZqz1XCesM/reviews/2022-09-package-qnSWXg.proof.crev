@@ -20,3 +20,32 @@ review:
 -qtSVgneg3Gk0Ia4e2541gYNoxbbhjdL8QXCCZ7DGtXA_eSYNFlFMu_QN5_lCbe3lUVBfcBbGDmHjF-D12mQAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-08T11:52:50.696088+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: libv
+  version: 0.1.2
+  revision: 50038cc460b384f1e6a8be9db17684f5404e0115
+  digest: _XacYMwXh8XAoNaln2et2S2KrBW2Qr_J_SuWPwZVbm0
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+flags:
+  unmaintained: true
+alternatives:
+- source: https://crates.io
+  name: libc
+comment: |-
+  Typosquatting
+----- SIGN CREV PROOF -----
+o6J781uaJSIV_7_ZlqQ20wxTWKtBduBZMPDA4s27qdmWvU2dgHBK-7F_HDPcK_40FwAgQo6NywdHAfGZcaCzCg
+----- END CREV PROOF -----
+
