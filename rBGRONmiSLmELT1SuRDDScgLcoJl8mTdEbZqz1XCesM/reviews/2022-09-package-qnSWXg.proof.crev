@@ -74,3 +74,28 @@ alternatives:
 xVMKpPaw4otQxJX2Ym_RXZe3rFatZgZjA_AWL8gtIM3Gan889MICVg2TitI11GX9YZi0aWmfnVNVRZORIRvOAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-13T18:24:47.379815+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: css-color
+  version: 0.2.4
+  revision: e88fa8f75d9f55c7cd92be9f00341b792404f799
+  digest: Nfw9L3565jog4Lb5vT_CYuigBnE_mFCQgBNFYoY5cNw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+alternatives:
+- source: https://crates.io
+  name: csscolorparser
+----- SIGN CREV PROOF -----
+MnPp6sEniwinr1xSfLwE1kTskF613x78ZerTlDguSCDbyo5rYDXc1K4JVTW83KVF1HqIN-tVH3LhIMBCwclhAw
+----- END CREV PROOF -----
+
