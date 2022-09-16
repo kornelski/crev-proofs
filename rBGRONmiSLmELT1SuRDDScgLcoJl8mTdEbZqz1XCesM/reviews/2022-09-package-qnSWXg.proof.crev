@@ -99,3 +99,25 @@ alternatives:
 MnPp6sEniwinr1xSfLwE1kTskF613x78ZerTlDguSCDbyo5rYDXc1K4JVTW83KVF1HqIN-tVH3LhIMBCwclhAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-16T12:31:01.840523+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: vaultrs
+  version: 0.6.2
+  revision: a4c20bba8afb5e63174472683859719470686d04
+  digest: 77JQBwLB796fAovjGP9TZ44aAOnajtcTqjniZICbFNg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+r9xwcHZYSloo6pLpccU3fL6TbtHkspNqbVQsLOtwirMWZXWqDUrRODchhVgVtw0JNBO4zXGcCH5TXMukG6sxCA
+----- END CREV PROOF -----
+
