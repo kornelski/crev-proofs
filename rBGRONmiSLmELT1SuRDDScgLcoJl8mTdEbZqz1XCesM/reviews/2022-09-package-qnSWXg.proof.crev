@@ -121,3 +121,25 @@ review:
 r9xwcHZYSloo6pLpccU3fL6TbtHkspNqbVQsLOtwirMWZXWqDUrRODchhVgVtw0JNBO4zXGcCH5TXMukG6sxCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-16T12:45:12.639717+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: rustify
+  version: 0.5.3
+  revision: 68fdbdb848b012f1116b972900dca23cde260e0e
+  digest: IzYxx7E4cTzxVQByHRY6YbZRRlD_C74AkYuDSnXEHiQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+Itb08JzbdQZGwBQvx9lB-0mKFyAlQ34KQJLx54m_e8ILAl1lFpJrqamm_rnGeszoSq8r5VY5wnCZrpM83-15Bw
+----- END CREV PROOF -----
+
