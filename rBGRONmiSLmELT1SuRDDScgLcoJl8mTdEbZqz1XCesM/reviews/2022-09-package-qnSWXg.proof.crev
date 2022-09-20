@@ -165,3 +165,27 @@ review:
 SforZHJwzXPrvKrvN5vR8z1KzWuUXu7Npeqwb408aXQ4uEaaDZcS4BpCSx9IOVvL4ovCApOEi_kxHHUbaUGBDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-20T16:26:53.933935+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: windows_x86_64_gnu
+  version: 0.36.1
+  revision: 9deec0ee3b51a9a540f6dfe984ee34e2409ed355
+  digest: NhOfeokHcyIrPG3NKVNnUbqlFQo-mQIrQOKrfImjtMw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  The build.rs is benign. The lib? Who knows.
+----- SIGN CREV PROOF -----
+21olt0I5HotTiWuMZjf-gm_KIkrFvxjU9T59qDrNXkT-gPodb9gcGhDjTt-7xmJevK00SQHero_M3QrK3jiTCQ
+----- END CREV PROOF -----
+
