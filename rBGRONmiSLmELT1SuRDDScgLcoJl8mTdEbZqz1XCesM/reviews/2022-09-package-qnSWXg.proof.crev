@@ -189,3 +189,25 @@ comment: |-
 21olt0I5HotTiWuMZjf-gm_KIkrFvxjU9T59qDrNXkT-gPodb9gcGhDjTt-7xmJevK00SQHero_M3QrK3jiTCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-20T21:45:00.910067+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: rusoto_core
+  version: 0.47.0
+  revision: 06f1a152522ddb7b182f3e4bf7371db93231e0bc
+  digest: nrZSkv54CGEEEjnk1VTRaw5PuF8DpAVuZo4pcxNBYUA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+-UW4ukEcmZzNKzn5hp5le5l0lryi5tiXgmacB7bQMtAHo_U0bukLzAhGK7YaJxDWcsLDb_EHW4-8AOVkXduYDw
+----- END CREV PROOF -----
+
