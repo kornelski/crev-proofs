@@ -21,3 +21,26 @@ comment: |-
 HUKq13cDr4q7Q5KUTH7SEaxY0SXhI2vUD6BLBTs2StaYCiBzKA29E4DQUg_qoi44NQ5N8CkR7JLRplJaBB7_Bg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-26T11:26:59.247805+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: tokio-backdoor
+  version: 0.1.1
+  digest: DwYakOWMSHYzVdk_GQHF6F4MmRVcw6a3-0p2mPcV4z8
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+comment: |-
+  Backdoored
+----- SIGN CREV PROOF -----
+50QauyYoD1-t8dHkCESAbT9ckMeejKWn5mDTE22hpGToLwoTnoAVHmJxK7FnpkNhKLWN3jjNzVdp14gQG-nwBQ
+----- END CREV PROOF -----
+
