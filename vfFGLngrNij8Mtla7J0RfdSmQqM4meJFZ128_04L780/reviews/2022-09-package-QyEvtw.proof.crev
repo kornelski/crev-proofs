@@ -44,3 +44,25 @@ comment: |-
 50QauyYoD1-t8dHkCESAbT9ckMeejKWn5mDTE22hpGToLwoTnoAVHmJxK7FnpkNhKLWN3jjNzVdp14gQG-nwBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-26T11:29:21.505123+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: mimesniff
+  version: 0.3.0
+  revision: cd2474dc6d1993ae832ee7fcd0acff4d4fbcd59b
+  digest: G30k0cqo1WmOFRsfsG8wCUoNpyY8YqXF-6hicNFQ-Ew
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+mmYNREwpvcVSq19QQND9WAnCf22okhMklCOuHXZdpw6NxQT3OVLrNE2JAUslfhDWKOCmf5xlTA3w6LxwlRvaAw
+----- END CREV PROOF -----
+
