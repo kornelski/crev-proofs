@@ -66,3 +66,27 @@ review:
 mmYNREwpvcVSq19QQND9WAnCf22okhMklCOuHXZdpw6NxQT3OVLrNE2JAUslfhDWKOCmf5xlTA3w6LxwlRvaAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-09-28T22:22:31.855923+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: bimap
+  version: 0.6.2
+  revision: 2b76e73e05cbf9af70b196ef662feabfff665d82
+  digest: _sYYHWN_qmdq3IgXUKNxKAeo1owgcZNJ20gZOSMd_x4
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  It's just wrapping both sides in `Rc`
+----- SIGN CREV PROOF -----
+GoT1F-Ozn4ym4OsnwRk6-2PRtWRImW_lg2TMWof5-5gn4mz2C7f8WiBN4nHp7NRqdKy08VO7BYFH0GxEpIV5Aw
+----- END CREV PROOF -----
+
