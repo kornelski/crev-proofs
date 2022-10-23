@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-10-23T15:22:13.711081+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: pipe
+  version: 0.4.0
+  revision: cc6339002bdf255e1562196f7b0a39908eaf466f
+  digest: cgcOa5xIapZ0lr-2Oz4N2aindB6R_-TgLWCJ4mPRX_s
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+q_beFAQXpbjcb6ldA07M8N4umUeUtGSNxZ1CCZQTrmbfvOXbHBNl3lT2F1opy22-WoVu0P9VQPquV_28Yv-0BA
+----- END CREV PROOF -----
+
