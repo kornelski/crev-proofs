@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-11-16T21:09:57.681669+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo-pgo
+  version: 0.2.2
+  revision: e638f23462d6aafd547b3b413c26fbdbf51a61e3
+  digest: 56TyXQHBDwt6T0g6LrhtZq4cT_LqyZ4nIQtR8Ozu1iU
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+JuKY-LIRXR8hp0QkhelbM7YB2uZuKfRNd2hI7ezdLDF4nT6zXWNE1oWnYgZmR4sTr-q0FtKvwwGNKCrL610UDA
+----- END CREV PROOF -----
+
