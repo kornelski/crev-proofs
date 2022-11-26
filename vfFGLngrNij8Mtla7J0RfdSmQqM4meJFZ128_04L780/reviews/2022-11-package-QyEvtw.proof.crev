@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-11-26T18:05:24.544104+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: dcv-color-primitives
+  version: 0.5.1
+  revision: f3a47196613c21fea2661cd702943516be761a7f
+  digest: HhYEzlACaT5Dz1Lr-oD8gC_r3mNk4z0fhq9Xy41kv3U
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+Pqh7MP143IJXG7QtgwLo2pgyTlHXWi2Jla949mYRu6W3Q3tTb9J_Q9KTQ8Uj39Xff68zfJEJFs4Sw_D-O_cWDg
+----- END CREV PROOF -----
+
