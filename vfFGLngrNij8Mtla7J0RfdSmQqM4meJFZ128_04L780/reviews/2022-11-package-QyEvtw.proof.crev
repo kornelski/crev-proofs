@@ -20,3 +20,25 @@ review:
 Pqh7MP143IJXG7QtgwLo2pgyTlHXWi2Jla949mYRu6W3Q3tTb9J_Q9KTQ8Uj39Xff68zfJEJFs4Sw_D-O_cWDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-11-26T18:42:11.991566+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: yuvxyb
+  version: 0.3.0
+  revision: 2287bfdce55b6a408c97ea64c8e10a3b6d11369c
+  digest: 7rNPoaVigQEK503s-sHyDd7iWlL7MjpRiNiFVG0gBsw
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+Rgw3lGnqocQx-rTZMGSk3CLYbvhQnSVlFjkFPNS8PuEeypzI1oyu0-k4wCtv_0aWzt3xz5RbqLIQd-leJPD5Bg
+----- END CREV PROOF -----
+
