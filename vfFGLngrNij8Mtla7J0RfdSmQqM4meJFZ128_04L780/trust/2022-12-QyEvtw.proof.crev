@@ -1,0 +1,17 @@
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2022-12-27T02:41:52.819962+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+ids:
+- id-type: crev
+  id: -sApEowWcAS9J0R7aO18cghvhLBpuMhyeUuWQq_fits
+  url: https://github.com/HeroicKatora/crev-proofs
+trust: high
+----- SIGN CREV PROOF -----
+Xbuyw5bOzSqjyI23St_RJBfu_SPDHxheDK2fAVpxj98-0tHaGcLL7qte0vs4TwO7kY0DoX52J6nLdni4XIlbDQ
+----- END CREV PROOF -----
+
