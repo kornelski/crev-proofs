@@ -1,0 +1,29 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-12-27T02:40:04.930817+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: parse_cfg
+  version: 2.0.0
+  revision: d86f0bef346efc08ea96e8c16c9f8ff180bf49d2
+  digest: yiuzQEoVs1A7-cSC0vFHyQuHDCZ9CKRgm9JiZnLGL0k
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+flags:
+  unmaintained: true
+alternatives:
+- source: https://crates.io
+  name: cfg-expr
+comment: |-
+  Upgrading nom is too much hassle
+----- SIGN CREV PROOF -----
+enzi9r_WfSOxfh4h36I0s5kcBTMKDA2U5JHBiySmggCdqrbeoBHBnk5mDi3X9ljbbc1BOdjnUQTBkw3jQ7JNDA
+----- END CREV PROOF -----
+
