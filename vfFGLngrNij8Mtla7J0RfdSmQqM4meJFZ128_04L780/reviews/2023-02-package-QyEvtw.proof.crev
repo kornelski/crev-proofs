@@ -1,0 +1,33 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-02-01T21:40:35.993490+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: json
+  version: 0.12.4
+  revision: 752f942e63a4f191dddc1d5c7f15e071f5942d77
+  digest: xrfLaOzkJTpKCRtUhmfFD1hrymC3qkSt5jtY66-gJzM
+review:
+  thoroughness: low
+  understanding: low
+  rating: negative
+issues:
+- id: https://github.com/maciejhirsz/json-rust/issues/196
+  severity: low
+  comment: ''
+flags:
+  unmaintained: true
+alternatives:
+- source: https://crates.io
+  name: serde_json
+- source: https://crates.io
+  name: simd-json
+----- SIGN CREV PROOF -----
+FHOdG1U5BztpgSHUZFA7c2JaBrRUdEiLjLcXIYTylcuCM6CAGKQEmc4bMh16IbUjwzX28lk28o40y-ap4QmBBA
+----- END CREV PROOF -----
+
