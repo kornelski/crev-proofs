@@ -31,3 +31,25 @@ alternatives:
 FHOdG1U5BztpgSHUZFA7c2JaBrRUdEiLjLcXIYTylcuCM6CAGKQEmc4bMh16IbUjwzX28lk28o40y-ap4QmBBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-02-16T22:05:00.356059+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo-swift
+  version: 0.2.2
+  revision: 2ab6b90b504cb87a77af8f9d3b16321c748bd463
+  digest: fr3uifqQ1-KpTCvLLdAgH16wx1a7L8eIDFUaDJdiyBo
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+IZ9zsKNg0Gx3yc2Qp7ZZD_Lne8KIECRuB3eZYaMbcMpLkOi1kAx6c5VDMkrPNSUB1KO_lG5B2Y-Sh5cg_G0_Cw
+----- END CREV PROOF -----
+
