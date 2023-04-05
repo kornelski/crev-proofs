@@ -1,0 +1,25 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-04-05T16:16:53.864627+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: convert_case
+  version: 0.6.0
+  revision: a8702a05217664ca59cb7471df68a91dcf4b91ee
+  digest: e9sb8lB-KC26cQXYgr8u31W-XAabtwGdbei_PaZ8vTM
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+alternatives:
+- source: https://crates.io
+  name: heck
+----- SIGN CREV PROOF -----
+RKUi0cZvC_qERwEuNtw9xolxLkwgOshaW8rQ_8eGQcddk4g_0D1Cle5rq8W0xCzNzvj-dVw0imXrWgLvvfOeBA
+----- END CREV PROOF -----
+
