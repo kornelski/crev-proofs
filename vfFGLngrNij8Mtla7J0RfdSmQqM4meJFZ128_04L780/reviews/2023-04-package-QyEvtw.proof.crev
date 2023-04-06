@@ -23,3 +23,28 @@ alternatives:
 RKUi0cZvC_qERwEuNtw9xolxLkwgOshaW8rQ_8eGQcddk4g_0D1Cle5rq8W0xCzNzvj-dVw0imXrWgLvvfOeBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-04-06T01:11:45.106056+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: redox
+  version: 0.0.3
+  digest: _HIn0wwpptvvE9mnhJrGFj6_G2oxIJsJxm7QtzJ_skg
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+flags:
+  unmaintained: true
+comment: |-
+  This is not the OS you're looking for
+----- SIGN CREV PROOF -----
+Xo0l16qwqQ-AGPYhA0vikkrtcbMyeERhv_Ek_mGvku5YpWCAfek3cQt3TfdrAt2IFTM-cgPymWVLRTneaq4hAw
+----- END CREV PROOF -----
+
