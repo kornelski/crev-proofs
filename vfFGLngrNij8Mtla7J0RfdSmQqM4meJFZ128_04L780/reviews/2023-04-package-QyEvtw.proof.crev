@@ -70,3 +70,25 @@ review:
 jB8Gk-E7HQuR4a-RK6vO_c3YvqWfqtAlmwsL512ao7Iswv_irLs8Faf3-Lu0DdBzb0bo_6jhqWQCQYaMNC5nCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-04-13T16:23:26.463166+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: concolor-override
+  version: 1.1.0
+  revision: 3f82ca315a0269889f17ad1eb6e00a80595e430f
+  digest: FIQApqRSwuiyVykyC_s3m3IXBrtLjH77SLNHV22wx_s
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+hLhmaO_fzMfJ42pkdKAc_4dZZjhF8ubOoe9DprtD_nda4Zio3-hKeNlySj5VKv5QZtNRJt4KeN_xsJHl65xRBQ
+----- END CREV PROOF -----
+
