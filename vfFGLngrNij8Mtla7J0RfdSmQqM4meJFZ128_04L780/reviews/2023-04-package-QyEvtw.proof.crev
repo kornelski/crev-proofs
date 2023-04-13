@@ -48,3 +48,25 @@ comment: |-
 Xo0l16qwqQ-AGPYhA0vikkrtcbMyeERhv_Ek_mGvku5YpWCAfek3cQt3TfdrAt2IFTM-cgPymWVLRTneaq4hAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-04-13T16:21:23.304545+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: colorchoice
+  version: 1.0.0
+  revision: 14340521278c8657eeb60289b691625f1261a0c3
+  digest: nSrq1y3SNRWxq8eCPtosSVW1BkNW_dmiB2Qdn1fLi68
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+jB8Gk-E7HQuR4a-RK6vO_c3YvqWfqtAlmwsL512ao7Iswv_irLs8Faf3-Lu0DdBzb0bo_6jhqWQCQYaMNC5nCA
+----- END CREV PROOF -----
+
