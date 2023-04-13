@@ -92,3 +92,25 @@ review:
 hLhmaO_fzMfJ42pkdKAc_4dZZjhF8ubOoe9DprtD_nda4Zio3-hKeNlySj5VKv5QZtNRJt4KeN_xsJHl65xRBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-04-13T16:26:54.493306+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: anstyle
+  version: 0.3.5
+  revision: 9d7cd0335e13fbe5d032458d7deca90bda188c27
+  digest: udu1o_bg223G6U_gxrJNpW3SSEHoLSYcDb1tEYWnrwM
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+f9fRLkmnv_-_YWffLwjVo67pY1wW1sT29kHuaBECDHcG_lcabdA9RteRUl9c41hsfGY6pOQYLcTGZ3Bgfj99Aw
+----- END CREV PROOF -----
+
