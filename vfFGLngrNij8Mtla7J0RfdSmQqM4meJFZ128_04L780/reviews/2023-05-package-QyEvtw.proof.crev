@@ -70,3 +70,29 @@ alternatives:
 p-H2l2a0FopKGtNJnSdCPGw_XISEq6btdZmHYNFftIENRKbZYJid_cm7e_Dvhh7W_QPEqBxONQ33ulmlBPWJBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-05-12T18:35:33.020364+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: xml
+  version: 0.8.9
+  digest: 6D4DqCGWjjThuWmULTVZryP0359wZgAKrD9MCkX7P6c
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+alternatives:
+- source: https://crates.io
+  name: xml-rs
+comment: |-
+  This is the new home for the xml-rs crate.
+----- SIGN CREV PROOF -----
+9R6kic7JehraAzE_da2zItPJ_LRNpvXphHcCRRbPpCWmwrhRiCx7gnutW_AckQMg2ph0yuTEq7vPeQwtX2B2BA
+----- END CREV PROOF -----
+
