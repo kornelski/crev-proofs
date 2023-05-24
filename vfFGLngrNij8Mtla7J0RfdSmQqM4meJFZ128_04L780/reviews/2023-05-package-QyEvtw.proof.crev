@@ -123,3 +123,29 @@ alternatives:
 N5oyQ0JUDk_wpggLxKhU4c2uv3mbqPJjpqn14Fmbpci0Waa67T2qxDmvGZpHKJL1dAebqpC7mA1YhlBrKNDGDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-05-24T01:13:57.169902+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: xml
+  version: 0.8.10
+  digest: DmElBoPuGU8Ny3a4jZjE-Ha0axZaX5x3_dVB2TbZH0c
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+alternatives:
+- source: https://crates.io
+  name: xml-rs
+comment: |-
+  This is a re-export of xml-rs
+----- SIGN CREV PROOF -----
+gBCOTGjrArUV3MusjvWlIKgxQg-RFFu8c_gciTl4reffbD4ZFEpNzDKOtN07GNKetYMP8mH3cCy8KYbLMvutDg
+----- END CREV PROOF -----
+
