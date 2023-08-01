@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-08-01T15:12:26.098882+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: platter-walk
+  version: 0.1.3
+  revision: 00b276523fdf7abee28ab0410e9686c7077b1a3c
+  digest: QN8Sey3O8RrKEwxwWbi9J3Y74AGbLxAA4j3AtmqM7Uo
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+e4Ryru7SqsEInJZK8bPf342N2ood6dBdIxXPtpfGKsxc5xHTDxk_C6z_QOLLjoTtGUsnuJzKqizB9g_JUy_mBg
+----- END CREV PROOF -----
+
