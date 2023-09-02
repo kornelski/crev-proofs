@@ -233,3 +233,19 @@ trust: none
 4MdVPj8E72slEdghKexjDtPb78uKlEEIFxyk89_vz1YR9fOUiXH8-7TO3ziQ4WWnnNj3qD2YnNcpmG2tsWYsCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2023-09-02T23:45:48.761032+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+ids:
+- id-type: crev
+  id: QF7yX8aVkO-x5x3qP1VOfNiYqeiPEczCwnrrpxBdbRQ
+trust: none
+----- SIGN CREV PROOF -----
+neL3CdNLTrKrfAHX1s68AOSXbF4tn72n5iW0qdpHtB2jG8koRJEckONH-Sr0ahem_YI1O7Lh_U6Big1Ip3E1DA
+----- END CREV PROOF -----
+
