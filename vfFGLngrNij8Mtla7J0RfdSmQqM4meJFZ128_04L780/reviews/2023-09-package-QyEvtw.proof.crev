@@ -1,0 +1,33 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-09-03T01:17:13.529025+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: xml-rs
+  version: 0.8.16
+  revision: c6331c97ab9f487c9d0bce52c06364116f5e80d2
+  digest: s8KgZNEoXmK4yBWlz8Krh-2ZDLx_58Pg9ZmeMey-D6Q
+package-diff-base:
+  source: https://crates.io
+  name: xml-rs
+  version: 0.8.13
+  revision: 563f97599eb6ad36b997a5305745dd8775ba9be4
+  digest: TAyF9j-JPnL-tbl2xkehREX3-thpHO6LdW6gzlR0-MY
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+alternatives:
+- source: https://crates.io
+  name: xml_oxide
+- source: https://crates.io
+  name: xml
+----- SIGN CREV PROOF -----
+IT29gBq4_REQkyp2QwK_1nDrk_keHNs8Yqz6Vayw8uPG_XFyw-zzFU--HACOvfVTXK9pgbEUR6yOn7eKY-jcCA
+----- END CREV PROOF -----
+
