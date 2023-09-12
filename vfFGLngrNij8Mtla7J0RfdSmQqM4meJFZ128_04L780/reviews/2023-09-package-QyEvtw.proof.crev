@@ -31,3 +31,27 @@ alternatives:
 IT29gBq4_REQkyp2QwK_1nDrk_keHNs8Yqz6Vayw8uPG_XFyw-zzFU--HACOvfVTXK9pgbEUR6yOn7eKY-jcCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-09-12T23:06:27.111373+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: libwebp-sys
+  version: 0.9.2
+  revision: acfbb9e43490b75d6dfb22011100bf045b0713aa
+  digest: wESPUw-0mbTGsQEtTBaqauNnLqnZi06eEHglAWJPqoo
+review:
+  thoroughness: low
+  understanding: low
+  rating: negative
+comment: |-
+  You may need to update libwebp due to CVE-2023-4863
+----- SIGN CREV PROOF -----
+hRMAr1iy2KyWKLC8q1bbsaFh-MYhhLMxr2VUC2CCcf9PfvvySsA7OIs8k5wIxlyZCzU4XRRalUAiikC7VGx3Ag
+----- END CREV PROOF -----
+
