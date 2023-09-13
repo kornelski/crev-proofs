@@ -7672,6 +7672,21 @@ aggregated-from = [
     "crev:review/yCMpbs7LAf6Vs90Cmd1hlzICnVtTDtdnp5xuwNRdWpg",
 ]
 
+[[audits.libwebp-sys2]]
+who = "\"kornelski\" (https://github.com/kornelski)"
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+    "safe-to-run",
+]
+version = "0.1.8"
+notes = "Verified vendored src to be a450afed44162f898ba5014e21efbad539fe3f0e, which is patched 1.3.0"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780",
+    "crev:review/SXS7ijALQ0aG3vXK9Akz6yFR1HCjKfBPt3Y_5XhPR84",
+]
+
 [[audits.lightway-sys]]
 who = "\"pmembrey\" (https://github.com/pmembrey)"
 criteria = [
