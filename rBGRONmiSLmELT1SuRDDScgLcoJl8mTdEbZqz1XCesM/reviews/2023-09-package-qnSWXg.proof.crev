@@ -50,3 +50,27 @@ comment: |-
 gkgm96JiPT-wLlvTWuEIpN9RDsi6Ymj9U2RFD244Vo4tiif-6Qa_wMbx_pfs8bmznAydRNoriS3K01GEfVrOBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-09-19T11:53:49.969146+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: async_fn_traits
+  version: 0.1.1
+  revision: 3ef806eeb1d503da490aab688cb157f4eb8531c6
+  digest: LrmLMQ295m_0tRAywO1goAwQv9lAScZNShWm_M6HY7o
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  Implemented via a simple macro.
+----- SIGN CREV PROOF -----
+isXl3ZtzHLVfn0RJxs4Tzay3dcfkQJUBN1eusnP4jqAgPTMo-Hu65CPH9yHwOlayPfYMtaa6USe0reMHYAz8CQ
+----- END CREV PROOF -----
+
