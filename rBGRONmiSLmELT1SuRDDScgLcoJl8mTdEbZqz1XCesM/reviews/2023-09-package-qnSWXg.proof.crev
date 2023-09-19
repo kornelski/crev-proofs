@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-09-19T02:34:07.614965+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: hostname
+  version: 0.2.0
+  revision: 283e586213cbeeb367956bc80698ad9c05bec24b
+  digest: MczEJh1AEb0z2759ir4UQGrIydJl_G6Hi-Hkan32TSs
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: negative
+comment: |-
+  Forgets to set `NUL` string terminator on Windows
+----- SIGN CREV PROOF -----
+1oK_O99ZEiQ-GfvqePPG4VJvXxgiJqRZNzF2ij1X7slOQ9UEsXxn5k0xShUNb7zI2qn3gbYBpipgbQO1I-oPCw
+----- END CREV PROOF -----
+
