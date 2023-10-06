@@ -1,0 +1,28 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-10-06T13:21:14.691397+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: toml_edit
+  version: 0.20.2
+  revision: ed597ebad11afdadc27712e3f851e6c5cd48fb51
+  digest: GaA72b1R50ifHHSIDcSbf8VMRk_PYkoo2pwNhsVk7kY
+package-diff-base:
+  source: https://crates.io
+  name: toml_edit
+  version: 0.19.15
+  revision: 39eea9e3417badf01b276f3b960c57fd34cb1b35
+  digest: spH-fsD1I480wofT5F_bFU6tv6MmshX0D5oj_47Pehs
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+kr9b9Xi_FjssWlr348gLh1yDfuiV7TJQ38eh9oc1M8dRMf9-P2Iwf5lP7kdU5BLaWXTOp_to2t31ex1O_3psBQ
+----- END CREV PROOF -----
+
