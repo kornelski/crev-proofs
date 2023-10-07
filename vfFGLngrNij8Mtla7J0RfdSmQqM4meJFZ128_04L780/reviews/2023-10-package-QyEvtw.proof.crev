@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-10-07T21:20:14.025236+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: cast
+  version: 0.3.0
+  revision: 052288097de1846b938e854e27845a93a6f4b59d
+  digest: r0HKhK3NONllj_nUhhexDTCVF7MOQ56Ke_JmVMPi8QU
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  Passes miri test
+----- SIGN CREV PROOF -----
+n_C7z_SNd79oYQz92TG8JK-PCSKX4K3iouD6HbKZLUBF5fm4FTYEDwtKOF-yfydrFMv3KwbPmB_PPBiVhpHWAg
+----- END CREV PROOF -----
+
