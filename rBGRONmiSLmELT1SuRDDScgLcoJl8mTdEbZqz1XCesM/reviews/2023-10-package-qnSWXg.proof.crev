@@ -26,3 +26,32 @@ review:
 kr9b9Xi_FjssWlr348gLh1yDfuiV7TJQ38eh9oc1M8dRMf9-P2Iwf5lP7kdU5BLaWXTOp_to2t31ex1O_3psBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-10-12T15:07:15.986355+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: ffmpeg-sys
+  version: 4.3.3
+  revision: 84cb58ad5ca21dafd546783f49d0553db27a97df
+  digest: hKT7OQ-8uSMXIgt2DmRvk7ZsyglqUMUTKb1yVx3k7ac
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+flags:
+  unmaintained: true
+alternatives:
+- source: https://crates.io
+  name: ffmpeg-sys-next
+comment: |-
+  This crate has very sporadic and unreliable maintenance. Additionally, the sister `ffmpeg` crate is broken almost all of the time, because these crates generate working bindings valid for only a single very specific version of ffmpeg installed in the system, and cause compile breakage if your ffmpeg is any newer or older. You should use `ffmpeg-next`/`ffmpeg-sys-next` crates, even though they're not very actively maintained either.
+----- SIGN CREV PROOF -----
+BNfyFF-sjwMCN8CifmGIk4JtxF59w_77aptw7ItEpd55ONNrScpwZMRWkN1zfVcjmRzBpC_Tt4WODgc5S5c9Dw
+----- END CREV PROOF -----
+
