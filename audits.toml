@@ -113,14 +113,15 @@ criteria = [
     "safe-to-deploy",
     "safe-to-run",
 ]
-version = "1.0.3"
+version = "1.0.4"
 notes = """
 I wrote this. No unsafe code, no dependencies.
-No code change from 1.0.2, only clarified licenses.
+Virtually no change from 1.0.3, just fixed 1 lint (and clarified licenses
+again).
 """
 aggregated-from = [
     "https://github.com/remram44/crev-proofs#V_B2pKpHVBIp_NegKfur4MK9GqFo0o78ijhku90pYS0",
-    "crev:review/l5JIW1Z-MX2FFTgW9YRzP-z3UYMrrt5ZganH6fhg4M0",
+    "crev:review/JLV9bXIZB9AqxGqdZSpW5U5TQiRbKB1JkXR5uXoSfWY",
 ]
 
 [[audits.adler32]]
@@ -146,14 +147,14 @@ criteria = [
     "safe-to-deploy",
     "safe-to-run",
 ]
-version = "1.0.2"
+version = "1.0.3"
 notes = """
 I wrote this. No unsafe code, no dependencies.
-No change from 1.0.1, just added a README.md.
+No code change from 1.0.2, only clarified licenses.
 """
 aggregated-from = [
     "https://github.com/remram44/crev-proofs#V_B2pKpHVBIp_NegKfur4MK9GqFo0o78ijhku90pYS0",
-    "crev:review/r-Ebe4VtRJxJnE22whQ01VvOoFohF3HmexTdyWEMw68",
+    "crev:review/l5JIW1Z-MX2FFTgW9YRzP-z3UYMrrt5ZganH6fhg4M0",
 ]
 
 [[audits.ahash]]
@@ -574,6 +575,20 @@ aggregated-from = [
 ]
 
 [[audits.arrayvec]]
+who = "\"kornelski\" (https://github.com/kornelski)"
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+    "safe-to-run",
+]
+version = "0.4.11"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50",
+    "crev:review/olcuOVa6pdt4c_SC9Xty-1hcNFoKhVz1I8pmVoYK1Wo",
+]
+
+[[audits.arrayvec]]
 who = "\"MaulingMonkey\" (https://github.com/MaulingMonkey)"
 criteria = [
     "neutral",
@@ -597,20 +612,6 @@ Better than whatever you'll write rolling your own, at least.
 aggregated-from = [
     "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
     "crev:review/kOX-GYZRalh87XtVSWeRk2K3i_V2vUEE73X39h1rkNk",
-]
-
-[[audits.arrayvec]]
-who = "\"kornelski\" (https://github.com/kornelski)"
-criteria = [
-    "positive",
-    "level-low",
-    "trust-high",
-    "safe-to-run",
-]
-version = "0.4.11"
-aggregated-from = [
-    "https://github.com/kornelski/crev-proofs#Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50",
-    "crev:review/olcuOVa6pdt4c_SC9Xty-1hcNFoKhVz1I8pmVoYK1Wo",
 ]
 
 [[audits.ase]]
@@ -861,22 +862,6 @@ aggregated-from = [
 ]
 
 [[audits.atty]]
-who = "\"matthiasbeyer\" (https://github.com/matthiasbeyer)"
-criteria = [
-    "positive",
-    "level-medium",
-    "trust-medium",
-    "safe-to-deploy",
-    "safe-to-run",
-]
-version = "0.2.14"
-notes = "Simple codebase, looks good. Did not look at the cfg(windows) code."
-aggregated-from = [
-    "https://github.com/matthiasbeyer/crev-proofs#HT24oErbY-0x-yt9mGMZEk5S07lzpFQ4kayzEkVxJWU",
-    "crev:review/oUvp6kR0HLnpj2TDawBmr11Ka5l97y6ndp4DxRRS1_U",
-]
-
-[[audits.atty]]
 who = "\"vlad20012\" (https://github.com/vlad20012)"
 criteria = [
     "positive",
@@ -892,6 +877,22 @@ The rest of the code in the crate has not been changed."""
 aggregated-from = [
     "https://github.com/vlad20012/crev-proofs#AZ7vUkGvANHlXnQtbHBZ7KCDqIbtE7HdSOPNz51MedM",
     "crev:review/cwclRxNoyeUS5c3AUo8D6-FdMTmT-l11OKi0b0Ijbu8",
+]
+
+[[audits.atty]]
+who = "\"matthiasbeyer\" (https://github.com/matthiasbeyer)"
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-medium",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+version = "0.2.14"
+notes = "Simple codebase, looks good. Did not look at the cfg(windows) code."
+aggregated-from = [
+    "https://github.com/matthiasbeyer/crev-proofs#HT24oErbY-0x-yt9mGMZEk5S07lzpFQ4kayzEkVxJWU",
+    "crev:review/oUvp6kR0HLnpj2TDawBmr11Ka5l97y6ndp4DxRRS1_U",
 ]
 
 [[audits.atty]]
@@ -1620,19 +1621,6 @@ aggregated-from = [
 ]
 
 [[audits.bytemuck]]
-who = "\"kornelski\" (https://github.com/kornelski)"
-criteria = [
-    "positive",
-    "level-low",
-    "trust-high",
-]
-version = "1.2.0"
-aggregated-from = [
-    "https://github.com/kornelski/crev-proofs#Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50",
-    "crev:review/6gg0hViXHVatdAfyomzKHskvgoZofKj1R_zakqACcUY",
-]
-
-[[audits.bytemuck]]
 who = "\"HeroicKatora\" (https://github.com/HeroicKatora)"
 criteria = [
     "positive",
@@ -1664,6 +1652,19 @@ to avoid those incidentally succeeding in unsound code."""
 aggregated-from = [
     "https://github.com/HeroicKatora/crev-proofs#-sApEowWcAS9J0R7aO18cghvhLBpuMhyeUuWQq_fits",
     "crev:review/wpJyTKyfIjPAJeKJiRWI125xQ_xdNvl77OVmErrobFM",
+]
+
+[[audits.bytemuck]]
+who = "\"kornelski\" (https://github.com/kornelski)"
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+]
+version = "1.2.0"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50",
+    "crev:review/6gg0hViXHVatdAfyomzKHskvgoZofKj1R_zakqACcUY",
 ]
 
 [[audits.bytemuck]]
@@ -3429,25 +3430,6 @@ aggregated-from = [
 ]
 
 [[audits.default]]
-who = "\"remram44\" (https://github.com/remram44)"
-criteria = [
-    "strong",
-    "level-high",
-    "trust-medium",
-    "safe-to-deploy",
-    "safe-to-run",
-]
-version = "0.1.2"
-notes = """
-Does what is says on the can. This crate is a single function, contains
-virtually no code at all.
-"""
-aggregated-from = [
-    "https://github.com/remram44/crev-proofs#V_B2pKpHVBIp_NegKfur4MK9GqFo0o78ijhku90pYS0",
-    "crev:review/dhgelk77t5LLvIqrsp0CnYmEgWoJoGC_v3QZAFKjxjI",
-]
-
-[[audits.default]]
 who = "\"dpc\" (https://github.com/dpc)"
 criteria = [
     "strong",
@@ -4011,6 +3993,22 @@ notes = "Simple `Either` type."
 aggregated-from = [
     "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
     "crev:review/Nq18k55jF0T21Jj7siHgQjenuk966BPATmSY5xvQQYU",
+]
+
+[[audits.either]]
+who = "\"icefox\" (https://git.sr.ht/~icefox)"
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-medium",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+version = "1.5.2"
+notes = "No obvious way to abuse it."
+aggregated-from = [
+    "https://git.sr.ht/~icefox/crev-proofs#lr2ldir9XdBsKQkW3YGpRIO2pxhtSucdzf3M5ivfv4A",
+    "crev:review/ONmfFHZh1U1vrWcT2LR5xffYkgNxNLfbbjLfVMEDsnc",
 ]
 
 [[audits.either]]
@@ -5383,6 +5381,20 @@ aggregated-from = [
 ]
 
 [[audits.hostname]]
+who = "\"kornelski\" (https://github.com/kornelski)"
+violation = "=0.3.1"
+criteria = ["level-low"]
+notes = """
+`set` on Windows is buggy
+severity: low
+id: https://github.com/svartalf/hostname/issues/20
+"""
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/TVKA7uH0v42vLJ_9G89fn9ZkTFdgFv1kIoEpNfW4nhE",
+]
+
+[[audits.hostname]]
 who = "\"dpc\" (https://github.com/dpc)"
 criteria = [
     "positive",
@@ -5394,6 +5406,16 @@ version = "0.3.0"
 aggregated-from = [
     "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
     "crev:review/rDf0AH4mTmadJH6n1SoNqCSYWj-BeN2kvqoASsaEvGo",
+]
+
+[[audits.hostname]]
+who = "\"kornelski\" (https://github.com/kornelski)"
+violation = "=0.2.0"
+criteria = ["safe-to-deploy"]
+notes = "Forgets to set `NUL` string terminator on Windows"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/rT2WLRVfbb77KipqIbzd7UlgamUAmc6XhQyh8BZY2ms",
 ]
 
 [[audits.hostname]]
@@ -5601,6 +5623,20 @@ aggregated-from = [
 ]
 
 [[audits.ident_case]]
+who = "\"dpc\" (https://github.com/dpc)"
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-high",
+    "safe-to-run",
+]
+delta = "1.0.0 -> 1.0.1"
+aggregated-from = [
+    "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
+    "crev:review/pwZ5YrrTYeWE3QQhNkxVOh7_ZkDqrePYt8ObvtSue7I",
+]
+
+[[audits.ident_case]]
 who = "\"chrysn\" (https://gitlab.com/chrysn)"
 criteria = [
     "positive",
@@ -5618,20 +5654,6 @@ conversion results being suitable for any application (eg. as identifiers)."""
 aggregated-from = [
     "https://gitlab.com/chrysn/crev-proofs#bYdCa4xhd5VL4dlcVPBxV51PrW5joFp9U04rKgcTvk8",
     "crev:review/OPc0nrxRSj94CfxIZUdPW5gM3MdFEYYFROZyZqn6yMg",
-]
-
-[[audits.ident_case]]
-who = "\"dpc\" (https://github.com/dpc)"
-criteria = [
-    "positive",
-    "level-medium",
-    "trust-high",
-    "safe-to-run",
-]
-delta = "1.0.0 -> 1.0.1"
-aggregated-from = [
-    "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
-    "crev:review/pwZ5YrrTYeWE3QQhNkxVOh7_ZkDqrePYt8ObvtSue7I",
 ]
 
 [[audits.ident_case]]
@@ -6324,25 +6346,6 @@ aggregated-from = [
 ]
 
 [[audits.lazy_static]]
-who = "\"MaulingMonkey\" (https://github.com/MaulingMonkey)"
-criteria = [
-    "positive",
-    "level-high",
-    "trust-medium",
-    "safe-to-deploy",
-    "safe-to-run",
-]
-delta = "1.3.0 -> 1.4.0"
-notes = """
-1.4.0:  Read diff, looks fine.
-1.3.0:  Read all of src, skimmed all of tests.  core_lazy.rs looks a little odd, but is 100% safe code - any issues would be in it's core dependency, spin.  inline_lazy.rs contains unsafe blocks... look safe, but downgrades rating to merely positive.  lib.rs is just safe macros.  Tests all pass.
-"""
-aggregated-from = [
-    "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
-    "crev:review/urSBhG_KCPZv3NSOrnxp0IM4li9VB2rSUpxyV1UwoSU",
-]
-
-[[audits.lazy_static]]
 who = "\"HeroicKatora\" (https://github.com/HeroicKatora)"
 criteria = [
     "positive",
@@ -6393,11 +6396,44 @@ criteria = [
     "safe-to-deploy",
     "safe-to-run",
 ]
+delta = "1.3.0 -> 1.4.0"
+notes = """
+1.4.0:  Read diff, looks fine.
+1.3.0:  Read all of src, skimmed all of tests.  core_lazy.rs looks a little odd, but is 100% safe code - any issues would be in it's core dependency, spin.  inline_lazy.rs contains unsafe blocks... look safe, but downgrades rating to merely positive.  lib.rs is just safe macros.  Tests all pass.
+"""
+aggregated-from = [
+    "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
+    "crev:review/urSBhG_KCPZv3NSOrnxp0IM4li9VB2rSUpxyV1UwoSU",
+]
+
+[[audits.lazy_static]]
+who = "\"MaulingMonkey\" (https://github.com/MaulingMonkey)"
+criteria = [
+    "positive",
+    "level-high",
+    "trust-medium",
+    "safe-to-deploy",
+    "safe-to-run",
+]
 version = "1.3.0"
 notes = "Read all of src, skimmed all of tests.  core_lazy.rs looks a little odd, but is 100% safe code - any issues would be in it's core dependency, spin.  inline_lazy.rs contains unsafe blocks... look safe, but downgrades rating to merely positive.  lib.rs is just safe macros.  Tests all pass."
 aggregated-from = [
     "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
     "crev:review/PVYPQs8C5BZsyR764hL50_kXI9YJetm22uPLOY-MAsM",
+]
+
+[[audits.lazy_static]]
+who = "\"icefox\" (https://git.sr.ht/~icefox)"
+criteria = [
+    "positive",
+    "level-low",
+    "trust-medium",
+    "safe-to-run",
+]
+version = "1.3.0"
+aggregated-from = [
+    "https://git.sr.ht/~icefox/crev-proofs#lr2ldir9XdBsKQkW3YGpRIO2pxhtSucdzf3M5ivfv4A",
+    "crev:review/b9TPSM2wR2iqRg3zYk3csGfq94GrHwY1wBBwQ1xi5ug",
 ]
 
 [[audits.lazy_static]]
@@ -6413,6 +6449,19 @@ version = "1.2.0"
 aggregated-from = [
     "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
     "crev:review/avYh-D212glMEC4_2IdFF6XkzIV9z1gqseogDUOveu4",
+]
+
+[[audits.lazycell]]
+who = "\"kornelski\" (https://github.com/kornelski)"
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+]
+version = "1.2.1"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA",
+    "crev:review/miGB8LseS4Pe-W7j-fmwD8MOwEOWLZqqKgQuCjjMctY",
 ]
 
 [[audits.lazycell]]
@@ -6432,19 +6481,6 @@ Appears quite high quality, only the minimum necessary amount of unsafe code use
 aggregated-from = [
     "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
     "crev:review/99n1uFUThtXOI5hccK2yOI24vAOCR8PcqeSqY1jE0DM",
-]
-
-[[audits.lazycell]]
-who = "\"kornelski\" (https://github.com/kornelski)"
-criteria = [
-    "positive",
-    "level-low",
-    "trust-high",
-]
-version = "1.2.1"
-aggregated-from = [
-    "https://github.com/kornelski/crev-proofs#X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA",
-    "crev:review/miGB8LseS4Pe-W7j-fmwD8MOwEOWLZqqKgQuCjjMctY",
 ]
 
 [[audits.lazycell]]
@@ -9649,6 +9685,22 @@ aggregated-from = [
     "crev:review/7_cxDhRdbjOcHVRoekjkwf5UV6pZmfgj1kDO662nHuM",
 ]
 
+[[audits.pest_derive]]
+who = "\"LovecraftianHorror\" (https://github.com/LovecraftianHorror)"
+criteria = [
+    "strong",
+    "level-medium",
+    "trust-low",
+]
+version = "2.1.0"
+notes = """
+Essentially no logic. It just 8 lines that set up the derive macro to forward
+to `pest_generator`"""
+aggregated-from = [
+    "https://github.com/LovecraftianHorror/crev-proofs#PTlVqKJclK7ELjugGnh_nDgpaWLAAGRIg5UH391WKnQ",
+    "crev:review/tUEvSr-dwCMJq6lPu-MQSdpIuPsB6RfHydiEBQ5BqnQ",
+]
+
 [[audits.phf]]
 who = "\"kornelski\" (https://github.com/kornelski)"
 criteria = [
@@ -10985,6 +11037,22 @@ aggregated-from = [
 ]
 
 [[audits.rgb]]
+who = "\"kornelski\" (https://github.com/kornelski)"
+criteria = [
+    "positive",
+    "level-high",
+    "trust-high",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+version = "0.8.20"
+notes = "Fixed soundness of ComponentBytes"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA",
+    "crev:review/dXfJpD6Fkn0Z4nu5tTFg_Y3i8mQOzazvhu5XlQisgN8",
+]
+
+[[audits.rgb]]
 who = "\"HeroicKatora\" (https://github.com/HeroicKatora)"
 criteria = [
     "positive",
@@ -11003,22 +11071,6 @@ either."""
 aggregated-from = [
     "https://github.com/HeroicKatora/crev-proofs#-sApEowWcAS9J0R7aO18cghvhLBpuMhyeUuWQq_fits",
     "crev:review/mawyPQfc3L3jIObZEC87TzgXWdlb3IRa24pEh5LtGcE",
-]
-
-[[audits.rgb]]
-who = "\"kornelski\" (https://github.com/kornelski)"
-criteria = [
-    "positive",
-    "level-high",
-    "trust-high",
-    "safe-to-deploy",
-    "safe-to-run",
-]
-version = "0.8.20"
-notes = "Fixed soundness of ComponentBytes"
-aggregated-from = [
-    "https://github.com/kornelski/crev-proofs#X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA",
-    "crev:review/dXfJpD6Fkn0Z4nu5tTFg_Y3i8mQOzazvhu5XlQisgN8",
 ]
 
 [[audits.rgb]]
@@ -13934,22 +13986,6 @@ aggregated-from = [
 ]
 
 [[audits.textwrap]]
-who = "\"Minoru\" (https://github.com/Minoru/crev-proofs.git)"
-criteria = [
-    "strong",
-    "level-low",
-    "trust-medium",
-    "safe-to-deploy",
-    "safe-to-run",
-]
-version = "0.11.0"
-notes = "A high-quality create with no `unsafe`, no `unwrap`s or `expect`s. Has thorough documentation and good tests."
-aggregated-from = [
-    "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
-    "crev:review/hQeYM3-KBltjn77kGwxpQ6cnEhrsmlW7HOXdKqE2E-I",
-]
-
-[[audits.textwrap]]
 who = "\"kornelski\" (https://github.com/kornelski)"
 criteria = [
     "positive",
@@ -14077,6 +14113,68 @@ notes = "solid crate"
 aggregated-from = [
     "https://github.com/dns2utf8/crev-proofs#kL0r_IUlQZ2xcmHPRaG6eTI5HG9mFZa0XqvDmf6IocI",
     "crev:review/4dos-XtLihw1CvU1rlydLol7306fDTm9UyFyrIabBT8",
+]
+
+[[audits.threadpool]]
+who = "\"MaulingMonkey\" (https://github.com/MaulingMonkey)"
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-medium",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+version = "1.8.0"
+notes = """
+Simple basic thread pool
+
+Pros:
+* Documented/tested MSRV
+* Uses basic well tested mpsc channels
+* No unsafe
+* Well tested, documented, looks solid
+
+Cons:
+* No high performance work stealing queues to break up sync points for work submission
+* No auto-scaling options
+* Ignores OS thread pools (which might have better auto-scaling magic)
+* Unclamped use of frequently mad num_cpus crate could result in ThreadPool::default causing far too many threads resulting in OOM crashes.
+
+[Full Audit](https://github.com/MaulingMonkey/rust-reviews/blob/master/reviews/threadpool.md)"""
+aggregated-from = [
+    "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
+    "crev:review/8Fb1SpzlyZ79YU9NMyVcQfoILxhsDNCBiR_tHSR9WHI",
+]
+
+[[audits.threadpool]]
+who = "\"MaulingMonkey\" (https://github.com/MaulingMonkey)"
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-medium",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+version = "1.3.2"
+notes = """
+Simple basic thread pool
+
+Pros:
+* Documented/tested MSRV
+* Uses basic well tested mpsc channels
+* No unsafe
+* Well tested, documented, looks solid
+
+Cons:
+* No high performance work stealing queues to break up sync points for work submission
+* No auto-scaling options
+* Ignores OS thread pools (which might have better auto-scaling magic)
+* Unclamped use of frequently mad num_cpus crate could result in ThreadPool::default causing far too many threads resulting in OOM crashes.
+
+[Full Audit](https://github.com/MaulingMonkey/rust-reviews/blob/master/reviews/threadpool.md)"""
+aggregated-from = [
+    "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
+    "crev:review/8AN6KElu2BZnf_s4BqAbAhb4HCfl784sr8VAJ90xBTg",
 ]
 
 [[audits.threema-gateway]]
@@ -15238,41 +15336,6 @@ aggregated-from = [
 ]
 
 [[audits.void]]
-who = "\"MaulingMonkey\" (https://github.com/MaulingMonkey)"
-criteria = [
-    "positive",
-    "level-medium",
-    "trust-medium",
-    "safe-to-deploy",
-    "safe-to-run",
-]
-version = "1.0.2"
-notes = """
-Trivial uninhabited type.  LGTM.
-
-No unsafe, no I/O, single lib.rs source file, decent docs.
-"""
-aggregated-from = [
-    "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
-    "crev:review/Hq6033X2uJ45vGAZ0vR0XKk1InUL6oVnDUT9Lc9Le-I",
-]
-
-[[audits.void]]
-who = "\"icefox\" (https://git.sr.ht/~icefox)"
-criteria = [
-    "strong",
-    "level-medium",
-    "trust-medium",
-    "safe-to-deploy",
-    "safe-to-run",
-]
-version = "1.0.2"
-aggregated-from = [
-    "https://git.sr.ht/~icefox/crev-proofs#lr2ldir9XdBsKQkW3YGpRIO2pxhtSucdzf3M5ivfv4A",
-    "crev:review/V45qI9AbULql-KjIYegnKqeUpDe7yN1GZIFN_YQY73I",
-]
-
-[[audits.void]]
 who = "\"dpc\" (https://github.com/dpc)"
 criteria = [
     "strong",
@@ -15548,6 +15611,20 @@ aggregated-from = [
 ]
 
 [[audits.winapi-build]]
+who = "\"dpc\" (https://github.com/dpc)"
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+    "safe-to-run",
+]
+version = "0.1.1"
+aggregated-from = [
+    "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
+    "crev:review/R-oT-rewhNSsYMlLc-VsTNBaz47BduhSVfNky0AEl80",
+]
+
+[[audits.winapi-build]]
 who = "\"KonradBorowski\" (https://gitlab.com/KonradBorowski)"
 criteria = [
     "strong",
@@ -15562,20 +15639,6 @@ intended use-case.
 aggregated-from = [
     "https://gitlab.com/KonradBorowski/crev-proofs#ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM",
     "crev:review/WV4mQVew96m7t1lBVG8m87GyfiX0cktjMbWldsbH7P8",
-]
-
-[[audits.winapi-build]]
-who = "\"dpc\" (https://github.com/dpc)"
-criteria = [
-    "positive",
-    "level-low",
-    "trust-high",
-    "safe-to-run",
-]
-version = "0.1.1"
-aggregated-from = [
-    "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
-    "crev:review/R-oT-rewhNSsYMlLc-VsTNBaz47BduhSVfNky0AEl80",
 ]
 
 [[audits.winapi-i686-pc-windows-gnu]]
