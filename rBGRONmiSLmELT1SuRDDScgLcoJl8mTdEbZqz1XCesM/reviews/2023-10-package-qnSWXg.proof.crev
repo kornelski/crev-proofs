@@ -105,3 +105,25 @@ review:
 FC0HSywg1XW-OX5hxLO4tnr7xOpGHy_UA6QqhZocockgDJSiY-UsfmHXfFnByU3R6NQH_r2izy2aY89Uc9KxDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-10-27T03:08:44.451168+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: self_cell
+  version: 1.0.1
+  revision: 2bb7c3e75cf23849d5525fcf4bb279c9a78b49d6
+  digest: qR1rlzdBk-_fujftXSv9PSNlNIoABBsnIr6bZNkjHFg
+review:
+  thoroughness: medium
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+KU20couHf5ywaAj7eGJoWHNLELMUhmD45ok3H8WETYTbNMgi4Eki8FdMclJSNl_GggOaGKGF-XMwE3p5uRP8Bw
+----- END CREV PROOF -----
+
