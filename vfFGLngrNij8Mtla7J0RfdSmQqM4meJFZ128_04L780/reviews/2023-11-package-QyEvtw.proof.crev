@@ -1,0 +1,25 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-11-25T02:59:14.788205+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: keyword_extraction
+  version: 1.2.1
+  revision: 1d76c1d0b6903c01c51b88b4d131ff85ee58d841
+  digest: 4pd-0bPaIs3tsleauezLl9hM3SqQq_IxZ-kYSXyux1U
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+alternatives:
+- source: https://crates.io
+  name: rake
+----- SIGN CREV PROOF -----
+dQAPnvzRMYHD4H0iJu0rygyWt6Rakp3yGa0UaCh_JLXVG0Lfx_bfzR0xxaRYLbx2UmEobV8HthZDk5i6vPBxDg
+----- END CREV PROOF -----
+
