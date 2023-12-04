@@ -1,0 +1,25 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-12-04T19:25:14.605548+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo-deny
+  version: 0.14.3
+  revision: 80860f0f6c974810e9ce38655309293e8aa841e4
+  digest: 83nisqGQQ-z4xDLT39s1nyH8Z4PtGu9DNeoXaddvDTw
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+alternatives:
+- source: https://crates.io
+  name: cargo-vet
+----- SIGN CREV PROOF -----
+p47_HP4ssjYyFAnmfH5fcnpFcrUTgKNZrinAukITauW6U2_X6QvJTbw4oHyEGyDL0pf_Lh28YdtTg39pihDJDA
+----- END CREV PROOF -----
+
