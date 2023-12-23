@@ -23,3 +23,27 @@ alternatives:
 p47_HP4ssjYyFAnmfH5fcnpFcrUTgKNZrinAukITauW6U2_X6QvJTbw4oHyEGyDL0pf_Lh28YdtTg39pihDJDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-12-23T15:34:53.005139+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: pollster
+  version: 0.3.0
+  revision: 6c641ccc569871b058e8a0ab9ceafc5a6844a119
+  digest: l7_q4Q3buuONaGLvQ8I4pYQzJG7tRSa1xoCeegIdJNM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  It really is minimal
+----- SIGN CREV PROOF -----
+LHLHl-hirXi6DZr_tClssIy70wauUfMnGshm7CKdI8B6tBzUcxEWYCCbrEB0cFhSTj_tbIfPxWzn-jmwG1zXDg
+----- END CREV PROOF -----
+
