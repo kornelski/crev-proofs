@@ -22512,4 +22512,4 @@ Only in debcargo (unstable). Changelog:
 aggregated-from = ["https://salsa.debian.org/rust-team/debcargo-conf.git"]
 
 [criteria.unknown]
-description = "Only in debcargo, unreleased"
+description = "May have been packaged automatically without a review"
