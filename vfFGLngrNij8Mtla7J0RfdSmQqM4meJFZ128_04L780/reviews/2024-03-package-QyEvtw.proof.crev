@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-03-07T16:03:09.073847+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: caffe2op-sqr
+  version: 0.1.5-alpha.0
+  revision: 1ede05e9144204dca9b4c4e589cc2a00b65394aa
+  digest: Osages_N5k_KymW_Ruq0C9UsJjHr-i4vszwEDfvDymE
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+flags:
+  unmaintained: true
+comment: |-
+  This is non-functional junk
+----- SIGN CREV PROOF -----
+cW3CmzwXVZYkaMJMbESI6XdOOpAjF4HDlvYU84p1qloQjav4vwOCmAD25MD5bpEaaKi8AggXmiYZLBTRQcX_Bw
+----- END CREV PROOF -----
+
