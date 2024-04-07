@@ -1,0 +1,25 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-04-07T16:36:50.992350+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: datetime_macros
+  version: 0.1.2
+  digest: vnwDXrKvhuXLFERuHyVW4mRR2i6dLmRgdZNRDH4SHLk
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+flags:
+  unmaintained: true
+comment: |-
+  Uses obsolete rustc plugin API
+----- SIGN CREV PROOF -----
+63stNycVHDfVwm0aOgVkRpTMDVXdLYnllXQKLAVeMG-q1Ec5JeCtkd5OErT6X-BxAfLYoasIiXRkLcSQJMoqCQ
+----- END CREV PROOF -----
+
