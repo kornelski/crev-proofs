@@ -23,3 +23,27 @@ comment: |-
 63stNycVHDfVwm0aOgVkRpTMDVXdLYnllXQKLAVeMG-q1Ec5JeCtkd5OErT6X-BxAfLYoasIiXRkLcSQJMoqCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-04-07T18:04:44.474921+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: terrors
+  version: 0.3.0
+  revision: 9669d9d7b73b10e25bf10074920af27a11bdb73f
+  digest: o4d27dN8vpEVfNVBhcYNDKaZmA7Fs1_vY-vF6u7NpTk
+review:
+  thoroughness: medium
+  understanding: low
+  rating: positive
+comment: |-
+  Uses `Box<dyn Any>` and type-level linked list acrobatics
+----- SIGN CREV PROOF -----
+dl8RV9ke-F7a-sgaQ3kKjzF8SQ-McuiozTG2108PGakgEOV6zyuIFJaOe_l-eFDZxqQRKEfzy6DMZJ7A211rBQ
+----- END CREV PROOF -----
+
