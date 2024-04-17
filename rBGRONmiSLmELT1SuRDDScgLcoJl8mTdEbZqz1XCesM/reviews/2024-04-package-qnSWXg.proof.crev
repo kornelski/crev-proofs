@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-04-17T02:13:03.963821+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: rmp-serde
+  version: 1.2.0
+  revision: 5a63d32c99461c0aa8f0205b6bd0da53ce8ebb0f
+  digest: eD6RBvkxcNuWCFnSt_RUGk1uVSV-QYqPur-rquX5TOg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+fE688HwT-wznZYf0iPonqE-nWpsJ3ANGa5V_gN0nTSwjOA-YxuwObKukzmII1qKhXNwcC1L43fEHj5Bkt37JDw
+----- END CREV PROOF -----
+
