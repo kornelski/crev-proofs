@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-06-12T18:50:04.224191+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: elf
+  version: 0.7.4
+  revision: 94d6780552465ebdc3d732f4a32d6bd00f1b8d70
+  digest: iGLGIBj-74NvQaJIo6ZTOCZH2aSNA0cVQ1sUHJUFcIs
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Looks solid. Takes care to check for integer overflows.
+----- SIGN CREV PROOF -----
+D5JzDnxkf7y4DtoKYbP3GyF5nasemkwLUg_RXVJFGwitr6lp8Zv__ZWwGyGACL8WCkHp_dZg2BZH4jXjSWUOAA
+----- END CREV PROOF -----
+
