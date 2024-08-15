@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-08-15T15:36:58.726842+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: fixed-capacity-vec
+  version: 1.0.1
+  revision: d61445308f7c164fc5fbd07788fb38181694da00
+  digest: OvvkmaQt43eY1hf3rXm61CZKwFUtQxBZEqejzKTNytg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+wfHSNXDE4PyQ4jRWS2qkC9E4E2dtc56RPityd1kWcjafBxwhJBps76PTXpXic6qC2EyT35EXzO5nxGSeitysCg
+----- END CREV PROOF -----
+
