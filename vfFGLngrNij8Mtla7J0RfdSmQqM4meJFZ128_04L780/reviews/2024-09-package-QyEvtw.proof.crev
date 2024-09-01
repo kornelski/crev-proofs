@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-09-01T12:23:31.949488+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: fast-srgb8
+  version: 1.0.0
+  revision: 3e430039d5f252e896a174ebc7d8eb3aa1e12d95
+  digest: xDA1pOJ6Mw4V-h25EF4CNuwL00o6hvF030RHeB9tqnE
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+----- SIGN CREV PROOF -----
+M9C8--OAVUmVxIJ13Hss2ajy3XPS1AGf9FOQ_cIBfjmf_CXoN-d1IRy6eIBcy_g1Ntcdb8MiAjRBijj85FsiAQ
+----- END CREV PROOF -----
+
