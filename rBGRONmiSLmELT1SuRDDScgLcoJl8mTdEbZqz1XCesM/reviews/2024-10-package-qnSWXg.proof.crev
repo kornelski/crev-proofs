@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-10-24T15:27:48.755337+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: qcms
+  version: 0.3.0
+  revision: 5ba6ed804b59273afc37794d5b04d27fb8835e48
+  digest: vw0y-JULf98gYfVHESeQRvLjeW1jhfLcQPSAUHVU61s
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |-
+  It shows it's a copy-paste from a C codebase, and it's meant to be used from C as well. The main public API is still unsafe C FFI, with a thin Rust wrapper around it.
+----- SIGN CREV PROOF -----
+VcuuytbVwxvBkr67O89tbdqRXbl6IruqskeoXqDUiy_YfaC01vqTHuj0lzrVhYHC05MYnaFOD4PpgCcepQ-DDQ
+----- END CREV PROOF -----
+
