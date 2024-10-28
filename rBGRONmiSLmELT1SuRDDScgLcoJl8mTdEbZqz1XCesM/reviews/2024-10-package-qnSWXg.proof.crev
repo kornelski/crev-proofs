@@ -22,3 +22,25 @@ comment: |-
 VcuuytbVwxvBkr67O89tbdqRXbl6IruqskeoXqDUiy_YfaC01vqTHuj0lzrVhYHC05MYnaFOD4PpgCcepQ-DDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-10-28T23:47:19.841005+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: libwebp-sys
+  version: 0.10.1
+  revision: 9469a16fb3345105df7589f466055ecf2b4ca1eb
+  digest: Kxxf_jkyxkQx1FVVRzBWWKGaL334j2WgPzxmO3q0ucM
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+h8afltHD-Fo7DV5LOulXkhm2ZJJhuk2v1aL-elmDpqUHWYxmj8plB5EyEX-ohAo4rDSMMawTna9NvsamZI3hCA
+----- END CREV PROOF -----
+
