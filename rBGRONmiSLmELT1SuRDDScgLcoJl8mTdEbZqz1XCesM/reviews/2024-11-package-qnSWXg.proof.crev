@@ -1,0 +1,28 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-11-07T15:15:15.670289+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: predicates
+  version: 3.1.2
+  revision: 9b446044b3450948acef85fb5bdd609f112c254b
+  digest: yQcVKqcL2fj67FB_xw2p2P6H4evSbo9b6GZeRfyaw04
+package-diff-base:
+  source: https://crates.io
+  name: predicates
+  version: 3.0.4
+  revision: f4cf923c3367390e50dd81efe9e9b9498dea0f11
+  digest: RBmbOGdc_ljPE2AzcqmTydx1ltVp6A_Oona1OoI5OvQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+rS__XJw8KDsDZQh2Xc-bs9_HY0VeUXcTZn6YpapdAA6VoY-gnD6CgE0JMN853pPGsDhnjNc50pAc6p8SzhDtAg
+----- END CREV PROOF -----
+
