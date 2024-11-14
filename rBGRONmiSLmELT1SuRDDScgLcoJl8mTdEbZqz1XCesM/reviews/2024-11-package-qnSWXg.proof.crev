@@ -26,3 +26,25 @@ review:
 rS__XJw8KDsDZQh2Xc-bs9_HY0VeUXcTZn6YpapdAA6VoY-gnD6CgE0JMN853pPGsDhnjNc50pAc6p8SzhDtAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-11-14T12:38:40.573659+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: c2pa
+  version: 0.38.0
+  revision: f3f0500af012e02341ad9f7cd0930469221d9e97
+  digest: SqkpBqyg0Dox8cZ7CDB26WPqVXqMgw90N7yqkZL1YXo
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+1NTpm_EH4jZ7ptW1Xau5Y8mWksKSxhVA5uNfIU25bZhzDfdMybjtDRnDF351HWINZKagJN9itTq9D7e7oE5bBw
+----- END CREV PROOF -----
+
