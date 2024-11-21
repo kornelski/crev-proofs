@@ -48,3 +48,25 @@ review:
 1NTpm_EH4jZ7ptW1Xau5Y8mWksKSxhVA5uNfIU25bZhzDfdMybjtDRnDF351HWINZKagJN9itTq9D7e7oE5bBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-11-21T17:04:05.134865+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo2junit
+  version: 0.1.14
+  revision: d854116f859116578907eb7f25d007a9bb17629c
+  digest: JTH7xweQJoAWrxo8ZxvwmzeSjseGoQwT_Pb9TODGmuA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+Tz9VqzNLt2UbEb3FadQm1WmdHcFPb_pMS16n_L672OCTGzjiX5LMNHP9VIXGmmD-SW7ynunZmo5qjv08wUObAQ
+----- END CREV PROOF -----
+
