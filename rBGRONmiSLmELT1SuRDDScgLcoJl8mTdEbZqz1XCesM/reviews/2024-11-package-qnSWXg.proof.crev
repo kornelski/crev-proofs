@@ -70,3 +70,25 @@ review:
 Tz9VqzNLt2UbEb3FadQm1WmdHcFPb_pMS16n_L672OCTGzjiX5LMNHP9VIXGmmD-SW7ynunZmo5qjv08wUObAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-11-21T17:25:30.386595+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: junitify
+  version: 0.1.18
+  revision: 64a2aa88d6ea8bcbe921bc4f07d2cfc3f587263d
+  digest: d1rKeusM-Rcs6CLwP2kgUEQk3CAmWECTtxoIv6ra8ag
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+aIcgN50fx_9PDghpXgAzF1MPS_84owhcd6FsipwZED5CJtdUDFw2Soin-gd_EKLFl7T4AINyDTyEq-TJ5jh_BA
+----- END CREV PROOF -----
+
