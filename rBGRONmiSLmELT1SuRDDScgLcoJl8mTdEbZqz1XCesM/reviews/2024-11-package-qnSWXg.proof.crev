@@ -92,3 +92,31 @@ review:
 aIcgN50fx_9PDghpXgAzF1MPS_84owhcd6FsipwZED5CJtdUDFw2Soin-gd_EKLFl7T4AINyDTyEq-TJ5jh_BA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-11-26T12:05:24.486319+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: boringssl
+  version: 0.0.5
+  digest: B-ISQNNfuzMTML5mmCxFxXin7fnZOLtqoto2Vg9euHw
+review:
+  thoroughness: low
+  understanding: low
+  rating: negative
+flags:
+  unmaintained: true
+alternatives:
+- source: https://crates.io
+  name: boring
+comment: |-
+  Wrong crate! Use `boring` or `boring-sys` instead!
+----- SIGN CREV PROOF -----
+FWXgHcqp27cPFJfMTvncRfpqdQDRrucTxI_Umr0OzMHPnNsNAksMldfKltswDxeRq4jyfiS-MPA40hnPlGN0Dw
+----- END CREV PROOF -----
+
