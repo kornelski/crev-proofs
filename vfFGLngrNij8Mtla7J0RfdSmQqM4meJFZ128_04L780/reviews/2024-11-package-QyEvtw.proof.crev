@@ -20,3 +20,25 @@ review:
 4174s5RWWmDmyaCE78mZKxizQ18aGyDjuvH3-gG9_eJBSZyOC6-f3hedu0jJEyN937S_fOv-DhJV8gxRT4_-BQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-11-30T23:47:53.317400+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: disjoint_impls
+  version: 0.8.0
+  revision: 2dade7a98dbfba39f83c0db4ace5cdffb1bddbc1
+  digest: OHUMgZaw7kVm9rrl33coGFasYue3bY-0SnSegJqHs6g
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+iv4ukvLAWeWwdkr3ON0dV0rjp2Wf2BlvyA-47iGhRpYJKirO_kvYVB7NeonBUKrY6b30jACQQAXpaevEvOS7Ag
+----- END CREV PROOF -----
+
