@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-01-27T18:28:55.929332+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: hashify
+  version: 0.2.4
+  revision: 3b32a624baef1bdee1877f336f4106e4ceee8b1c
+  digest: wDGzNaQHKB8U2kXjYtXDU9cmXoiEqTqulaXpYndiXDQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+kKKK3yY_Jae1p32f1ISsWeh324k3wZV_hsGCQ8kKF5QY67Mlqs0LYoeBzDjuMOi2f4TilheO58cRXLCa-ALRBg
+----- END CREV PROOF -----
+
