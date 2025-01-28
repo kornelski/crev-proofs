@@ -50,3 +50,29 @@ comment: |-
 gEkjarDyZ3mj-lcc8Fne0EYg_iaz9pAa6ajLucBB7Kcb3Z9eeiZRMv2NpXFMui87y-aBJIESPOY0D9RwlmT5Bw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-01-28T17:30:03.924486+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: vrd
+  version: 0.0.8
+  digest: a2ExeTOw6yBVC9YB8rAtSDr40_r5sxw-DtzqTB44vow
+review:
+  thoroughness: none
+  understanding: low
+  rating: negative
+alternatives:
+- source: https://crates.io
+  name: rand
+comment: |-
+  Mersenne Twister is not a good random algorithm, and this crate has *`tokio`* as a dependency, along with a fork of `serde_yaml`, custom loggers and datetime libraries! And it's still including the `rand` crate, which you should use instead.
+----- SIGN CREV PROOF -----
+-6XgAUzhaJnTnr6SZu-nQ1yT6s1MqsnAg2z9iT26lacoFJNH0UyD_iVf16zg3Td-BJ7wOloVqv7kJ7H4RMzUAw
+----- END CREV PROOF -----
+
