@@ -76,3 +76,29 @@ comment: |-
 -6XgAUzhaJnTnr6SZu-nQ1yT6s1MqsnAg2z9iT26lacoFJNH0UyD_iVf16zg3Td-BJ7wOloVqv7kJ7H4RMzUAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-01-28T17:42:44.659669+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: kyberlib
+  version: 0.0.6
+  digest: 6iSkBElK-_gzXpXiTO-9I4O_5-P6-v6OwJ7DgXFQHxA
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+alternatives:
+- source: https://crates.io
+  name: pqc_kyber
+comment: |-
+  This looks like code copied from `pqc_kyber`, with unnecessary dependencies added.
+----- SIGN CREV PROOF -----
+ItD22zN1kf0iXI1tRBAgguK61pnPrwANxnvy5sl_HruZWllSnNSF73wgU4S7H3qwvHSiuVQ1BRKi98Oencs4Cw
+----- END CREV PROOF -----
+
