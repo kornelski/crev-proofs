@@ -20,3 +20,33 @@ review:
 kKKK3yY_Jae1p32f1ISsWeh324k3wZV_hsGCQ8kKF5QY67Mlqs0LYoeBzDjuMOi2f4TilheO58cRXLCa-ALRBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-01-28T17:20:12.034591+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: serde_yml
+  version: 0.0.12
+  digest: ZfnX4nSFNF8Gs6SOa65r_bgcrAUG3GubCoNq-mcYX3g
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+issues:
+- id: https://old.reddit.com/r/rust/comments/1ibdxf9/beware_of_this_guy_making_slop_crates_with_ai/
+  severity: medium
+  comment: ''
+alternatives:
+- source: https://crates.io
+  name: serde_yaml
+comment: |-
+  Reported by dtolnay as containing AI-hallucinated nonsense, including soundness bugs.
+----- SIGN CREV PROOF -----
+gEkjarDyZ3mj-lcc8Fne0EYg_iaz9pAa6ajLucBB7Kcb3Z9eeiZRMv2NpXFMui87y-aBJIESPOY0D9RwlmT5Bw
+----- END CREV PROOF -----
+
