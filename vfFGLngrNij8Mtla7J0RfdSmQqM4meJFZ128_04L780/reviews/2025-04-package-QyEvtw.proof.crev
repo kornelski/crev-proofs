@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-04-04T00:01:57.434581+01:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: bk-tree
+  version: 0.5.0
+  revision: 2753aeac4a1c8bc540e85e56a70c47df863565c5
+  digest: EgIRMbHXUwgaayj2F2wvr5wT2M9vI7_nPw0IG8lgC84
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+4acOliMcZmQV5W1OzbRRnJl1ybbuEevSloBrKXargX0S3lMCWVhltBQa26Q5MDXYJS4a1K0jS4bI37USiLutAQ
+----- END CREV PROOF -----
+
