@@ -166,3 +166,31 @@ review:
 FWgkM-axoAxzPf1KGPX8TicE1zBFZ748R5wTmwdHJ6vezQ4ScMR0KvOaSRz155y3ukQD36TcKrW259oeJ4QDAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-10-10T00:24:18.031432+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: matchers
+  version: 0.2.0
+  revision: a73b203f95b61113a2012ecada9ee287c1d8abee
+  digest: aCeT16I-OB_22S3HxTlzjGTG5HomRQ66VNhk8kWvd5Y
+package-diff-base:
+  source: https://crates.io
+  name: matchers
+  version: 0.1.0
+  revision: 6e5f38da23303a0c66133c9c2981818b93ab746d
+  digest: M0IR9h32r73dc04aelLhbhudVO21Hna5iCUr2jHov7g
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+teHQxjfyHm23dgZil3vEwFrLfP-h8fSOtbfs5TdoFyIT_1qS7-K7BY8hfuMQDxjed5g20M0W6Z285_9WGWrNCQ
+----- END CREV PROOF -----
+
