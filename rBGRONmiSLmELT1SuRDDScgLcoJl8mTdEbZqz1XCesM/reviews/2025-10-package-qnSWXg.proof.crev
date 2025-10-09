@@ -82,3 +82,31 @@ review:
 IVCXL-Fkbu00luM4Z7WCrgy7mPAywEIR113KDl2H-xSyHbmdKJYxytGaZJpB5MCB08nu_DUkPTIV4LPjd4NJAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-10-10T00:10:37.843779+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: version_check
+  version: 0.9.5
+  revision: d77ef9f27cc336719b2d839d09ee6635dd22f758
+  digest: KMmqKkyZQJR08LRMMtYgSCvb8Z8Bc6Da7oeKFz3llC4
+package-diff-base:
+  source: https://crates.io
+  name: version_check
+  version: 0.9.4
+  revision: 736b788c9c32c93b545cb084eac6f94f31f2872c
+  digest: 6Oq4vATaNKrztPhB3y0x-7StLTwABtR7EMlzL6NT7yI
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+ci-x1qbWNcXGtiW590VawCT9zTFVfGsNwZwVrYIzTQR-nMe8clX62BlEnEUuJBbMe39W1JgSFYo4j6XLpQwtDA
+----- END CREV PROOF -----
+
