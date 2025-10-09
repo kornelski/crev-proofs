@@ -110,3 +110,31 @@ review:
 ci-x1qbWNcXGtiW590VawCT9zTFVfGsNwZwVrYIzTQR-nMe8clX62BlEnEUuJBbMe39W1JgSFYo4j6XLpQwtDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-10-10T00:12:54.653853+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: sync_wrapper
+  version: 1.0.2
+  revision: 55413956c36aeab47feb8c04d1b7a044d6df336a
+  digest: VAkRVC4_wIkaFXsaiXilEb6W1Aex3NFJyEYvcq0qY2Q
+package-diff-base:
+  source: https://crates.io
+  name: sync_wrapper
+  version: 0.1.1
+  revision: c2dbd54bbb43f0cc2cadcbbc9bdfdf31d0499f9a
+  digest: eiU2JYsXTlcLdvatLu2HoNMbsm9xj_DnQf5PRbLfVjg
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+rij2jR4SwIimyhdVtigrVxexnf18EbnKC5FK-dEwMU4NVlNCjw-iX1k-jijuPao-QkEYHIXKR0lLJr6E1K3QCg
+----- END CREV PROOF -----
+
