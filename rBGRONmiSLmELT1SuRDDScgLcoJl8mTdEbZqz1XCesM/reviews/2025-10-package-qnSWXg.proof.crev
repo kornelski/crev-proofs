@@ -54,3 +54,31 @@ review:
 91nfPIn_bUFjvaMWC8_qc9VY3U3M_KKYFOdN-t1xF_CNccQw0q94tMWggjGk7I5UuWOLFDARqfw6DAKNN5tGCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-10-10T00:09:42.736882+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: bstr
+  version: 1.12.0
+  revision: 8904072067fca9ca993f7234a2dacad1c362afa7
+  digest: gKWaxDZH4UKi23xRDZNR9CVqMcFzHsdInuI4VWNiRsA
+package-diff-base:
+  source: https://crates.io
+  name: bstr
+  version: 1.11.3
+  revision: cbe2c692782d772f7c2fd8be0972bf9b91889a97
+  digest: 348rCIo_pi5lxKPCJvFvP_lbuDQ7WaB6mwA_EOIdens
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+IVCXL-Fkbu00luM4Z7WCrgy7mPAywEIR113KDl2H-xSyHbmdKJYxytGaZJpB5MCB08nu_DUkPTIV4LPjd4NJAQ
+----- END CREV PROOF -----
+
