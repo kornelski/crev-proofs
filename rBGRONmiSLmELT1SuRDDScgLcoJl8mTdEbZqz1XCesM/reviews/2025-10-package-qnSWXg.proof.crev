@@ -222,3 +222,30 @@ review:
 xhms5M3_NZHA2NuMEM5saMcMd_dLF2J9INMFUQ6PzWqPB-ei1A1mMLxYQhp1r9AT_mGj8BvrpeA1Biruf7jzCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-10-10T00:29:21.908679+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: rprompt
+  version: 2.2.0
+  revision: 4ea6bcd697ff107fa4b95ffad47d47281c2d44fb
+  digest: BmgTCsO-NHSGun1cktWgIrCnxqU8g8qn6L2Kne8FcyA
+package-diff-base:
+  source: https://crates.io
+  name: rprompt
+  version: 1.0.3
+  digest: q1Ajv-CGmXzGl7uxka2f4DYNIBcfIesKPvs-6IVbGkg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+3moeL5_Iu3h4ztklATPXYF9Th0ftEM5BPykdmyLd11b_QGbD2w0qIUsWNpTgnvv_dsurnbdV8kD3z_6Y62WYCg
+----- END CREV PROOF -----
+
