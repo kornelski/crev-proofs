@@ -44,7 +44,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "1.0.2"
-notes = '''
+notes = """
 This is an implementation of Adler-32 checksum. It has no `unsafe`, and the
 code is quite simple. The only complicated part is the algorithm itself, but
 there is a big comment explaining what's going on, and the structure of the
@@ -53,7 +53,7 @@ but I'm sure it's sound and isn't malicious.
 
 Thoroughness is "high" because I read the whole crate quite attentively, but
 understanding is still "medium" since I didn't quite follow the math that
-enables vectorization in this crate. '''
+enables vectorization in this crate. """
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/JliX-m4U-a4Rme0ED_p1BSCBqHkeFtXVfHjxfZ9Tem0",
@@ -691,7 +691,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.4.11 -> 0.5.0"
-notes = '''
+notes = """
 Stack/value variable length arrays without heap fallback.
 
 Pros:
@@ -720,7 +720,7 @@ Cons:
 | src/range.rs                  | +1 | Removed
 | tests/serde.rs                | +1 | |
 | tests/tests.rs                | +1 | New test cases
-'''
+"""
 aggregated-from = [
     "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
     "crev:review/MoHiKr_J4_IzDw7BkWhail-SXXlkmecQf08dSI0TsPM",
@@ -1076,9 +1076,9 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.13 -> 0.2.14"
-notes = '''
+notes = """
 This version only adds support for `target_os = "hermit"` via `hermit_abi` crate.
-The rest of the code in the crate has not been changed.'''
+The rest of the code in the crate has not been changed."""
 aggregated-from = [
     "https://github.com/vlad20012/crev-proofs#AZ7vUkGvANHlXnQtbHBZ7KCDqIbtE7HdSOPNz51MedM",
     "crev:review/cwclRxNoyeUS5c3AUo8D6-FdMTmT-l11OKi0b0Ijbu8",
@@ -1717,6 +1717,21 @@ notes = "Now 100% safe code"
 aggregated-from = [
     "https://github.com/kornelski/crev-proofs#vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780",
     "crev:review/StJlbnkv-ujGOK8XXngrmUoNK14aCbeKECIMUIP1ltc",
+]
+
+[[audits.bstr]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-high",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+delta = "1.11.3 -> 1.12.0"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/DicgI6tjqfT117mlz52kAo02Ip560bwmm1nfPGrVHqc",
 ]
 
 [[audits.btoi]]
@@ -3818,6 +3833,20 @@ aggregated-from = [
 ]
 
 [[audits.crc32fast]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+    "safe-to-run",
+]
+delta = "1.4.2 -> 1.5.0"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/BF-cckd7x3e6LjZphVnR1yq-N3DtCeGZR8FRz5ZT-ds",
+]
+
+[[audits.crc32fast]]
 who = '"weiznich" (https://github.com/weiznich)'
 criteria = [
     "positive",
@@ -4859,20 +4888,6 @@ aggregated-from = [
 ]
 
 [[audits.either]]
-who = '"oherrala" (https://github.com/oherrala)'
-criteria = [
-    "strong",
-    "level-medium",
-    "trust-low",
-]
-version = "1.5.2"
-notes = "A simple datatype with implementations for many traits. Code is clean and easy to understand."
-aggregated-from = [
-    "https://github.com/oherrala/crev-proofs#YWfa4SGgcW87fIT88uCkkrsRgIbWiGOOYmBbA1AtnKA",
-    "crev:review/cDTxJncs4TSYtajBOHm6iaIdvWa8CrAqViGekuC5lGU",
-]
-
-[[audits.either]]
 who = '"dpc" (https://github.com/dpc)'
 criteria = [
     "strong",
@@ -5015,7 +5030,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "1.0.0"
-notes = '''
+notes = """
 I am the author of this crate. As such, I obviously trust it and believe it is useful.
 So this review will instead point at the trickiest parts and try to rationalize them.
 
@@ -5057,10 +5072,25 @@ and a patch version will be released that removes the unneeded dead code.
 I've only put this review as positive rather than strong because of a lack of real-world use.
 As of yet, the library is just of theoretical use, and has yet to be stress tested for real.
 However, I feel perfectly fine recommending it for any/all use case that wants to make working
-with type-erased pointers simpler, or uses slice-dst and wants thin pointers to those structures.'''
+with type-erased pointers simpler, or uses slice-dst and wants thin pointers to those structures."""
 aggregated-from = [
     "https://github.com/cad97/crev-proofs#e13vqC78LDCc-IiVPs-XkOHWd1j6PJUcYrugasS77hQ",
     "crev:review/mIyDB_nHil7_S6rAjZYnybmMmUueTmmqsTwtlF5TSGk",
+]
+
+[[audits.errno]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-high",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+delta = "0.3.13 -> 0.3.14"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/XJvKhQXPs5e17bp3MFK9D6bW6WB95LKj91vgZ6lGCQ0",
 ]
 
 [[audits.errno]]
@@ -5091,11 +5121,11 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.2.5"
-notes = '''
+notes = """
 I evaluated this before using in my own project. I only really know Linux,
 but WASI and Windows parts made sense to me as well. I can't vouch for
 memory safety of WinAPI calls, so I capped the rating at "positive" rather
-than giving it the "strong" that it probably deserves.'''
+than giving it the "strong" that it probably deserves."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/XaMQZjLDux-u0NxIp85OPvqJT-1J7L0comIS0WqT6sQ",
@@ -5135,7 +5165,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.22.9"
-notes = '''
+notes = """
 This is a preliminary "does this look okay to use" code review, writing down
 everything I noticed -- I have not yet attempted to use the library.
 
@@ -5185,7 +5215,7 @@ The following are “this doesn't exist” rather than “this exists but is bad
 * `rigid.rs`:
   "All matrix multiplication in this module is in row-vector notation," which
   seems gratuitously inconsistent with most common notation and with the
-  `transform2d` and `transform3d` modules. But perhaps I have misunderstood.'''
+  `transform2d` and `transform3d` modules. But perhaps I have misunderstood."""
 aggregated-from = [
     "https://github.com/kpreid/crev-proofs#RFs94ITILUKf6EoC8j-_qwMi4t5zhZ7t3bQ7KHmB5QI",
     "crev:review/hcYxp7MJTxtT4gGUHvU3rOnV2D8xyDPUdKBgP60A8Bc",
@@ -6116,7 +6146,7 @@ aggregated-from = [
 who = '"Minoru" (https://github.com/Minoru/crev-proofs.git)'
 violation = "=0.5.0"
 criteria = ["safe-to-deploy"]
-notes = '''
+notes = """
 The crate provides safe wrappers for FFI bindings from gettext-sys crate.
 The bindings are suspicious as they might use already-deallocated memory[1],
 and they don't document panic conditions[2].
@@ -6131,7 +6161,7 @@ replaced by U+FFFD.
 3. https://github.com/Koka/gettext-rs/issues/35
 
 The UTF-8 and documentation issues would cap the rating at "positive", but
-the memory issue puts this crate into "negative" territory.'''
+the memory issue puts this crate into "negative" territory."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/BsHtEv5rrLRGAlVNtUfKJ5F2AmBmAnezIzQoPHS3FSs",
@@ -6569,6 +6599,21 @@ Can't really ask for much more."""
 aggregated-from = [
     "https://github.com/LovecraftianHorror/crev-proofs#PTlVqKJclK7ELjugGnh_nDgpaWLAAGRIg5UH391WKnQ",
     "crev:review/czYTyDB6TF_x9aXjEvvC_qZtqdsJURepGIKCVSUwHxQ",
+]
+
+[[audits.heck]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-high",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+delta = "0.3.1 -> 0.3.3"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/GcAtIIV4dz7g40VvP3cW-bueO3-OqX4J4I8rpaTMlmk",
 ]
 
 [[audits.heck]]
@@ -7775,7 +7820,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.5.6"
-notes = '''
+notes = """
 
 This is a really high quality crate!
 
@@ -7785,7 +7830,7 @@ from http://example.com/") and made explicit comments in regards to accuracy
 and assumptions made. A lot of code has direct links to academic research,
 and it's obvious the author has gone to great lengths to ensure good
 algorithmic complexity (most operations are constant time where possible, no
-use of loops to brute-force a solution, etc.).'''
+use of loops to brute-force a solution, etc.)."""
 aggregated-from = [
     "https://github.com/Michael-F-Bryan/crev-proofs#qxL5iIEv913oBYUgUHHVRQP8FHVzdEIoQm8IKd1Ewtc",
     "crev:review/bXndKNd2c95ai18gSVAg6su69jX0xd99HEynkUwcCR4",
@@ -7979,6 +8024,21 @@ version = "1.2.0"
 aggregated-from = [
     "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
     "crev:review/avYh-D212glMEC4_2IdFF6XkzIV9z1gqseogDUOveu4",
+]
+
+[[audits.lazycell]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-high",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+delta = "1.2.1 -> 1.3.0"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/byDh90heHEXBP8H3W528GYM9LpbIm38V56Uu15glg4Q",
 ]
 
 [[audits.lazycell]]
@@ -8206,7 +8266,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.138 -> 0.2.139"
-notes = '''
+notes = """
 Compared to 0.2.138, the bulk of the changes are support for new `target_os`,
 `nto`, which is QNX/Neutrino. I glanced through them, they seem to have the
 right shape. The rest of the changes are the usual: new constants and new
@@ -8216,7 +8276,7 @@ kernel version, limiting the patch version to 255 (for compatibility).
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/UgIrOrPAN9kQtHi6C68W-XJXTZBsEoG7jE-iOxMz9BM",
@@ -8231,7 +8291,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.137 -> 0.2.138"
-notes = '''
+notes = """
 Compared to 0.2.137, this version adds some new constants and bindings. The
 only interesting bit is two new wrappers in unix::solarish::compat module
 that wrap `getpwent_r` and `getgrent_r` functions in such a way that calls
@@ -8239,7 +8299,7 @@ don't modify `errno`. The wrappers look solid to me.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/ltAZakimt3qhQoLaDkFY5foWvTSZGj82_GNTc4zv0nM",
@@ -8254,14 +8314,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.136 -> 0.2.137"
-notes = '''
+notes = """
 Compared to 0.2.135, this version un-deprecates recvmmsg() flags deprecated
 by the previous version. It also adds a few constants for madvise(), and
 function declarations for dirname() and basename().
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/m9CpEEHpDIApXFqK8nEfDgtVVWG47j2mhC6V4A_R6E4",
@@ -8276,14 +8336,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.135 -> 0.2.136"
-notes = '''
+notes = """
 Compared to 0.2.135, this version adds more constants, more structs, and more
 function declarations. It also deprecates some of recvmmsg() flags, and adds
 Apple tvOS as a target to some of Apple calls.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/yhlO_CLhC2kBlnZUti6k5GI5cV7IqpmARpOJ3CfUFiA",
@@ -8298,13 +8358,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.134 -> 0.2.135"
-notes = '''
+notes = """
 Compared to 0.2.134, this version adds more consts and function prototypes --
 nothing suspicious.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/M8QXk2KelD4XsYQ-yRbLGdmJUHkEskFH3k33eONwgVo",
@@ -8319,13 +8379,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.133 -> 0.2.134"
-notes = '''
+notes = """
 Compared to 0.2.133, this tiny update only adds a couple new function
 prototypes and a few new constants.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/Ln_2Xeedx_Mg53rA7HevpZLqWx9CbzW2CCJrPBjtzmg",
@@ -8340,13 +8400,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.132 -> 0.2.133"
-notes = '''
+notes = """
 Compared to 0.2.132, this version adds some new types, structs, consts, and
 function prototypes. It also deprecates some constants on FreeBSD.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/CO2003MMMYT3mGS0EawQj3NiSQL-kMV-mBwagYCURyA",
@@ -8361,13 +8421,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.131 -> 0.2.132"
-notes = '''
+notes = """
 Compared to 0.2.131, this version fixes one constant, adds another, and
 provides one new function signature. That's it.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/YtYxnmZ6tMEK6L2ZFuLddCYWN7aFzDcGWfK3N-IWXok",
@@ -8382,7 +8442,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.127 -> 0.2.131"
-notes = '''
+notes = """
 I'm again rolling two releases into a single review because 0.2.130 was
 yanked from crates.io for unknown reason.
 
@@ -8391,7 +8451,7 @@ and fixes a type of a constant for Unix newlib. Nothing major at all.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/UI81vBpWpIzPGVIEC7msVKgYNHHxu-YGhMFAu-GmNC0",
@@ -8406,7 +8466,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.127 -> 0.2.129"
-notes = '''
+notes = """
 I'm rolling two crate releases into a single review because 0.2.128 was
 yanked: https://github.com/rust-lang/libc/issues/2866
 
@@ -8417,7 +8477,7 @@ with MSVC. All looks okay to me.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/kn01ZCKd44UKoVY0ajd8TC7DFPzt1h88ynxKuv0COno",
@@ -8432,7 +8492,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.126 -> 0.2.127"
-notes = '''
+notes = """
 Compared to 0.2.126, this release is just bookkeeping. A bunch of new
 constants and functions were added, some fixes were applied to existing ones,
 and some code was reformatted.
@@ -8442,7 +8502,7 @@ in my previous review has been fixed, too.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/ti0dGjEeYEBq6b3G7mwLuj24UvMVwT2XpbdT61ImGDw",
@@ -8457,7 +8517,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.125 -> 0.2.126"
-notes = '''
+notes = """
 Compared to 0.2.125, this is just usual churn. I found a place where a struct
 field is used in `PartialEq` but not `Hash`; I asked the author to check if
 that's correct: https://github.com/rust-lang/libc/pull/2748/files#r880853330
@@ -8465,7 +8525,7 @@ Other than that, this looks solid.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/QlkvcnSW1gFugv86kqTjtPKlfVLuoTaZcFQ230c6Z9Y",
@@ -8480,14 +8540,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.124 -> 0.2.125"
-notes = '''
+notes = """
 Compared to 0.2.124, this release adds more constants, structs, and function
 prototypes, plus some support for LoongArch (MIPS-like CPUs from a Chinese
 company Loongson).
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/ctdQ15OrMDPatrjz3FAiZ4IrT-oldRqQKNT5cNagsxY",
@@ -8502,7 +8562,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.123 -> 0.2.124"
-notes = '''
+notes = """
 Compared to 0.2.123, this release adds more constants, structs, and function
 prototypes. The only interesting bit is `si_addr` and `si_value` methods for
 `siginfo_t` on uclibc Linux: they use type punning to interpret `siginfo_t`
@@ -8510,7 +8570,7 @@ payload differently. They look fine to me.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/a0vrqGHSAYjsrebE4cEIJEJTE6ei6sOVfJ3kRzRMOE0",
@@ -8525,13 +8585,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.122 -> 0.2.123"
-notes = '''
+notes = """
 Compared to 0.2.122, this release only adds a couple constants and function
 signatures.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/w-N2OuO4zKEuKMleUXgDvlfN3YQrszhUwRUL-E12Lhg",
@@ -8546,7 +8606,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.121 -> 0.2.122"
-notes = '''
+notes = """
 The major change in this release is partial support for __int128 (and similar
 types) for aarch64 platforms. As usual with libc, the actual code is
 dead-simple; the actual work--verifying that rustc's representation matches
@@ -8556,7 +8616,7 @@ And then there's the usual churn of function declarations and new constants.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/euggpAF-QATqQHzWUJP4CyZ5ODzfC-Y3PLQ07Wd7W4s",
@@ -8571,7 +8631,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.119 -> 0.2.121"
-notes = '''
+notes = """
 Compared to 0.2.119, this mostly contains the usual churn: more function
 prototypes, some changes to attributes, typo fixes. The only interesting bit
 is updates to `siginfo_t` on Solarish, where Unix signal payload is now
@@ -8579,7 +8639,7 @@ handled more intelligently. It's admittedly unfinished, but looks okay to me.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/ywfX0cwPKVNzvkT71DmnpER5oN0QNNHnmyY11u1YxXU",
@@ -8594,13 +8654,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.118 -> 0.2.119"
-notes = '''
+notes = """
 Compared to 0.2.118, this version only adds a few lgrp_* functions for
 Solaris-like systems, and a constant on Apple AArch64.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/fBicI3cwb9BCTJSERl5ujfB7KpxuFDhevcuL7mAEgdg",
@@ -8615,14 +8675,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.117 -> 0.2.118"
-notes = '''
+notes = """
 Most of the additions compared to 0.2.117 are related to System V contexts
 support. There are also a bunch of new constants, a few new functions, and
 a couple typo fixes. Nothing stands out to me in this release.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/-Axcc-s-SGqE6RUae5ficiTnHVzAEFFIw13k4rB9Xf4",
@@ -8637,14 +8697,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.116 -> 0.2.117"
-notes = '''
+notes = """
 Compared to 0.2.116, this version removes the "How to apply the Apache
 license to your work" appendix from the LICENSE file, and adds a bunch of
 constants for Android and musl. Nothing hairy.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/m4OeXuWB4c2hhUsk1jVNvIe6yf1DYP-F7j7_i8i6hAk",
@@ -8659,14 +8719,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.115 -> 0.2.116"
-notes = '''
+notes = """
 Compared to 0.2.115, this version is mostly about ARMv6K Nintendo 3DS
 support, but it also adds a number of new constants and a couple functions.
 Nothing scary.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/JHt_koQrxt0veOlFa96TeA2ikJKccz0vfjCLMz4lv1o",
@@ -8681,13 +8741,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.114 -> 0.2.115"
-notes = '''
+notes = """
 Compared to 0.2.114, this version adds one new constant, a couple new types,
 and a few new structs. Looks legit.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/gUwxB6G0cEtWRlMuAW-HUnzkbFSnrpzyW-4n7MBUk2c",
@@ -8702,13 +8762,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.113 -> 0.2.114"
-notes = '''
+notes = """
 The diff from 0.2.113 only shows the usual churn: some constants got moved,
 some functions got added, and one macro got fixed.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/oVtx8pTI_A-8DDiWlLV89BLnS-dfKxhtWuzSD-BYPQs",
@@ -8723,12 +8783,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.112 -> 0.2.113"
-notes = '''
+notes = """
 The diff from 0.2.111 reveals nothing malicious, just the usual churn.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/Wey_cSRM0aTz53IKCbf5pJ4vONO_SlCnW4c8OPNoAf4",
@@ -8743,12 +8803,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.111 -> 0.2.112"
-notes = '''
+notes = """
 The diff from 0.2.111 reveals nothing malicious.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/NgDN46qcSRWGbjOZFDYrL3tLSI8JelyEUTGkZrgZ30I",
@@ -8763,13 +8823,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.110 -> 0.2.111"
-notes = '''
+notes = """
 The diff from 0.2.110 is minuscule: just some BSD functions moved around, and
 a new linker dependency added for FreeBSD.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/xyNB6Bt43iC9UcWrworbzYJAxXlVc01l1DGjKTNjGbU",
@@ -8784,14 +8844,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.109 -> 0.2.110"
-notes = '''
+notes = """
 The diff from 0.2.109 contains all the usual stuff: some new FreeBSD work,
 some deprecation removals, plus a bit of new misc stuff. Nothing malicious
 as far as I can tell.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/EfTbGRmpT9cnCMrayXVVt5UicNObU5slhOrtp__ppRE",
@@ -8806,12 +8866,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.108 -> 0.2.109"
-notes = '''
+notes = """
 The diff from 0.2.108 shows nothing malicious.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/9SWCHU2FAO1PfJoFw3oFS_dRh279RmsLWvQaAGTBzLE",
@@ -8826,7 +8886,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.107 -> 0.2.108"
-notes = '''
+notes = """
 The diff from 0.2.107 is large but boring. I didn't find anything malicious.
 
 I *did* find a couple insignificant errors:
@@ -8835,7 +8895,7 @@ I *did* find a couple insignificant errors:
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/xhvIfE8NFf5GEAoAyy6pJ9_82CG5Zra_u2X5qrW99Lc",
@@ -8850,12 +8910,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.106 -> 0.2.107"
-notes = '''
+notes = """
 The diff from 0.2.107 doesn't contain anything unusual or malicious.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/A1Bv5Pw9RFdD-J9cUBo-1UQCLSmVQSpJ6BTAD-hDBZc",
@@ -8870,12 +8930,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.105 -> 0.2.106"
-notes = '''
+notes = """
 The diff from 0.2.106 reveals nothing unusual or malicious.  
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/MtN2qVsM2abWZpBmckZoixTAeRBV8_hU9hewTClSQgI",
@@ -8890,13 +8950,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.104 -> 0.2.105"
-notes = '''
+notes = """
 The diff from 0.2.104 only contains the usual churn, nothing malicious. Some
 new entries have doc comments, that's unusual for this crate :)
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/58h5YisJh3KJNa9QYtD8lD0Lgu81EmET-US--X1Qrjc",
@@ -8911,13 +8971,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.103 -> 0.2.104"
-notes = '''
+notes = """
 Half of the diff since 0.2.103 is bindings for the new rustc target, SOLID.
 The other half is the usual: more constants, some more bindings.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/9akmTGcSoKpT3KUzmwF6V7CyXt9T3fCjR4dS_wmip3A",
@@ -8932,12 +8992,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.102 -> 0.2.103"
-notes = '''
+notes = """
 The diff from 0.2.102 doesn't reveal anything malicious.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/5bsTRTzW7ytNwpVeCY0DPndUN0DFR_AFSwWjnpCMSyA",
@@ -8952,14 +9012,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.101 -> 0.2.102"
-notes = '''
+notes = """
 The diff from 0.2.101 doesn't show anything malicious.
 
 Funny typo: "errnoeously". Not worth reporting and fixing upstream, I think.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/RGDV5fDw5NvuJMurYQOljfkUpF_HMylN72lHH-qSS4s",
@@ -8974,12 +9034,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.100 -> 0.2.101"
-notes = '''
+notes = """
 The diff from 0.2.100 doesn't show anything malicious.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/T5hPfBNQCwSVGFKvSiFOiB-VyQrqN89F6tJ6S4RolMg",
@@ -8994,12 +9054,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.99 -> 0.2.100"
-notes = '''
+notes = """
 The diff from 0.2.99 doesn't show anything malicious.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/0Aw55RjSGp8Kr2voc8mVz-w0lvrGPEBEb-Thok9P5CY",
@@ -9014,14 +9074,14 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.98 -> 0.2.99"
-notes = '''
+notes = """
 The diff from 0.2.98 doesn't reveal anything malicious. I found a couple
 typos though, and submitted a PR to fix them:
 https://github.com/rust-lang/libc/pull/2330
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/Mo0QIiU7Hl_GxNVZNQmhdotTYHvLGKvTwLGm5wYbRac",
@@ -9036,12 +9096,12 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.97 -> 0.2.98"
-notes = '''
+notes = """
 The diff from 0.2.97 doesn't reveal anything suspicious.
 
 As usual, "thoroughness" for this review is "low" because I didn't manually
 check that the bindings match the headers — I trust that the CI checked that
-already.'''
+already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/I_T-8EXLM6fei2X8mQ4meyefnOVFL42raSia-oyNLyQ",
@@ -9056,13 +9116,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.96 -> 0.2.97"
-notes = '''
+notes = """
 Compared to 0.2.95, there are two new functions (mallinfo2 and mstats) along
 with their respective structs, and one new constant (AF_VSOCK).
 
 Nothing fancy. As usual, "thoroughness" for this review is "low" because
 I didn't manually check that the bindings match the headers — I trust that
-the CI checked that already.'''
+the CI checked that already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/WLoZMuY_J9qF9Zzf0Y_nU0iM76iM4DM2ToEgX__KfmI",
@@ -9077,13 +9137,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.95 -> 0.2.96"
-notes = '''
+notes = """
 Delta from 0.2.95 doesn't show anything malicious, just the usual stuff: more
 bindings, more constants, more types.
 
 This looks fine. As usual, "thoroughness" for this review is "low" because
 I didn't manually check that the bindings match the headers — I trust that
-the CI checked that already.'''
+the CI checked that already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/aJ-rIdim97t7FxPBycAsYPsZXzOj21fEbFPU4dgnKRM",
@@ -9098,7 +9158,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.94 -> 0.2.95"
-notes = '''
+notes = """
 Delta from 0.2.94 reveals nothing unusual: add new bindings, add new
 constants, move some code around, and undo a macOS-related hack that
 I committed earlier. Some FIXMEs were added too, but their comments don't
@@ -9106,7 +9166,7 @@ sound urgent.
 
 This looks fine. "Thoroughness" for this review is "low" because I didn't
 manually check that the bindings match the headers — I trust that the CI
-checked that already.'''
+checked that already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/_cs81576wUYCS9Vkdu7VWajQwxelb41bDDWIk9VZ-l0",
@@ -9121,13 +9181,13 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.93 -> 0.2.94"
-notes = '''
+notes = """
 Delta from 0.2.93 moves some TCP-related constants around, adds
 RLIMIT_NLIMITS constant, and provides a few new function bindings.
 
 This looks fine. "Thoroughness" for this review is "low" because I didn't
 manually check that the bindings match the headers — I trust that the CI
-checked that already.'''
+checked that already."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/rZXGDipKrHmOYsZ5lzWT1SG2By5UVE60-UNJ6ob46cM",
@@ -9142,7 +9202,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.92 -> 0.2.93"
-notes = '''
+notes = """
 Delta from 0.2.92 consists mostly of two things: formatting changes, and
 modularisation of some architecture-specific constants for Linux.
 
@@ -9154,7 +9214,7 @@ There's also a hint at a new CI machinery that'll ensure the crate doesn't
 break semver.
 
 Overall this looks fine to me. As usual, I rely on the project's CI to check
-that the bindings match C, hence "thoroughness" is low.'''
+that the bindings match C, hence "thoroughness" is low."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/aiYyRf3dDkNKkVZ-r4nIsB7PhgqWB4Cp6wd-M_YchC0",
@@ -9169,11 +9229,11 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.91 -> 0.2.92"
-notes = '''
+notes = """
 Delta from 0.2.91 mostly moves code around by adding `const` annotations. It
 also introduces one new bindings (pwrite64). Nothing suspicious. As usual,
 I rely on the project's CI to check that the bindings match C, hence
-"thoroughness" is low.'''
+"thoroughness" is low."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/HCuYW5xWwB6_YhZtdqvLdGLqTBymdHyzNiZlL7pa414",
@@ -9188,10 +9248,10 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.2.90 -> 0.2.91"
-notes = '''
+notes = """
 Delta from 0.2.90 only adds a single constant to a couple modules and edits
 some docs. Looks okay to me. (As usual, I rely on the project's CI to check
-if the constant is correct, hence "thoroughness" is low).'''
+if the constant is correct, hence "thoroughness" is low)."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/rpFYHERizwYm3i2LBZKaXdwQA2iVQyZO4Uqhxnr3FcU",
@@ -9225,7 +9285,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.2.89"
-notes = '''
+notes = """
 This crate contains unsafe bindings to platform-specific C functions. The
 project has an expansive CI pipeline that runs ctest on Linux, macOS,
 FreeBSD, and Windows. Where possible, the testing is done on multiple
@@ -9238,7 +9298,7 @@ However, the crate comes from the same people who build Rust itself, so this
 doesn't affect the rating.
 
 Given it's just a list of declarations, which are then automatically checked,
-I'm fairly confident that this code does what it's supposed to do.'''
+I'm fairly confident that this code does what it's supposed to do."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/ywbbGh6DNi4As6TsVa6ocb7Zj6X4FESaFy0Aor_ekDE",
@@ -9436,13 +9496,13 @@ criteria = [
     "safe-to-run",
 ]
 version = "1.0.4"
-notes = '''
+notes = """
 Another tiny-yet-useful crate. Lets the users request which C++ stdlib they'd
 like to link to. If nobody cares, or if there are conflicting choices, it
 punts the choice to the "cc" crate which picks the platform default.
 
 I don't see anything suspicious here, and don't see a way to trick this crate
-into doing something bad, thus a strong rating.'''
+into doing something bad, thus a strong rating."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/54nPOvwdayeHfE4NGF3uACX5W09fkz_9HPlG5xDHX80",
@@ -9794,6 +9854,20 @@ aggregated-from = [
     "crev:review/H10vG_LGKp04IFFH_B7OKQWqHSxTt5hqDoJDsz3XNwU",
 ]
 
+[[audits.matchers]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+    "safe-to-run",
+]
+delta = "0.1.0 -> 0.2.0"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/QjQHn96cwyXoW9HEmRvmayhV_peag_0VmI2CfjtmlyU",
+]
+
 [[audits.matches]]
 who = '"KonradBorowski" (https://gitlab.com/KonradBorowski)'
 criteria = [
@@ -10110,16 +10184,6 @@ A very straightforward library. Some complaints one could have about it:
 aggregated-from = [
     "https://github.com/kpreid/crev-proofs#RFs94ITILUKf6EoC8j-_qwMi4t5zhZ7t3bQ7KHmB5QI",
     "crev:review/-xBW1VYlkpHwANmTLGwZPg3EiBsSHA0pY5pRSSAH6Hc",
-]
-
-[[audits.mio]]
-who = '"oherrala" (https://github.com/oherrala)'
-violation = "=0.6.16"
-criteria = ["safe-to-deploy"]
-notes = "There's a known memory leak when used in Windows since at least 2017. This can lead to denial of service if affected process is killed due to memory consumption or degration of performance if operating system runs out of memory. Upstream issues: https://github.com/tokio-rs/mio/issues/776 https://github.com/tokio-rs/mio/issues/919"
-aggregated-from = [
-    "https://github.com/oherrala/crev-proofs#YWfa4SGgcW87fIT88uCkkrsRgIbWiGOOYmBbA1AtnKA",
-    "crev:review/Bv4iS3K7cp9t93JVeAUHM-RYJUtM3lSulvVngTXPR6s",
 ]
 
 [[audits.mo]]
@@ -11455,7 +11519,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.1.1"
-notes = '''
+notes = """
 On a quick skim, "this sure looks like a PNG decoder":
 all the code is a reasonable kind of code for what it says it does,
 but I have not reviewed it for correctness.
@@ -11474,7 +11538,7 @@ Potentially problematic:
 
 * It allocates an amount of memory determined by the input image
   (using `Vec::with_capacity()`) without checks, so a malicious image
-  could DoS via excessive memory use (zip bomb attack).'''
+  could DoS via excessive memory use (zip bomb attack)."""
 aggregated-from = [
     "https://github.com/kpreid/crev-proofs#RFs94ITILUKf6EoC8j-_qwMi4t5zhZ7t3bQ7KHmB5QI",
     "crev:review/gXZ8Gw-eC5OnYHpaFvZqOvL3eu3OfvnH9DJxHQiHDM4",
@@ -11510,6 +11574,21 @@ notes = "It really is minimal"
 aggregated-from = [
     "https://github.com/kornelski/crev-proofs#vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780",
     "crev:review/w-0QqLdxR2MOeV-vZX-FXa728dsAoDbaHsnpPTaOy1s",
+]
+
+[[audits.potential_utf]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-high",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+delta = "0.1.2 -> 0.1.3"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/TqpJhWagZw6ufUzl3OUhuJfi5P0NX7seVj4ACp9zeJE",
 ]
 
 [[audits.power-instruction-analyzer]]
@@ -11978,7 +12057,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.3.0"
-notes = '''
+notes = """
 This implements a xorshift RNG with 128 bits of state.
 
 The implementation uses no unsafe, and does not even require std. The code is
@@ -11987,7 +12066,7 @@ straightforward, and matches the code from the paper that describes the RNG
 
 Seeding from an existing RNG can theoretically hang if the seeding RNG keeps
 returning zeroes. I filed https://github.com/rust-random/rngs/issues/24 about
-this and capped the rating at "positive".'''
+this and capped the rating at "positive"."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/XHp6PUxeXu0kAEcdZX8bJK-LfB6DD2H16jiX4QoCNL0",
@@ -12105,7 +12184,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "1.0.0"
-notes = '''
+notes = """
 I am the author of this crate. As such, I obviously trust it and believe it is useful.
 So this review will instead point at the trickiest parts and try to rationalize them.
 
@@ -12127,7 +12206,7 @@ Smoke tests are run under miri, but the crate could potentially do with some mor
 as well as some more tests to ensure that all of the functionality works as advertised.
 
 I've only put this review as positive rather than strong because of a lack of real-world use.
-As of yet, the library is just of theoretical use, and has yet to be stress tested for real.'''
+As of yet, the library is just of theoretical use, and has yet to be stress tested for real."""
 aggregated-from = [
     "https://github.com/cad97/crev-proofs#e13vqC78LDCc-IiVPs-XkOHWd1j6PJUcYrugasS77hQ",
     "crev:review/vx5uCMTjdguRK1V34BsYNOZz0ghDTJreiLbmqTseY6o",
@@ -12803,6 +12882,20 @@ aggregated-from = [
 ]
 
 [[audits.rprompt]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+    "safe-to-run",
+]
+delta = "1.0.3 -> 2.2.0"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/T61EAas-qafNkRVt1b6Y91giljcczX90mtyCEBVDkgE",
+]
+
+[[audits.rprompt]]
 who = '"dpc" (https://github.com/dpc)'
 criteria = [
     "strong",
@@ -13368,6 +13461,40 @@ aggregated-from = [
     "crev:review/6KrxNPo3AvjnIu3RxuXc0yzJYi_s8Ph566-sUx2FQrs",
 ]
 
+[[audits.secrets]]
+who = '"HeroicKatora" (https://github.com/HeroicKatora)'
+violation = "=1.2.0"
+criteria = [
+    "safe-to-run",
+    "safe-to-deploy",
+]
+notes = """
+Note: this library has some deficiencies but its core operations are sound
+and very useful so keeping it for now.
+
+It seems unmaintained. There is a soundness bug: it re-implements the
+`bytemuck` concept of Pod types but does so for tuples, which are _not_ as
+they contain uninit padding. It also has a very questionable `uninitialized`
+method that _claims_ to initialize data but actually only initializes a
+single byte. Like what the fuck are you doing.
+
+In consequence, only use this library with `T=u8`! And use our wrappers.
+
+Also the naming is bad. Its `Vec` does not allow lengthening and does not
+distinguish between length and capacity. Its Box is actually an Array. If I'd
+reconstruct this crate then there would be a `as_raw_{,_mut}` which separates
+references to allocated data and a lock-on-Drop-value. Inadvisable to use but
+would solve many missing interface problems. And it forgets to `Send` or
+`Sync` anything, of course storing raw pointers so none of those are
+auto-derived.
+severity: high
+id: 100
+"""
+aggregated-from = [
+    "https://github.com/HeroicKatora/crev-proofs#-sApEowWcAS9J0R7aO18cghvhLBpuMhyeUuWQq_fits",
+    "crev:review/uJA_8-jp9Fsv2OyBEAx-021Z_BXVm9zg6NUMFNZWBLE",
+]
+
 [[audits.section_testing]]
 who = '"Minoru" (https://github.com/Minoru/crev-proofs.git)'
 criteria = [
@@ -13377,7 +13504,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.0.5"
-notes = '''
+notes = """
 This crate implements "section testing" similar to Catch2 framework for C++.
 
 The code is pure Rust, there is no dependencies, and there are no "unsafe".
@@ -13386,7 +13513,7 @@ As such, there are no worries about unsoundness.
 However, the algorithm here is pretty involved, and after spending 20 minutes
 staring at it, I still can't claim I grok how this code actually achieves
 what it achieves. However, I *am* confident that this code is not malicious,
-thus a positive rating.'''
+thus a positive rating."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/_o2f6dtwybeFw6V42Pqsgw1xgOOgA08-k4mwWfz_XFA",
@@ -13776,7 +13903,7 @@ criteria = [
     "safe-to-run",
 ]
 delta = "0.1.0 -> 1.0.0"
-notes = '''
+notes = """
 Pros:
 * 100% safe code.
 * 0 dependencies.
@@ -13843,7 +13970,7 @@ src/lib.rs
 TIL
 ---
 Apparently you *can* use references link style for badge images.  Huh!  I should use that for reviews...
-'''
+"""
 aggregated-from = [
     "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
     "crev:review/75RIcAOtIysxWOYl9e9JHczkzoEvzeC-2WTAE1PjDG4",
@@ -13859,7 +13986,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.1.0"
-notes = '''
+notes = """
 Pros:
 * 100% safe code.
 * 0 dependencies.
@@ -13920,7 +14047,7 @@ src/lib.rs
 TIL
 ---
 Apparently you *can* use references link style for badge images.  Huh!  I should use that for reviews...
-'''
+"""
 aggregated-from = [
     "https://github.com/MaulingMonkey/crev-proofs#6OZqHXqyUAF57grEY7IVMjRljdd9dgDxiNtr1NF1BdY",
     "crev:review/AfMQU1eTT154FHvcTvPLDRQNn0_X8mPoVfVBnsC-xJ4",
@@ -14203,7 +14330,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "1.0.0"
-notes = '''
+notes = """
 I am the author of this crate. As such, I obviously trust it and believe it is useful.
 So this review will instead point at the trickiest parts and try to rationalize them.
 
@@ -14227,7 +14354,7 @@ Smoke tests are run under miri, but the crate could potentially do with some mor
 as well as some more tests to ensure that all of the functionality works as advertised.
 
 I've only put this review as positive rather than strong because of a lack of real-world use.
-As of yet, the library is just of theoretical use, and has yet to be stress tested for real.'''
+As of yet, the library is just of theoretical use, and has yet to be stress tested for real."""
 aggregated-from = [
     "https://github.com/cad97/crev-proofs#e13vqC78LDCc-IiVPs-XkOHWd1j6PJUcYrugasS77hQ",
     "crev:review/FoMJE3H0if-hEj-fZ80s0DQXthttC7ShgR5LVOlrvwo",
@@ -14926,7 +15053,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.7.0"
-notes = '''
+notes = """
 I have reviewed the code for reasonableness, not correctness. It is
 generally straightforward, though in a somewhat unusual style with
 a lot of absolute paths.
@@ -14938,7 +15065,7 @@ license text files (GPL, Apache, and MIT) but the `Cargo.toml`
 specifies `license = "Apache-2.0 OR MIT"`.
 
 I have been successfully using this library to write STL files.
-I have not tested it for reading STL files.'''
+I have not tested it for reading STL files."""
 aggregated-from = [
     "https://github.com/kpreid/crev-proofs#RFs94ITILUKf6EoC8j-_qwMi4t5zhZ7t3bQ7KHmB5QI",
     "crev:review/vxXbvTQ1na8wW4rbk9Tc8r7kn1GzJrOYYUwxMa0qnaM",
@@ -15208,6 +15335,21 @@ aggregated-from = [
 ]
 
 [[audits.sync_wrapper]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-high",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+delta = "0.1.1 -> 1.0.2"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/zWQpGdvPRrhNZ9rjybYBDAcQulC4DsdvLGpjxeycLmY",
+]
+
+[[audits.sync_wrapper]]
 who = '"kpreid" (https://github.com/kpreid)'
 criteria = [
     "positive",
@@ -15353,7 +15495,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "1.0.0"
-notes = '''
+notes = """
 This crate provides three pieces of plumbing that makes it easier to chain
 functions:
 
@@ -15365,7 +15507,7 @@ functions:
 
 A lot of pretty boring code. It looks all right to me, but I got too lazy to
 check why functions usually require sized types; that's why I cap my
-"thoroughness" and "understanding" at "medium", and rating at "positive".'''
+"thoroughness" and "understanding" at "medium", and rating at "positive"."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/rZMVYSjEA998KnzQ6IHydKQzDCLlsqzmXEFEkAz3xEM",
@@ -15749,7 +15891,7 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.3.6"
-notes = '''
+notes = """
 This crate was written by Amanieu d'Antras in response to my efforts to make
 thread safe caching in the regex crate faster. The way to think about it is
 "dynamic" thread local storage.
@@ -15770,7 +15912,7 @@ is dropped when the thread is destroyed.
 I gave this crate a rating of positive because I cannot identify any issues
 after reviewing the code, although, I am not completely certain that there
 are no issues because of the use of unsafe code.
-'''
+"""
 aggregated-from = [
     "https://github.com/BurntSushi/crev-proofs#VylyTuk8CMGqIxgHixWaqfiUn3xZyzOA1wFrQ0sR1As",
     "crev:review/xLn92O-0EINBZGVLiWgVNY8ZzMnK8C8bg0DwrIqaD7E",
@@ -16690,20 +16832,6 @@ aggregated-from = [
     "crev:review/76o8t9zklVwZusi1mlgsSqTJnn04RAa0U4YPCxiEAhE",
 ]
 
-[[audits.untrusted]]
-who = '"oherrala" (https://github.com/oherrala)'
-criteria = [
-    "positive",
-    "level-high",
-    "trust-low",
-]
-version = "0.6.2"
-notes = "Well documented and security focused simple parsing library."
-aggregated-from = [
-    "https://github.com/oherrala/crev-proofs#YWfa4SGgcW87fIT88uCkkrsRgIbWiGOOYmBbA1AtnKA",
-    "crev:review/Dfw-FV1hDL7rOYYJ4JIewAMxXwHdNv5ee5wnu1JHzjM",
-]
-
 [[audits.unzip3]]
 who = '"kornelski" (https://github.com/kornelski)'
 criteria = [
@@ -16722,7 +16850,7 @@ aggregated-from = [
 who = '"dpc" (https://github.com/dpc)'
 violation = "=0.11.1"
 criteria = ["safe-to-deploy"]
-notes = '''
+notes = """
 `Header::new` is unsound? This `unsafe` there seem unneccessary in the first place. There's not much performance to gain here.
 
 
@@ -16811,7 +16939,7 @@ stuff that looks like plain inefficiencies, and generally this crate at its curr
 like something I'd recommend for any serious production use. The goal seems good but it seem not there yet.
 I think crates like this need either a lot of usage and pair of eyes and developers to iron out all the details,
 or some extensive test suite.
-'''
+"""
 aggregated-from = [
     "https://github.com/dpc/crev-proofs#FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE",
     "crev:review/xprCgogr1q_0YGQz348QnZJb8vpP7f_iV6-exeVCVik",
@@ -16970,6 +17098,21 @@ version = "0.0.11"
 aggregated-from = [
     "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
     "crev:review/0mTuJwVBdEOp9GG-n4ynGYXXX5f-cM2Fmi5san4xJGE",
+]
+
+[[audits.version_check]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-medium",
+    "trust-high",
+    "safe-to-deploy",
+    "safe-to-run",
+]
+delta = "0.9.4 -> 0.9.5"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/9o36I3NkLx5FLBCrrk6YKv0skxAfILalAfOoWf562rs",
 ]
 
 [[audits.version_check]]
@@ -17400,14 +17543,14 @@ criteria = [
     "safe-to-run",
 ]
 version = "0.4.0"
-notes = '''
+notes = """
 This crate vendors various WinAPI libraries for i686. All it does is add
 a library search path to Cargo, pointing at a directory full of .a files
 (static libraries).
 
 I didn't actually verify where the libraries come from, and if they match
 their origin; that's why I cap thoroughness at "low", and rating at
-"positive".'''
+"positive"."""
 aggregated-from = [
     "https://github.com/Minoru/crev-proofs.git#kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw",
     "crev:review/FszJFVDfmUP-rEP_xy3T0AXU6bNK9yyy9KMt0U_STyw",
