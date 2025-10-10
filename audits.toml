@@ -7529,6 +7529,20 @@ aggregated-from = [
     "crev:review/4a_CEqks9q4VPag6VHYJpSCPdMTflD0mMDo_abi-Oa8",
 ]
 
+[[audits.itertools]]
+who = '"kornelski" (https://github.com/kornelski)'
+criteria = [
+    "positive",
+    "level-low",
+    "trust-high",
+    "safe-to-run",
+]
+delta = "0.10.3 -> 0.11.0"
+aggregated-from = [
+    "https://github.com/kornelski/crev-proofs#rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM",
+    "crev:review/sIkwatHtSg8t9aValnIojhZzf4klT-AMUy8UVsdknXk",
+]
+
 [[audits.itoa]]
 who = '"weiznich" (https://github.com/weiznich)'
 criteria = [

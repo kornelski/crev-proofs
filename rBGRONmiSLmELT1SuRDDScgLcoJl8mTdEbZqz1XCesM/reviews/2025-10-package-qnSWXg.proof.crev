@@ -277,3 +277,31 @@ review:
 8TXEVJW6wvRx6_fH9y0-E0iGk9JA3ovZsQkhLQDL03QbRrg1Z97P7oG5sYltwDa35aXP66YXOraKuYW6kTE7BA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-10-10T01:31:13.162809+01:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: itertools
+  version: 0.11.0
+  revision: 62a6401afd6d45e1c2aea94c05cb5c70076b2ca4
+  digest: ewTYIh7ouU7CxvP1PiSOf1PpVsFnD8rm33DKNzRUQwQ
+package-diff-base:
+  source: https://crates.io
+  name: itertools
+  version: 0.10.3
+  revision: 3003c2a968f144cbccb63c768d2fec2e83a69ca4
+  digest: ka4jt3kpoB51EWKA59Ni97RrsF_FKeEh6Eb2EwHjNtA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+3CXAQh4QcYMJQtoeErcK-XIyXxyLD4sbZ9CG49he-I1mPf-SIdUVPBylVkzTK_QHNXqdLfmxTkpXEtF02owvCw
+----- END CREV PROOF -----
+
