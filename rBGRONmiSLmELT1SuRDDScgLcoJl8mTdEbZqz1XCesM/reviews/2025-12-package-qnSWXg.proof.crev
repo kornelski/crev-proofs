@@ -20,3 +20,24 @@ review:
 LJvfdiK9t11kS9keqNdMniwvi6rX7VehxZFPVg1Gihxn6KlNpRGoFATHFUtXTpcvGjtNdj9DNgfttb9HSdryDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-12-02T12:18:55.926417+00:00
+from:
+  id-type: crev
+  id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo-scout
+  version: 0.6.0
+  digest: 1USJlItVmAVPYy2380p9oq75hMcYRwk_on0Z84pPwsU
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+----- SIGN CREV PROOF -----
+0L96CX5XH_SfFSQotNis-AF6eIaaNrv-ebxvqq3sNjwME3pWAikHj-1HS5r2mV2bwcL7ocqORlAvMOJeeRYcAg
+----- END CREV PROOF -----
+
