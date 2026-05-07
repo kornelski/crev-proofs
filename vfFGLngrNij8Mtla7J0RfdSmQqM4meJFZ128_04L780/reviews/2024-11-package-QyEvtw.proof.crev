@@ -1,0 +1,22 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-11-19T12:35:46.206744+00:00
+from:
+  id-type: crev
+  id: vfFGLngrNij8Mtla7J0RfdSmQqM4meJFZ128_04L780
+  url: https://github.com/kornelski/crev-proofs
+package:
+  source: https://crates.io
+  name: mm_music_tui
+  version: 0.9.0
+  revision: e6d02581638949525134d7c18de883444ae225eb
+  digest: xReVRk0kTfhSbVKw96u0wzDTjN2IR52_qknEksFTD-0
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+4174s5RWWmDmyaCE78mZKxizQ18aGyDjuvH3-gG9_eJBSZyOC6-f3hedu0jJEyN937S_fOv-DhJV8gxRT4_-BQ
+----- END CREV PROOF -----
+
